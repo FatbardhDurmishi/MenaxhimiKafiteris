@@ -1,6 +1,0 @@
-C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris.DAL\bin\Debug\MenaxhimiKafiteris.DAL.dll
-C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris.DAL\bin\Debug\MenaxhimiKafiteris.DAL.pdb
-C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris.DAL\obj\Debug\MenaxhimiKafiteris.DAL.csproj.AssemblyReference.cache
-C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris.DAL\obj\Debug\MenaxhimiKafiteris.DAL.csproj.CoreCompileInputs.cache
-C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris.DAL\obj\Debug\MenaxhimiKafiteris.DAL.dll
-C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris.DAL\obj\Debug\MenaxhimiKafiteris.DAL.pdb
