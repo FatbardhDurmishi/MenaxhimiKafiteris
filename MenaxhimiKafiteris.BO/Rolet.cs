@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MenaxhimiKafiteris.BO
 {
-    internal class Roli
+    public class Class1
     {
     }
 }

@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace MenaxhimiKafiteris.BO
 {
-    public class Useri
+    internal class Useri
     {
-        public string UserName { get; set; }
-        public string Passwordi { get; set; }
-        public string Gjinia { get; set; }
-        public int RoliID { get; set; }
     }
 }
