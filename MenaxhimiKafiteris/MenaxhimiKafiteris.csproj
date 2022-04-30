@@ -46,14 +46,122 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminForms\LLojet\Llojet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\LLojet\Llojet.Designer.cs">
+      <DependentUpon>Llojet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\mainAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\mainAdmin.Designer.cs">
+      <DependentUpon>mainAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\Perberesit\Perberesit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\Perberesit\Perberesit.Designer.cs">
+      <DependentUpon>Perberesit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\Porosite\Porosite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\Porosite\Porosite.Designer.cs">
+      <DependentUpon>Porosite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\Produktet\produktetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\Produktet\produktetForm.Designer.cs">
+      <DependentUpon>produktetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\Produktet\ShtoProdukt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\Produktet\ShtoProdukt.Designer.cs">
+      <DependentUpon>ShtoProdukt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\Sallat\Salla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\Sallat\Salla.Designer.cs">
+      <DependentUpon>Salla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\Tavolinat\shtoTavoline.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\Tavolinat\shtoTavoline.Designer.cs">
+      <DependentUpon>shtoTavoline.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\Tavolinat\tavolina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\Tavolinat\tavolina.Designer.cs">
+      <DependentUpon>tavolina.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="LogInForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogInForm.Designer.cs">
+      <DependentUpon>LogInForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserForms\krijoPorosi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForms\krijoPorosi.Designer.cs">
+      <DependentUpon>krijoPorosi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserForms\mainKamarier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForms\mainKamarier.Designer.cs">
+      <DependentUpon>mainKamarier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserForms\raportiDitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForms\raportiDitor.Designer.cs">
+      <DependentUpon>raportiDitor.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminForms\LLojet\Llojet.resx">
+      <DependentUpon>Llojet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\mainAdmin.resx">
+      <DependentUpon>mainAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\Perberesit\Perberesit.resx">
+      <DependentUpon>Perberesit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\Porosite\Porosite.resx">
+      <DependentUpon>Porosite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\Produktet\produktetForm.resx">
+      <DependentUpon>produktetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\Produktet\ShtoProdukt.resx">
+      <DependentUpon>ShtoProdukt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\Sallat\Salla.resx">
+      <DependentUpon>Salla.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\Tavolinat\shtoTavoline.resx">
+      <DependentUpon>shtoTavoline.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\Tavolinat\tavolina.resx">
+      <DependentUpon>tavolina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogInForm.resx">
+      <DependentUpon>LogInForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -63,6 +171,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UserForms\mainKamarier.resx">
+      <DependentUpon>mainKamarier.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -76,5 +187,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
