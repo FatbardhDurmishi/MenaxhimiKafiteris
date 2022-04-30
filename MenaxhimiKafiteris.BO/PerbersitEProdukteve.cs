@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace MenaxhimiKafiteris.BO
 {
-    internal class PerbersitEProdukteve
+    public class PerbersitEProdukteve
     {
+        public int ProduktiID { get; set; }
+        public int PerbersiID { get; set; }
+        public decimal SasiaPerbersit { get; set; }
     }
 }
