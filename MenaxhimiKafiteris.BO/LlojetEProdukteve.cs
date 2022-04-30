@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace MenaxhimiKafiteris.BO
 {
-    public class Rolet
+    public class LlojetEProdukteve
     {
-        public string Roli { get; set; }
+        public string Lloji { get; set; }
+
     }
 }

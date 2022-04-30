@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenaxhimiKafiteris.BLL", "M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenaxhimiKafiteris.DAL", "MenaxhimiKafiteris.DAL\MenaxhimiKafiteris.DAL.csproj", "{E147034F-034E-4B2C-B9F7-24F5D14FA676}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenaxhimiKafiteris.BO", "MenaxhimiKafiteris.BO\MenaxhimiKafiteris.BO.csproj", "{205C287B-70B8-4ADA-B3BB-AC4650BBEEB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{E147034F-034E-4B2C-B9F7-24F5D14FA676}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E147034F-034E-4B2C-B9F7-24F5D14FA676}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E147034F-034E-4B2C-B9F7-24F5D14FA676}.Release|Any CPU.Build.0 = Release|Any CPU
+		{205C287B-70B8-4ADA-B3BB-AC4650BBEEB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{205C287B-70B8-4ADA-B3BB-AC4650BBEEB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{205C287B-70B8-4ADA-B3BB-AC4650BBEEB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{205C287B-70B8-4ADA-B3BB-AC4650BBEEB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

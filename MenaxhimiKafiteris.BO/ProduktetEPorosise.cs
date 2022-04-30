@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace MenaxhimiKafiteris.BO
 {
-    public class Rolet
+    public class ProduktetEPorosise
     {
-        public string Roli { get; set; }
+        public int ProduktiID { get; set; }
+        public int PorosiaID { get; set; }
+        public int Sasia { get; set; }
+
     }
 }

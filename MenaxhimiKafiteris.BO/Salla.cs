@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace MenaxhimiKafiteris.BO
 {
-    public class Rolet
+    public class Salla
     {
-        public string Roli { get; set; }
+        public string Emri { get; set; }
+        public int NrTavolinav { get; set; }
+        
     }
 }

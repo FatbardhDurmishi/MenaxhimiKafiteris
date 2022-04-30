@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace MenaxhimiKafiteris.BO
 {
-    public class Rolet
+    public class Perbersit
     {
-        public string Roli { get; set; }
+        public string Emri { get; set; }
+        public decimal Sasia { get; set; }
     }
 }
