@@ -1,0 +1,6 @@
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteriss\MenaxhimiKafiteris.BLL\bin\Debug\MenaxhimiKafiteris.BLL.dll
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteriss\MenaxhimiKafiteris.BLL\bin\Debug\MenaxhimiKafiteris.BLL.pdb
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteriss\MenaxhimiKafiteris.BLL\obj\Debug\MenaxhimiKafiteris.BLL.csproj.AssemblyReference.cache
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteriss\MenaxhimiKafiteris.BLL\obj\Debug\MenaxhimiKafiteris.BLL.csproj.CoreCompileInputs.cache
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteriss\MenaxhimiKafiteris.BLL\obj\Debug\MenaxhimiKafiteris.BLL.dll
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteriss\MenaxhimiKafiteris.BLL\obj\Debug\MenaxhimiKafiteris.BLL.pdb

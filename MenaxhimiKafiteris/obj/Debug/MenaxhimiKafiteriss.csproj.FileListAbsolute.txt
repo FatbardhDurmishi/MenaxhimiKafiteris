@@ -1,0 +1,10 @@
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteriss\MenaxhimiKafiteriss\bin\Debug\MenaxhimiKafiteriss.exe.config
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteriss\MenaxhimiKafiteriss\bin\Debug\MenaxhimiKafiteriss.exe
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteriss\MenaxhimiKafiteriss\bin\Debug\MenaxhimiKafiteriss.pdb
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteriss\MenaxhimiKafiteriss\obj\Debug\MenaxhimiKafiteriss.csproj.AssemblyReference.cache
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteriss\MenaxhimiKafiteriss\obj\Debug\MenaxhimiKafiteriss.csproj.SuggestedBindingRedirects.cache
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteriss\MenaxhimiKafiteriss\obj\Debug\MenaxhimiKafiteriss.Properties.Resources.resources
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteriss\MenaxhimiKafiteriss\obj\Debug\MenaxhimiKafiteriss.csproj.GenerateResource.cache
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteriss\MenaxhimiKafiteriss\obj\Debug\MenaxhimiKafiteriss.csproj.CoreCompileInputs.cache
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteriss\MenaxhimiKafiteriss\obj\Debug\MenaxhimiKafiteriss.exe
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteriss\MenaxhimiKafiteriss\obj\Debug\MenaxhimiKafiteriss.pdb
