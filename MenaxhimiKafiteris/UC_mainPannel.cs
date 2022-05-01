@@ -8,19 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MenaxhimiKafiteris.AdminForms.Tavolinat
+namespace MenaxhimiKafiteris
 {
-    public partial class tavolina : Form
+    public partial class UC_mainPannel : UserControl
     {
-        public tavolina()
+        public UC_mainPannel()
         {
             InitializeComponent();
         }
 
-        private void button9_Click(object sender, EventArgs e)
+        private void iconButton8_Click(object sender, EventArgs e)
         {
-            var formPopup = new shtoTavoline();
-            formPopup.Show(this); // if you need non-modal window
+
         }
     }
 }

@@ -4,3 +4,9 @@ C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiter
 C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris.BO\obj\Debug\MenaxhimiKafiteris.BO.csproj.CoreCompileInputs.cache
 C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris.BO\obj\Debug\MenaxhimiKafiteris.BO.dll
 C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris.BO\obj\Debug\MenaxhimiKafiteris.BO.pdb
+C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\MenaxhimiKafiteris\MenaxhimiKafiteris.BO\bin\Debug\MenaxhimiKafiteris.BO.dll
+C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\MenaxhimiKafiteris\MenaxhimiKafiteris.BO\bin\Debug\MenaxhimiKafiteris.BO.pdb
+C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\MenaxhimiKafiteris\MenaxhimiKafiteris.BO\obj\Debug\MenaxhimiKafiteris.BO.csproj.AssemblyReference.cache
+C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\MenaxhimiKafiteris\MenaxhimiKafiteris.BO\obj\Debug\MenaxhimiKafiteris.BO.csproj.CoreCompileInputs.cache
+C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\MenaxhimiKafiteris\MenaxhimiKafiteris.BO\obj\Debug\MenaxhimiKafiteris.BO.dll
+C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\MenaxhimiKafiteris\MenaxhimiKafiteris.BO\obj\Debug\MenaxhimiKafiteris.BO.pdb

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MenaxhimiKafiteris.AdminForms.Perberesit
 {
-    public partial class Perberesit : Form
+    public partial class Perberesi : Form
     {
-        public Perberesit()
+        public Perberesi()
         {
             InitializeComponent();
         }

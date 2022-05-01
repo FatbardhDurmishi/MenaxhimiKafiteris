@@ -16,5 +16,26 @@ namespace MenaxhimiKafiteris.AdminForms
         {
             InitializeComponent();
         }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panelMenu_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            var formPopup = new Produktet.ShtoProdukt();
+            formPopup.Show(this); // if you need non-modal window
+        }
     }
 }

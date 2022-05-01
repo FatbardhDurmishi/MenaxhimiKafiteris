@@ -49,6 +49,7 @@ namespace MenaxhimiKafiteris.AdminForms.Produktet
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label4.Location = new System.Drawing.Point(32, 196);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(34, 18);
@@ -67,6 +68,7 @@ namespace MenaxhimiKafiteris.AdminForms.Produktet
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label3.Location = new System.Drawing.Point(32, 141);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(45, 18);
@@ -85,6 +87,7 @@ namespace MenaxhimiKafiteris.AdminForms.Produktet
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label2.Location = new System.Drawing.Point(32, 92);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(51, 18);
@@ -103,6 +106,7 @@ namespace MenaxhimiKafiteris.AdminForms.Produktet
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(32, 38);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(39, 18);
@@ -113,6 +117,7 @@ namespace MenaxhimiKafiteris.AdminForms.Produktet
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label5.Location = new System.Drawing.Point(32, 253);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(87, 18);
@@ -165,7 +170,8 @@ namespace MenaxhimiKafiteris.AdminForms.Produktet
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(492, 410);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(34)))), ((int)(((byte)(74)))));
+            this.ClientSize = new System.Drawing.Size(492, 439);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.comboBox1);
