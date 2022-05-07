@@ -31,9 +31,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Krypton.Toolkit, Version=65.22.4.94, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Krypton.Toolkit.65.22.4.94\lib\net472\Krypton.Toolkit.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -56,6 +60,9 @@
       <Project>{042dd5f1-37eb-4b61-bb14-d9eb61e05600}</Project>
       <Name>MenaxhimiKafiteris.BO</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

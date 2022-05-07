@@ -8,7 +8,7 @@ using System.Data;
 
 namespace MenaxhimiKafiteris.BLL
 {
-    internal class TavolinatServices
+    public class TavolinatServices
     {
         private TavolinatRepository _talolinatRepository;
         public TavolinatServices()

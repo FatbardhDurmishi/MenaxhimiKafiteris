@@ -7,11 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MenaxhimiKafiteris.BLL;
 
 namespace MenaxhimiKafiteris.AdminForms
 {
+
     public partial class produktetForm : Form
     {
+        ProduktetServices produktetServices;
         public produktetForm()
         {
             InitializeComponent();
@@ -36,6 +39,13 @@ namespace MenaxhimiKafiteris.AdminForms
         {
             var formPopup = new Produktet.ShtoProdukt();
             formPopup.Show(this); // if you need non-modal window
+        }
+
+        private void shtoProduktinBtn_Click(object sender, EventArgs e)
+        {
+            var formPopup = new Produktet.ShtoProdukt();
+            formPopup.Show(this);
+
         }
     }
 }

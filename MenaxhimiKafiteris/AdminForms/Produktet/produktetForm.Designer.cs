@@ -37,36 +37,43 @@ namespace MenaxhimiKafiteris.AdminForms
             // 
             // kryptonDataGridView1
             // 
-            this.kryptonDataGridView1.Location = new System.Drawing.Point(46, 29);
+            this.kryptonDataGridView1.ColumnHeadersHeight = 36;
+            this.kryptonDataGridView1.Location = new System.Drawing.Point(61, 36);
+            this.kryptonDataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.kryptonDataGridView1.Name = "kryptonDataGridView1";
-            this.kryptonDataGridView1.Size = new System.Drawing.Size(459, 432);
+            this.kryptonDataGridView1.RowHeadersWidth = 51;
+            this.kryptonDataGridView1.Size = new System.Drawing.Size(612, 532);
             this.kryptonDataGridView1.TabIndex = 18;
             // 
             // fshijProduktinBtn
             // 
-            this.fshijProduktinBtn.Location = new System.Drawing.Point(555, 90);
+            this.fshijProduktinBtn.Location = new System.Drawing.Point(740, 111);
+            this.fshijProduktinBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.fshijProduktinBtn.Name = "fshijProduktinBtn";
-            this.fshijProduktinBtn.Size = new System.Drawing.Size(90, 25);
+            this.fshijProduktinBtn.Size = new System.Drawing.Size(120, 31);
             this.fshijProduktinBtn.TabIndex = 19;
             this.fshijProduktinBtn.Values.Text = "Fshij";
             // 
             // shtoProduktinBtn
             // 
-            this.shtoProduktinBtn.Location = new System.Drawing.Point(555, 169);
+            this.shtoProduktinBtn.Location = new System.Drawing.Point(740, 208);
+            this.shtoProduktinBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.shtoProduktinBtn.Name = "shtoProduktinBtn";
-            this.shtoProduktinBtn.Size = new System.Drawing.Size(90, 25);
+            this.shtoProduktinBtn.Size = new System.Drawing.Size(120, 31);
             this.shtoProduktinBtn.TabIndex = 20;
             this.shtoProduktinBtn.Values.Text = "Shto";
+            this.shtoProduktinBtn.Click += new System.EventHandler(this.shtoProduktinBtn_Click);
             // 
             // produktetForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(34)))), ((int)(((byte)(74)))));
-            this.ClientSize = new System.Drawing.Size(798, 501);
+            this.ClientSize = new System.Drawing.Size(1064, 617);
             this.Controls.Add(this.shtoProduktinBtn);
             this.Controls.Add(this.fshijProduktinBtn);
             this.Controls.Add(this.kryptonDataGridView1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "produktetForm";
             this.Text = "produktetForm";
             ((System.ComponentModel.ISupportInitialize)(this.kryptonDataGridView1)).EndInit();

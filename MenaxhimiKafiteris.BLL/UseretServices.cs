@@ -8,7 +8,7 @@ using System.Data;
 
 namespace MenaxhimiKafiteris.BLL
 {
-    internal class UseretServices
+    public class UseretServices
     {
         private UseretRepository useretRepository;
         public UseretServices()

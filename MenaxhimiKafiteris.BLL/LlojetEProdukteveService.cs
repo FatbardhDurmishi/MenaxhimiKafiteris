@@ -5,10 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 using MenaxhimiKafiteris.DAL;
 using System.Data;
+using MenaxhimiKafiteris.BO;
+using System.Data;
+using System.Data.SqlClient;
+using System.Windows.Forms;
 
 namespace MenaxhimiKafiteris.BLL
 {
-    internal class LlojetEProdukteveService
+    public class LlojetEProdukteveService
     {
         private LlojetEProdukteveRepository LlojetEProdukteveRepository;
         public LlojetEProdukteveService()
@@ -20,5 +24,86 @@ namespace MenaxhimiKafiteris.BLL
         {
             return LlojetEProdukteveRepository.GetAll();
         }
+
+        public bool ShtoLloj(LlojetEProdukteve lloji)
+        {
+            try
+            {
+                //Using closes it vet. Forces it to close itself
+                using (DatabaseConfig.connection = new SqlConnection(DatabaseConfig.ConnectionString))
+                {
+                    DatabaseConfig.connection.Open();
+                    DatabaseConfig.command = new SqlCommand(" usp_ShtoLlojTeProduktit", DatabaseConfig.connection);
+                    DatabaseConfig.command.CommandType = System.Data.CommandType.StoredProcedure;
+
+                    //Stored procedure spGetLLojetProdukteve
+                    DatabaseConfig.command.Parameters.AddWithValue("@lloji", lloji.Lloji);
+                    DatabaseConfig.command.ExecuteNonQuery();
+                    return true;
+                }
+            }
+            catch
+            {
+                return false;
+            }
+
+           // loadData();
+        }
+        public bool FshiLloj(int ID)
+        {
+            try
+            {
+                //Using closes it vet. Forces it to close itself
+                using (DatabaseConfig.connection = new SqlConnection(DatabaseConfig.ConnectionString))
+                {
+                    DatabaseConfig.connection.Open();
+                    DatabaseConfig.command = new SqlCommand(" usp_DeleteLloji", DatabaseConfig.connection);
+                    DatabaseConfig.command.CommandType = System.Data.CommandType.StoredProcedure;
+
+                    //Stored procedure spGetLLojetProdukteve
+                    DatabaseConfig.command.Parameters.AddWithValue("@llojiID", ID);
+                    DatabaseConfig.command.ExecuteNonQuery();
+                    return true;
+                }
+            }
+            catch(Exception ex)
+            {
+                return false;
+            }
+
+            // loadData();
+        }
+        private void loadData(DataGridView llojetDataGrid)
+        {
+            try
+            {
+                //Using closes it vet. Forces it to close itself
+                using (DatabaseConfig.connection = new SqlConnection(DatabaseConfig.ConnectionString))
+                {
+                    //Stored procedure spGetLLojetProdukteve
+                    SqlCommand cmd = new SqlCommand("spGetLLojetProdukteve", DatabaseConfig.connection);
+                    DatabaseConfig.connection.Open();
+                    //Dataset is inmemory repersentation of tables.
+                    DataSet ds = new DataSet();
+
+                    //SqlDataReader rdr = cmd.ExecuteReader();
+                    //BindingSource sauce = new BindingSource();
+
+
+                    DatabaseConfig.adapter = new SqlDataAdapter();
+                    DatabaseConfig.adapter.SelectCommand = new SqlCommand("spGetLLojetProdukteve", DatabaseConfig.connection);
+                    //dataAdapter fill closes and opens the connection itself
+                    DatabaseConfig.adapter.Fill(ds);
+
+                    llojetDataGrid.DataSource = ds.Tables[0];
+                }
+            }
+            catch
+            {
+
+            }
+        }
+
+
     }
 }

@@ -1,13 +1,3 @@
-C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\bin\Debug\MenaxhimiKafiteris.exe.config
-C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\bin\Debug\MenaxhimiKafiteris.exe
-C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\bin\Debug\MenaxhimiKafiteris.pdb
-C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.csproj.AssemblyReference.cache
-C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.csproj.SuggestedBindingRedirects.cache
-C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.Properties.Resources.resources
-C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.csproj.GenerateResource.cache
-C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.csproj.CoreCompileInputs.cache
-C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.exe
-C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.pdb
 C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\MenaxhimiKafiteris\MenaxhimiKafiteris\bin\Debug\MenaxhimiKafiteris.exe.config
 C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\MenaxhimiKafiteris\MenaxhimiKafiteris\bin\Debug\MenaxhimiKafiteris.exe
 C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\MenaxhimiKafiteris\MenaxhimiKafiteris\bin\Debug\MenaxhimiKafiteris.pdb
@@ -38,3 +28,22 @@ C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\Menax
 C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\MenaxhimiKafiteris\MenaxhimiKafiteris\bin\Debug\MenaxhimiKafiteris.BO.dll
 C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\MenaxhimiKafiteris\MenaxhimiKafiteris\bin\Debug\MenaxhimiKafiteris.BLL.pdb
 C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\MenaxhimiKafiteris\MenaxhimiKafiteris\bin\Debug\MenaxhimiKafiteris.BO.pdb
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.csproj.AssemblyReference.cache
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.csproj.SuggestedBindingRedirects.cache
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.AdminForms.LLojet.Llojet.resources
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.AdminForms.mainAdmin.resources
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.AdminForms.Perberesit.Perberesi.resources
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.AdminForms.Porosite.resources
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.AdminForms.produktetForm.resources
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.AdminForms.Produktet.ShtoProdukt.resources
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.AdminForms.Sallat.Salla.resources
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.AdminForms.Staffi.ShtoStaff.resources
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.AdminForms.Staffi.Stafi.resources
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.AdminForms.Tavolinat.shtoTavoline.resources
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.AdminForms.Tavolinat.tavolina.resources
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.LogInForm.resources
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.Properties.Resources.resources
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.UC_mainPannel.resources
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.UserForms.mainKamarier.resources
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.csproj.GenerateResource.cache
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.csproj.CoreCompileInputs.cache

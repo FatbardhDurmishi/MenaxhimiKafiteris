@@ -8,7 +8,7 @@ using MenaxhimiKafiteris.DAL;
 
 namespace MenaxhimiKafiteris.BLL
 {
-    internal class PerbersitServices
+    public class PerbersitServices
     {
         private PerbersitRepository perbersitRepository;
         public PerbersitServices()

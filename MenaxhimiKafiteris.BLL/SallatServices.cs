@@ -8,7 +8,7 @@ using MenaxhimiKafiteris.DAL;
 
 namespace MenaxhimiKafiteris.BLL
 {
-    internal class SallatServices
+    public class SallatServices
     {
         private SallatRepository sallatRepository;
         public SallatServices()

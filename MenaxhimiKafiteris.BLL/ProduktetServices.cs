@@ -8,7 +8,7 @@ using System.Data;
 
 namespace MenaxhimiKafiteris.BLL
 {
-    internal class ProduktetServices
+    public class ProduktetServices
     {
         private ProduktetRepository produktetRepository;
         public ProduktetServices()
