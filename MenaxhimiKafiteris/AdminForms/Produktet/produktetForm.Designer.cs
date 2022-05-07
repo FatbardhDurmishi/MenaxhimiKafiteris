@@ -29,35 +29,36 @@ namespace MenaxhimiKafiteris.AdminForms
         /// </summary>
         private void InitializeComponent()
         {
-            this.kryptonDataGridView1 = new Krypton.Toolkit.KryptonDataGridView();
+            this.dgProduktet = new Krypton.Toolkit.KryptonDataGridView();
             this.fshijProduktinBtn = new Krypton.Toolkit.KryptonButton();
             this.shtoProduktinBtn = new Krypton.Toolkit.KryptonButton();
-            ((System.ComponentModel.ISupportInitialize)(this.kryptonDataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgProduktet)).BeginInit();
             this.SuspendLayout();
             // 
-            // kryptonDataGridView1
+            // dgProduktet
             // 
-            this.kryptonDataGridView1.ColumnHeadersHeight = 36;
-            this.kryptonDataGridView1.Location = new System.Drawing.Point(61, 36);
-            this.kryptonDataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.kryptonDataGridView1.Name = "kryptonDataGridView1";
-            this.kryptonDataGridView1.RowHeadersWidth = 51;
-            this.kryptonDataGridView1.Size = new System.Drawing.Size(612, 532);
-            this.kryptonDataGridView1.TabIndex = 18;
+            this.dgProduktet.ColumnHeadersHeight = 36;
+            this.dgProduktet.Location = new System.Drawing.Point(61, 36);
+            this.dgProduktet.Margin = new System.Windows.Forms.Padding(4);
+            this.dgProduktet.Name = "dgProduktet";
+            this.dgProduktet.RowHeadersWidth = 51;
+            this.dgProduktet.Size = new System.Drawing.Size(864, 532);
+            this.dgProduktet.TabIndex = 18;
             // 
             // fshijProduktinBtn
             // 
-            this.fshijProduktinBtn.Location = new System.Drawing.Point(740, 111);
-            this.fshijProduktinBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.fshijProduktinBtn.Location = new System.Drawing.Point(1017, 94);
+            this.fshijProduktinBtn.Margin = new System.Windows.Forms.Padding(4);
             this.fshijProduktinBtn.Name = "fshijProduktinBtn";
             this.fshijProduktinBtn.Size = new System.Drawing.Size(120, 31);
             this.fshijProduktinBtn.TabIndex = 19;
             this.fshijProduktinBtn.Values.Text = "Fshij";
+            this.fshijProduktinBtn.Click += new System.EventHandler(this.fshijProduktinBtn_Click);
             // 
             // shtoProduktinBtn
             // 
-            this.shtoProduktinBtn.Location = new System.Drawing.Point(740, 208);
-            this.shtoProduktinBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.shtoProduktinBtn.Location = new System.Drawing.Point(1017, 183);
+            this.shtoProduktinBtn.Margin = new System.Windows.Forms.Padding(4);
             this.shtoProduktinBtn.Name = "shtoProduktinBtn";
             this.shtoProduktinBtn.Size = new System.Drawing.Size(120, 31);
             this.shtoProduktinBtn.TabIndex = 20;
@@ -69,21 +70,21 @@ namespace MenaxhimiKafiteris.AdminForms
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(34)))), ((int)(((byte)(74)))));
-            this.ClientSize = new System.Drawing.Size(1064, 617);
+            this.ClientSize = new System.Drawing.Size(1447, 617);
             this.Controls.Add(this.shtoProduktinBtn);
             this.Controls.Add(this.fshijProduktinBtn);
-            this.Controls.Add(this.kryptonDataGridView1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Controls.Add(this.dgProduktet);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "produktetForm";
             this.Text = "produktetForm";
-            ((System.ComponentModel.ISupportInitialize)(this.kryptonDataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgProduktet)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private Krypton.Toolkit.KryptonDataGridView kryptonDataGridView1;
+        private Krypton.Toolkit.KryptonDataGridView dgProduktet;
         private Krypton.Toolkit.KryptonButton fshijProduktinBtn;
         private Krypton.Toolkit.KryptonButton shtoProduktinBtn;
     }

@@ -50,7 +50,7 @@
     <Compile Include="Perbersit.cs" />
     <Compile Include="PerbersitEProdukteve.cs" />
     <Compile Include="Porosia.cs" />
-    <Compile Include="Produktet.cs" />
+    <Compile Include="Produkti.cs" />
     <Compile Include="ProduktetEPorosise.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Roli.cs" />

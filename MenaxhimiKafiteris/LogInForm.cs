@@ -9,7 +9,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Configuration;
 using System.Data.SqlClient;
-using MenaxhimiKafiteris.DAL;
 
 namespace MenaxhimiKafiteris
 {
@@ -30,25 +29,5 @@ namespace MenaxhimiKafiteris
 
         }
 
-        public DataSet GetAll()
-        {
-            try
-            {
-                //Using closes it vet. Forces it to close itself
-                using (DatabaseConfig.connection = new SqlConnection(DatabaseConfig.ConnectionString))
-                {
-                    DatabaseConfig.connection.Open();
-                    DataSet ds = new DataSet();
-                    DatabaseConfig.adapter = new SqlDataAdapter();
-                    DatabaseConfig.adapter.SelectCommand = new SqlCommand("usp_GetAllCitizenships", DatabaseConfig.connection);
-                    DatabaseConfig.adapter.Fill(ds);
-                    return ds;
-                }
-            }
-            catch (Exception ex)
-            {
-                return null;
-            }
-        }
     }
 }

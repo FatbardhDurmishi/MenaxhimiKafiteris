@@ -71,37 +71,6 @@ namespace MenaxhimiKafiteris.BLL
                 return false;
             }
 
-            // loadData();
-        }
-        private void loadData(DataGridView llojetDataGrid)
-        {
-            try
-            {
-                //Using closes it vet. Forces it to close itself
-                using (DatabaseConfig.connection = new SqlConnection(DatabaseConfig.ConnectionString))
-                {
-                    //Stored procedure spGetLLojetProdukteve
-                    SqlCommand cmd = new SqlCommand("spGetLLojetProdukteve", DatabaseConfig.connection);
-                    DatabaseConfig.connection.Open();
-                    //Dataset is inmemory repersentation of tables.
-                    DataSet ds = new DataSet();
-
-                    //SqlDataReader rdr = cmd.ExecuteReader();
-                    //BindingSource sauce = new BindingSource();
-
-
-                    DatabaseConfig.adapter = new SqlDataAdapter();
-                    DatabaseConfig.adapter.SelectCommand = new SqlCommand("spGetLLojetProdukteve", DatabaseConfig.connection);
-                    //dataAdapter fill closes and opens the connection itself
-                    DatabaseConfig.adapter.Fill(ds);
-
-                    llojetDataGrid.DataSource = ds.Tables[0];
-                }
-            }
-            catch
-            {
-
-            }
         }
 
 

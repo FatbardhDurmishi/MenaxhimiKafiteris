@@ -28,6 +28,18 @@ C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\Menax
 C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\MenaxhimiKafiteris\MenaxhimiKafiteris\bin\Debug\MenaxhimiKafiteris.BO.dll
 C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\MenaxhimiKafiteris\MenaxhimiKafiteris\bin\Debug\MenaxhimiKafiteris.BLL.pdb
 C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\MenaxhimiKafiteris\MenaxhimiKafiteris\bin\Debug\MenaxhimiKafiteris.BO.pdb
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\bin\Debug\MenaxhimiKafiteris.exe.config
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\bin\Debug\MenaxhimiKafiteris.exe
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\bin\Debug\MenaxhimiKafiteris.pdb
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\bin\Debug\FontAwesome.Sharp.dll
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\bin\Debug\Krypton.Toolkit.dll
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\bin\Debug\MenaxhimiKafiteris.BLL.dll
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\bin\Debug\MenaxhimiKafiteris.BO.dll
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\bin\Debug\MenaxhimiKafiteris.DAL.dll
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\bin\Debug\MenaxhimiKafiteris.BLL.pdb
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\bin\Debug\MenaxhimiKafiteris.BO.pdb
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\bin\Debug\Krypton.Toolkit.xml
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\bin\Debug\MenaxhimiKafiteris.DAL.pdb
 C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.csproj.AssemblyReference.cache
 C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.csproj.SuggestedBindingRedirects.cache
 C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.AdminForms.LLojet.Llojet.resources
@@ -47,3 +59,6 @@ C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiter
 C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.UserForms.mainKamarier.resources
 C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.csproj.GenerateResource.cache
 C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.csproj.CoreCompileInputs.cache
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.csproj.CopyComplete
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.exe
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.pdb

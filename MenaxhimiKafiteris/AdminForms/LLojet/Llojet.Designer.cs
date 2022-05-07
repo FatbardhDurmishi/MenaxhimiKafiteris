@@ -110,7 +110,6 @@ namespace MenaxhimiKafiteris.AdminForms.LLojet
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Llojet";
             this.Text = "Llojet";
-            this.Load += new System.EventHandler(this.Llojet_Load);
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.llojetDataGrid)).EndInit();
             this.ResumeLayout(false);
