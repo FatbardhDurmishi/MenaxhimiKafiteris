@@ -36,10 +36,15 @@
     <Reference Include="FontAwesome.Sharp, Version=5.15.4.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
       <HintPath>..\packages\FontAwesome.Sharp.5.15.4\lib\net472\FontAwesome.Sharp.dll</HintPath>
     </Reference>
+    <Reference Include="Krypton.Toolkit, Version=65.22.4.94, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Krypton.Toolkit.65.22.4.94\lib\net472\Krypton.Toolkit.dll</HintPath>
+    </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
     <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -199,7 +204,20 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\MenaxhimiKafiteris.BLL\MenaxhimiKafiteris.BLL.csproj">
+      <Project>{834bf179-acae-4539-9111-f07163ae06c9}</Project>
+      <Name>MenaxhimiKafiteris.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MenaxhimiKafiteris.BO\MenaxhimiKafiteris.BO.csproj">
+      <Project>{042dd5f1-37eb-4b61-bb14-d9eb61e05600}</Project>
+      <Name>MenaxhimiKafiteris.BO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MenaxhimiKafiteris.DAL\MenaxhimiKafiteris.DAL.csproj">
+      <Project>{A14F4059-FB6A-44A9-BAEA-5FDFB7D56B72}</Project>
+      <Name>MenaxhimiKafiteris.DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\CoffeLogo2.png" />
   </ItemGroup>

@@ -38,11 +38,9 @@ namespace MenaxhimiKafiteris.AdminForms.Produktet
             this.label1 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.perbersiName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.sasiaColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button1 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.kryptonDataGridView1 = new Krypton.Toolkit.KryptonDataGridView();
+            this.ShtoPerberesBtn = new Krypton.Toolkit.KryptonButton();
+            ((System.ComponentModel.ISupportInitialize)(this.kryptonDataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // label4
@@ -136,44 +134,29 @@ namespace MenaxhimiKafiteris.AdminForms.Produktet
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 17;
             // 
-            // dataGridView1
+            // kryptonDataGridView1
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.perbersiName,
-            this.sasiaColumn});
-            this.dataGridView1.Location = new System.Drawing.Point(135, 253);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(222, 90);
-            this.dataGridView1.TabIndex = 18;
+            this.kryptonDataGridView1.Location = new System.Drawing.Point(125, 253);
+            this.kryptonDataGridView1.Name = "kryptonDataGridView1";
+            this.kryptonDataGridView1.Size = new System.Drawing.Size(240, 150);
+            this.kryptonDataGridView1.TabIndex = 20;
             // 
-            // perbersiName
+            // ShtoPerberesBtn
             // 
-            this.perbersiName.HeaderText = "Perbersi";
-            this.perbersiName.Name = "perbersiName";
-            // 
-            // sasiaColumn
-            // 
-            this.sasiaColumn.HeaderText = "Sasia";
-            this.sasiaColumn.Name = "sasiaColumn";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(35, 375);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 19;
-            this.button1.Text = "ShtoPerberes";
-            this.button1.UseVisualStyleBackColor = true;
+            this.ShtoPerberesBtn.Location = new System.Drawing.Point(29, 435);
+            this.ShtoPerberesBtn.Name = "ShtoPerberesBtn";
+            this.ShtoPerberesBtn.Size = new System.Drawing.Size(90, 25);
+            this.ShtoPerberesBtn.TabIndex = 21;
+            this.ShtoPerberesBtn.Values.Text = "ShtoPerberes";
             // 
             // ShtoProdukt
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(34)))), ((int)(((byte)(74)))));
-            this.ClientSize = new System.Drawing.Size(492, 439);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.dataGridView1);
+            this.ClientSize = new System.Drawing.Size(491, 523);
+            this.Controls.Add(this.ShtoPerberesBtn);
+            this.Controls.Add(this.kryptonDataGridView1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -185,7 +168,7 @@ namespace MenaxhimiKafiteris.AdminForms.Produktet
             this.Controls.Add(this.label1);
             this.Name = "ShtoProdukt";
             this.Text = "ShtoProdukt";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kryptonDataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -201,9 +184,7 @@ namespace MenaxhimiKafiteris.AdminForms.Produktet
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn perbersiName;
-        private System.Windows.Forms.DataGridViewTextBoxColumn sasiaColumn;
-        private System.Windows.Forms.Button button1;
+        private Krypton.Toolkit.KryptonDataGridView kryptonDataGridView1;
+        private Krypton.Toolkit.KryptonButton ShtoPerberesBtn;
     }
 }

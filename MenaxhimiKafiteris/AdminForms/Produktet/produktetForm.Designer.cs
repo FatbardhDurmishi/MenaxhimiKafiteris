@@ -29,68 +29,34 @@ namespace MenaxhimiKafiteris.AdminForms
         /// </summary>
         private void InitializeComponent()
         {
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.emriiColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cmimiColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.sasiaColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.llojiColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.kryptonDataGridView1 = new Krypton.Toolkit.KryptonDataGridView();
+            this.fshijProduktinBtn = new Krypton.Toolkit.KryptonButton();
+            this.shtoProduktinBtn = new Krypton.Toolkit.KryptonButton();
+            ((System.ComponentModel.ISupportInitialize)(this.kryptonDataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // button9
+            // kryptonDataGridView1
             // 
-            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button9.Location = new System.Drawing.Point(105, 360);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(75, 23);
-            this.button9.TabIndex = 16;
-            this.button9.Text = "Shto";
-            this.button9.UseVisualStyleBackColor = false;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
+            this.kryptonDataGridView1.Location = new System.Drawing.Point(46, 29);
+            this.kryptonDataGridView1.Name = "kryptonDataGridView1";
+            this.kryptonDataGridView1.Size = new System.Drawing.Size(459, 432);
+            this.kryptonDataGridView1.TabIndex = 18;
             // 
-            // button10
+            // fshijProduktinBtn
             // 
-            this.button10.Location = new System.Drawing.Point(232, 360);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(75, 23);
-            this.button10.TabIndex = 17;
-            this.button10.Text = "Fshij";
-            this.button10.UseVisualStyleBackColor = true;
+            this.fshijProduktinBtn.Location = new System.Drawing.Point(555, 90);
+            this.fshijProduktinBtn.Name = "fshijProduktinBtn";
+            this.fshijProduktinBtn.Size = new System.Drawing.Size(90, 25);
+            this.fshijProduktinBtn.TabIndex = 19;
+            this.fshijProduktinBtn.Values.Text = "Fshij";
             // 
-            // dataGridView1
+            // shtoProduktinBtn
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.emriiColumn,
-            this.cmimiColumn,
-            this.sasiaColumn,
-            this.llojiColumn});
-            this.dataGridView1.Location = new System.Drawing.Point(36, 35);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(439, 290);
-            this.dataGridView1.TabIndex = 18;
-            // 
-            // emriiColumn
-            // 
-            this.emriiColumn.HeaderText = "Emri";
-            this.emriiColumn.Name = "emriiColumn";
-            // 
-            // cmimiColumn
-            // 
-            this.cmimiColumn.HeaderText = "Cmimi";
-            this.cmimiColumn.Name = "cmimiColumn";
-            // 
-            // sasiaColumn
-            // 
-            this.sasiaColumn.HeaderText = "Sasia";
-            this.sasiaColumn.Name = "sasiaColumn";
-            // 
-            // llojiColumn
-            // 
-            this.llojiColumn.HeaderText = "Lloji";
-            this.llojiColumn.Name = "llojiColumn";
+            this.shtoProduktinBtn.Location = new System.Drawing.Point(555, 169);
+            this.shtoProduktinBtn.Name = "shtoProduktinBtn";
+            this.shtoProduktinBtn.Size = new System.Drawing.Size(90, 25);
+            this.shtoProduktinBtn.TabIndex = 20;
+            this.shtoProduktinBtn.Values.Text = "Shto";
             // 
             // produktetForm
             // 
@@ -98,23 +64,20 @@ namespace MenaxhimiKafiteris.AdminForms
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(34)))), ((int)(((byte)(74)))));
             this.ClientSize = new System.Drawing.Size(798, 501);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button9);
+            this.Controls.Add(this.shtoProduktinBtn);
+            this.Controls.Add(this.fshijProduktinBtn);
+            this.Controls.Add(this.kryptonDataGridView1);
             this.Name = "produktetForm";
             this.Text = "produktetForm";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kryptonDataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn emriiColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cmimiColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn sasiaColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn llojiColumn;
+
+        private Krypton.Toolkit.KryptonDataGridView kryptonDataGridView1;
+        private Krypton.Toolkit.KryptonButton fshijProduktinBtn;
+        private Krypton.Toolkit.KryptonButton shtoProduktinBtn;
     }
 }

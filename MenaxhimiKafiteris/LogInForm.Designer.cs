@@ -81,6 +81,7 @@ namespace MenaxhimiKafiteris
             this.Controls.Add(this.usernameLbl);
             this.Name = "LogInForm";
             this.Text = "LogInForm";
+            this.Load += new System.EventHandler(this.LogInForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

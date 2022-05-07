@@ -8,6 +8,7 @@ namespace MenaxhimiKafiteris.BO
 {
     public class LlojetEProdukteve
     {
+        public int ID { get; set; }
         public string Lloji { get; set; }
     }
 }
