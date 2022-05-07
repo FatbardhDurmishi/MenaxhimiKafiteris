@@ -42,9 +42,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="DatabaseConfig.cs" />
+    <Compile Include="LlojetEProdukteveRepository.cs" />
+    <Compile Include="PerbersitRepository.cs" />
+    <Compile Include="ProduktetRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SallatRepository.cs" />
+    <Compile Include="TavolinatRepository.cs" />
+    <Compile Include="UseretRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MenaxhimiKafiteris.BO\MenaxhimiKafiteris.BO.csproj">
+      <Project>{042dd5f1-37eb-4b61-bb14-d9eb61e05600}</Project>
+      <Name>MenaxhimiKafiteris.BO</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -213,10 +213,6 @@
       <Project>{042dd5f1-37eb-4b61-bb14-d9eb61e05600}</Project>
       <Name>MenaxhimiKafiteris.BO</Name>
     </ProjectReference>
-    <ProjectReference Include="..\MenaxhimiKafiteris.DAL\MenaxhimiKafiteris.DAL.csproj">
-      <Project>{A14F4059-FB6A-44A9-BAEA-5FDFB7D56B72}</Project>
-      <Name>MenaxhimiKafiteris.DAL</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\CoffeLogo2.png" />
