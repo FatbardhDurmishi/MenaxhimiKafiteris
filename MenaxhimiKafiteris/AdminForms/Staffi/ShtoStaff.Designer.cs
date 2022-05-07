@@ -48,7 +48,6 @@ namespace MenaxhimiKafiteris.AdminForms.Staffi
             this.shtoStaffUsernameTextBox.Size = new System.Drawing.Size(234, 20);
             this.shtoStaffUsernameTextBox.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.shtoStaffUsernameTextBox.TabIndex = 0;
-            this.shtoStaffUsernameTextBox.Text = "kryptonTextBox1";
             // 
             // usernameLbl
             // 
@@ -100,7 +99,6 @@ namespace MenaxhimiKafiteris.AdminForms.Staffi
             this.shtoStaffPasswordextBox.Size = new System.Drawing.Size(234, 20);
             this.shtoStaffPasswordextBox.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.shtoStaffPasswordextBox.TabIndex = 5;
-            this.shtoStaffPasswordextBox.Text = "kryptonTextBox2";
             this.shtoStaffPasswordextBox.UseSystemPasswordChar = true;
             // 
             // shtoStaffGenderTextBox
@@ -112,7 +110,6 @@ namespace MenaxhimiKafiteris.AdminForms.Staffi
             this.shtoStaffGenderTextBox.Size = new System.Drawing.Size(234, 20);
             this.shtoStaffGenderTextBox.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.shtoStaffGenderTextBox.TabIndex = 6;
-            this.shtoStaffGenderTextBox.Text = "kryptonTextBox3";
             // 
             // roliDropDownBtn
             // 

@@ -29,72 +29,93 @@ namespace MenaxhimiKafiteris.AdminForms.Sallat
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.emriColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.sallaIDColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nrTavolinaveColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button9 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.kryptonDataGridView1 = new Krypton.Toolkit.KryptonDataGridView();
+            this.shtoSallBtn = new Krypton.Toolkit.KryptonButton();
+            this.tbEmriSalla = new Krypton.Toolkit.KryptonTextBox();
+            this.tbNumriKarrigaveSalla = new Krypton.Toolkit.KryptonTextBox();
+            this.emriLabel = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.kryptonDataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // kryptonDataGridView1
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.emriColumn,
-            this.sallaIDColumn,
-            this.nrTavolinaveColumn});
-            this.dataGridView1.Location = new System.Drawing.Point(211, 12);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(341, 249);
-            this.dataGridView1.TabIndex = 41;
+            this.kryptonDataGridView1.Location = new System.Drawing.Point(41, 29);
+            this.kryptonDataGridView1.Name = "kryptonDataGridView1";
+            this.kryptonDataGridView1.Size = new System.Drawing.Size(447, 270);
+            this.kryptonDataGridView1.TabIndex = 0;
             // 
-            // emriColumn
+            // shtoSallBtn
             // 
-            this.emriColumn.HeaderText = "Emri";
-            this.emriColumn.Name = "emriColumn";
+            this.shtoSallBtn.Location = new System.Drawing.Point(41, 456);
+            this.shtoSallBtn.Name = "shtoSallBtn";
+            this.shtoSallBtn.Size = new System.Drawing.Size(90, 25);
+            this.shtoSallBtn.TabIndex = 1;
+            this.shtoSallBtn.Values.Text = "Shto";
             // 
-            // sallaIDColumn
+            // tbEmriSalla
             // 
-            this.sallaIDColumn.HeaderText = "SallaID";
-            this.sallaIDColumn.Name = "sallaIDColumn";
+            this.tbEmriSalla.Location = new System.Drawing.Point(197, 361);
+            this.tbEmriSalla.Name = "tbEmriSalla";
+            this.tbEmriSalla.Size = new System.Drawing.Size(100, 23);
+            this.tbEmriSalla.TabIndex = 2;
             // 
-            // nrTavolinaveColumn
+            // tbNumriKarrigaveSalla
             // 
-            this.nrTavolinaveColumn.HeaderText = "NrTavolina";
-            this.nrTavolinaveColumn.Name = "nrTavolinaveColumn";
+            this.tbNumriKarrigaveSalla.Location = new System.Drawing.Point(197, 399);
+            this.tbNumriKarrigaveSalla.Name = "tbNumriKarrigaveSalla";
+            this.tbNumriKarrigaveSalla.Size = new System.Drawing.Size(100, 23);
+            this.tbNumriKarrigaveSalla.TabIndex = 3;
             // 
-            // button9
+            // emriLabel
             // 
-            this.button9.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.button9.Location = new System.Drawing.Point(211, 336);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(75, 23);
-            this.button9.TabIndex = 42;
-            this.button9.Text = "Shto";
-            this.button9.UseVisualStyleBackColor = false;
+            this.emriLabel.AutoSize = true;
+            this.emriLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.emriLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.emriLabel.Location = new System.Drawing.Point(49, 361);
+            this.emriLabel.Name = "emriLabel";
+            this.emriLabel.Size = new System.Drawing.Size(35, 16);
+            this.emriLabel.TabIndex = 5;
+            this.emriLabel.Text = "Emri";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label1.Location = new System.Drawing.Point(49, 406);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(83, 16);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Nr.Karrigave";
             // 
             // Salla
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(34)))), ((int)(((byte)(74)))));
-            this.ClientSize = new System.Drawing.Size(625, 491);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.dataGridView1);
+            this.ClientSize = new System.Drawing.Size(625, 535);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.emriLabel);
+            this.Controls.Add(this.tbNumriKarrigaveSalla);
+            this.Controls.Add(this.tbEmriSalla);
+            this.Controls.Add(this.shtoSallBtn);
+            this.Controls.Add(this.kryptonDataGridView1);
             this.Name = "Salla";
             this.Text = "Salla";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kryptonDataGridView1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn emriColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn sallaIDColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nrTavolinaveColumn;
-        private System.Windows.Forms.Button button9;
+        private Krypton.Toolkit.KryptonDataGridView kryptonDataGridView1;
+        private Krypton.Toolkit.KryptonButton shtoSallBtn;
+        private Krypton.Toolkit.KryptonTextBox tbEmriSalla;
+        private Krypton.Toolkit.KryptonTextBox tbNumriKarrigaveSalla;
+        private System.Windows.Forms.Label emriLabel;
+        private System.Windows.Forms.Label label1;
     }
 }
