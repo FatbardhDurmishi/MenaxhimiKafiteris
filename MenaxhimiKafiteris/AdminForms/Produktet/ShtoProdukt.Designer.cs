@@ -158,7 +158,7 @@ namespace MenaxhimiKafiteris.AdminForms.Produktet
             this.btnShtoProdukt.Location = new System.Drawing.Point(39, 535);
             this.btnShtoProdukt.Margin = new System.Windows.Forms.Padding(4);
             this.btnShtoProdukt.Name = "btnShtoProdukt";
-            this.btnShtoProdukt.Size = new System.Drawing.Size(120, 31);
+            this.btnShtoProdukt.Size = new System.Drawing.Size(230, 31);
             this.btnShtoProdukt.TabIndex = 21;
             this.btnShtoProdukt.Values.Text = "ShtoProdukt";
             this.btnShtoProdukt.Click += new System.EventHandler(this.btnShtoProdukt_Click);

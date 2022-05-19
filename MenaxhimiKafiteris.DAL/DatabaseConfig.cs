@@ -13,7 +13,7 @@ namespace MenaxhimiKafiteris.DAL
 
         //ConfigurationManager nuk njifet si klas, e duhet me shtu na the file ne App.Config.
         //We already have the App.Config, and now we just add it as reference to the main sauce
-        public static string ConnectionString = ConfigurationManager.ConnectionStrings["conStringRilindKafiqi"].ConnectionString;
+        public static string ConnectionString = ConfigurationManager.ConnectionStrings["conStringBardhi"].ConnectionString;
         //public static string ConnectionString2 = ConfigurationManager.ConnectionStrings[].ConnectionString;
 
         //In other class we make the connection by passing the string there.

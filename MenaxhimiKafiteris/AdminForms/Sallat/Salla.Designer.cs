@@ -29,72 +29,111 @@ namespace MenaxhimiKafiteris.AdminForms.Sallat
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.emriColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.sallaIDColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nrTavolinaveColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button9 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.dgSallat = new Krypton.Toolkit.KryptonDataGridView();
+            this.btnFshij = new Krypton.Toolkit.KryptonButton();
+            this.emri = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtEmri = new Krypton.Toolkit.KryptonTextBox();
+            this.txtnrTavolinat = new Krypton.Toolkit.KryptonTextBox();
+            this.btnShto = new Krypton.Toolkit.KryptonButton();
+            ((System.ComponentModel.ISupportInitialize)(this.dgSallat)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // dgSallat
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.emriColumn,
-            this.sallaIDColumn,
-            this.nrTavolinaveColumn});
-            this.dataGridView1.Location = new System.Drawing.Point(211, 12);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(341, 249);
-            this.dataGridView1.TabIndex = 41;
+            this.dgSallat.ColumnHeadersHeight = 36;
+            this.dgSallat.Location = new System.Drawing.Point(26, 31);
+            this.dgSallat.Name = "dgSallat";
+            this.dgSallat.RowHeadersWidth = 51;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgSallat.RowsDefaultCellStyle = dataGridViewCellStyle6;
+            this.dgSallat.RowTemplate.Height = 24;
+            this.dgSallat.Size = new System.Drawing.Size(503, 296);
+            this.dgSallat.TabIndex = 43;
             // 
-            // emriColumn
+            // btnFshij
             // 
-            this.emriColumn.HeaderText = "Emri";
-            this.emriColumn.Name = "emriColumn";
+            this.btnFshij.Location = new System.Drawing.Point(254, 488);
+            this.btnFshij.Name = "btnFshij";
+            this.btnFshij.Size = new System.Drawing.Size(148, 25);
+            this.btnFshij.TabIndex = 44;
+            this.btnFshij.Values.Text = "Fshij";
+            this.btnFshij.Click += new System.EventHandler(this.btnFshij_Click);
             // 
-            // sallaIDColumn
+            // emri
             // 
-            this.sallaIDColumn.HeaderText = "SallaID";
-            this.sallaIDColumn.Name = "sallaIDColumn";
+            this.emri.AutoSize = true;
+            this.emri.ForeColor = System.Drawing.SystemColors.Control;
+            this.emri.Location = new System.Drawing.Point(47, 374);
+            this.emri.Name = "emri";
+            this.emri.Size = new System.Drawing.Size(34, 16);
+            this.emri.TabIndex = 46;
+            this.emri.Text = "Emri";
             // 
-            // nrTavolinaveColumn
+            // label2
             // 
-            this.nrTavolinaveColumn.HeaderText = "NrTavolina";
-            this.nrTavolinaveColumn.Name = "nrTavolinaveColumn";
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.SystemColors.Control;
+            this.label2.Location = new System.Drawing.Point(47, 410);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(113, 16);
+            this.label2.TabIndex = 47;
+            this.label2.Text = "Numri Tavolinave";
             // 
-            // button9
+            // txtEmri
             // 
-            this.button9.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.button9.Location = new System.Drawing.Point(211, 336);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(75, 23);
-            this.button9.TabIndex = 42;
-            this.button9.Text = "Shto";
-            this.button9.UseVisualStyleBackColor = false;
+            this.txtEmri.Location = new System.Drawing.Point(197, 374);
+            this.txtEmri.Name = "txtEmri";
+            this.txtEmri.Size = new System.Drawing.Size(140, 27);
+            this.txtEmri.TabIndex = 48;
+            // 
+            // txtnrTavolinat
+            // 
+            this.txtnrTavolinat.Location = new System.Drawing.Point(197, 410);
+            this.txtnrTavolinat.Name = "txtnrTavolinat";
+            this.txtnrTavolinat.Size = new System.Drawing.Size(140, 27);
+            this.txtnrTavolinat.TabIndex = 49;
+            // 
+            // btnShto
+            // 
+            this.btnShto.Location = new System.Drawing.Point(50, 488);
+            this.btnShto.Name = "btnShto";
+            this.btnShto.Size = new System.Drawing.Size(123, 25);
+            this.btnShto.TabIndex = 50;
+            this.btnShto.Values.Text = "Shto";
+            this.btnShto.Click += new System.EventHandler(this.btnShto_Click);
             // 
             // Salla
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(34)))), ((int)(((byte)(74)))));
-            this.ClientSize = new System.Drawing.Size(625, 491);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.dataGridView1);
+            this.ClientSize = new System.Drawing.Size(833, 604);
+            this.Controls.Add(this.btnShto);
+            this.Controls.Add(this.txtnrTavolinat);
+            this.Controls.Add(this.txtEmri);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.emri);
+            this.Controls.Add(this.btnFshij);
+            this.Controls.Add(this.dgSallat);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Salla";
             this.Text = "Salla";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgSallat)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn emriColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn sallaIDColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nrTavolinaveColumn;
-        private System.Windows.Forms.Button button9;
+        private Krypton.Toolkit.KryptonDataGridView dgSallat;
+        private Krypton.Toolkit.KryptonButton btnFshij;
+        private System.Windows.Forms.Label emri;
+        private System.Windows.Forms.Label label2;
+        private Krypton.Toolkit.KryptonTextBox txtEmri;
+        private Krypton.Toolkit.KryptonTextBox txtnrTavolinat;
+        private Krypton.Toolkit.KryptonButton btnShto;
     }
 }

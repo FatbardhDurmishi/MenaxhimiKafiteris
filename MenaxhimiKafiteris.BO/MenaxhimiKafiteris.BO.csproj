@@ -47,14 +47,14 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="LlojetEProdukteve.cs" />
-    <Compile Include="Perbersit.cs" />
+    <Compile Include="Perbersi.cs" />
     <Compile Include="PerbersitEProdukteve.cs" />
     <Compile Include="Porosia.cs" />
     <Compile Include="Produkti.cs" />
     <Compile Include="ProduktetEPorosise.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Roli.cs" />
-    <Compile Include="Salla.cs" />
+    <Compile Include="Sallacl.cs" />
     <Compile Include="Tavolina.cs" />
     <Compile Include="Useri.cs" />
   </ItemGroup>

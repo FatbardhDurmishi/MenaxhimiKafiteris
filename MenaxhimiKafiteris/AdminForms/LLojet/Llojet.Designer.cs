@@ -44,7 +44,7 @@ namespace MenaxhimiKafiteris.AdminForms.LLojet
             this.btnShto.Location = new System.Drawing.Point(85, 464);
             this.btnShto.Margin = new System.Windows.Forms.Padding(4);
             this.btnShto.Name = "btnShto";
-            this.btnShto.Size = new System.Drawing.Size(88, 28);
+            this.btnShto.Size = new System.Drawing.Size(117, 28);
             this.btnShto.TabIndex = 29;
             this.btnShto.Text = "Shto ";
             this.btnShto.UseVisualStyleBackColor = true;
@@ -88,12 +88,12 @@ namespace MenaxhimiKafiteris.AdminForms.LLojet
             // 
             // deleteLLojinBtn
             // 
-            this.deleteLLojinBtn.Location = new System.Drawing.Point(245, 464);
+            this.deleteLLojinBtn.Location = new System.Drawing.Point(276, 461);
             this.deleteLLojinBtn.Margin = new System.Windows.Forms.Padding(4);
             this.deleteLLojinBtn.Name = "deleteLLojinBtn";
-            this.deleteLLojinBtn.Size = new System.Drawing.Size(120, 31);
+            this.deleteLLojinBtn.Size = new System.Drawing.Size(139, 31);
             this.deleteLLojinBtn.TabIndex = 31;
-            this.deleteLLojinBtn.Values.Text = "Delete";
+            this.deleteLLojinBtn.Values.Text = "Fshij";
             this.deleteLLojinBtn.Click += new System.EventHandler(this.deleteLLojinBtn_Click);
             // 
             // Llojet

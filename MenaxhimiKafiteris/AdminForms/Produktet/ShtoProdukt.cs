@@ -24,7 +24,7 @@ namespace MenaxhimiKafiteris.AdminForms.Produktet
             InitializeComponent();
             PopulloComboList();
         }
-
+        
         private void btnShtoProdukt_Click(object sender, EventArgs e)
         {
             Produkti newProdukt=new Produkti();
@@ -32,13 +32,16 @@ namespace MenaxhimiKafiteris.AdminForms.Produktet
             newProdukt.Cmimi = decimal.Parse(txtCmimi.Text);
             newProdukt.Sasia = int.Parse(txtSasia.Text);
             newProdukt.LlojiID = int.Parse(cbLloji.SelectedValue.ToString());
-            bool isSaved=produktetServices.ShtoProdukt(newProdukt);
+            bool isSaved=produktetServices.ShtoProdukt(newProdukt); 
+            this.Close();
         }
         private void PopulloComboList()
         {
-            cbLloji.DisplayMember = "Name";
-            cbLloji.ValueMember = "Id";
+            cbLloji.ValueMember = "ID";
+            cbLloji.DisplayMember = "Kategoria";
+            
             cbLloji.DataSource = llojetEProdukteveService.GetAll().Tables[0];
+
         }
     }
 }

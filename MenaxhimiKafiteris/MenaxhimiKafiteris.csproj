@@ -112,12 +112,6 @@
     <Compile Include="AdminForms\Staffi\Stafi.Designer.cs">
       <DependentUpon>Stafi.cs</DependentUpon>
     </Compile>
-    <Compile Include="AdminForms\Tavolinat\shtoTavoline.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AdminForms\Tavolinat\shtoTavoline.Designer.cs">
-      <DependentUpon>shtoTavoline.cs</DependentUpon>
-    </Compile>
     <Compile Include="AdminForms\Tavolinat\tavolina.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -182,9 +176,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AdminForms\Staffi\Stafi.resx">
       <DependentUpon>Stafi.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="AdminForms\Tavolinat\shtoTavoline.resx">
-      <DependentUpon>shtoTavoline.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AdminForms\Tavolinat\tavolina.resx">
       <DependentUpon>tavolina.cs</DependentUpon>

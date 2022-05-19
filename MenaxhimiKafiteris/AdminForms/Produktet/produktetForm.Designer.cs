@@ -47,10 +47,12 @@ namespace MenaxhimiKafiteris.AdminForms
             // 
             // fshijProduktinBtn
             // 
+            this.fshijProduktinBtn.AutoSize = true;
             this.fshijProduktinBtn.Location = new System.Drawing.Point(1017, 94);
             this.fshijProduktinBtn.Margin = new System.Windows.Forms.Padding(4);
             this.fshijProduktinBtn.Name = "fshijProduktinBtn";
-            this.fshijProduktinBtn.Size = new System.Drawing.Size(120, 31);
+            this.fshijProduktinBtn.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.fshijProduktinBtn.Size = new System.Drawing.Size(194, 38);
             this.fshijProduktinBtn.TabIndex = 19;
             this.fshijProduktinBtn.Values.Text = "Fshij";
             this.fshijProduktinBtn.Click += new System.EventHandler(this.fshijProduktinBtn_Click);
@@ -60,7 +62,8 @@ namespace MenaxhimiKafiteris.AdminForms
             this.shtoProduktinBtn.Location = new System.Drawing.Point(1017, 183);
             this.shtoProduktinBtn.Margin = new System.Windows.Forms.Padding(4);
             this.shtoProduktinBtn.Name = "shtoProduktinBtn";
-            this.shtoProduktinBtn.Size = new System.Drawing.Size(120, 31);
+            this.shtoProduktinBtn.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.shtoProduktinBtn.Size = new System.Drawing.Size(194, 31);
             this.shtoProduktinBtn.TabIndex = 20;
             this.shtoProduktinBtn.Values.Text = "Shto";
             this.shtoProduktinBtn.Click += new System.EventHandler(this.shtoProduktinBtn_Click);
@@ -79,6 +82,7 @@ namespace MenaxhimiKafiteris.AdminForms
             this.Text = "produktetForm";
             ((System.ComponentModel.ISupportInitialize)(this.dgProduktet)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 

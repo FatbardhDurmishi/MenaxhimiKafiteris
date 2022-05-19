@@ -20,13 +20,16 @@ namespace MenaxhimiKafiteris.AdminForms
         {
             produktetServices = new ProduktetServices();
             InitializeComponent();
+            Refresh();
             ShfaqProduktet();
+            
         }
 
         private void shtoProduktinBtn_Click(object sender, EventArgs e)
         {
             var formPopup = new Produktet.ShtoProdukt();
             formPopup.Show(this);
+            ShfaqProduktet();
 
         }
         public void ShfaqProduktet()

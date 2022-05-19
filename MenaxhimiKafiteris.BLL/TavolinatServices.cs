@@ -5,19 +5,31 @@ using System.Text;
 using System.Threading.Tasks;
 using MenaxhimiKafiteris.DAL;
 using System.Data;
+using MenaxhimiKafiteris.BLL;
+using MenaxhimiKafiteris.BO;
+using System.Data.SqlClient;
 
 namespace MenaxhimiKafiteris.BLL
+
 {
     public class TavolinatServices
     {
-        private TavolinatRepository _talolinatRepository;
+        private TavolinatRepository _tavolinatRepository;
         public TavolinatServices()
         {
-            _talolinatRepository = new TavolinatRepository();
+            _tavolinatRepository = new TavolinatRepository();
         }
         public DataSet GetAll()
         {
-            return _talolinatRepository.GetAll();
+            return _tavolinatRepository.GetAll();
+        }
+        public bool ShtoTavolin(Tavolina tavolina)
+        {
+            return _tavolinatRepository.ShtoTavolin(tavolina);
+        }
+        public bool FshiTavolin(int id)
+        {
+            return _tavolinatRepository.FshiTavolin(id);
         }
     }
 }

@@ -37,7 +37,6 @@ namespace MenaxhimiKafiteris.AdminForms
             this.sallatButton = new FontAwesome.Sharp.IconButton();
             this.llojetProdukteveButton = new FontAwesome.Sharp.IconButton();
             this.porositeButton = new FontAwesome.Sharp.IconButton();
-            this.stokuButton = new FontAwesome.Sharp.IconButton();
             this.perbersitButton = new FontAwesome.Sharp.IconButton();
             this.produktetButton = new FontAwesome.Sharp.IconButton();
             this.panelLogo = new System.Windows.Forms.Panel();
@@ -66,13 +65,12 @@ namespace MenaxhimiKafiteris.AdminForms
             this.panelMenu.Controls.Add(this.sallatButton);
             this.panelMenu.Controls.Add(this.llojetProdukteveButton);
             this.panelMenu.Controls.Add(this.porositeButton);
-            this.panelMenu.Controls.Add(this.stokuButton);
             this.panelMenu.Controls.Add(this.perbersitButton);
             this.panelMenu.Controls.Add(this.produktetButton);
             this.panelMenu.Controls.Add(this.panelLogo);
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
-            this.panelMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelMenu.Margin = new System.Windows.Forms.Padding(4);
             this.panelMenu.Name = "panelMenu";
             this.panelMenu.Size = new System.Drawing.Size(279, 798);
             this.panelMenu.TabIndex = 21;
@@ -88,8 +86,8 @@ namespace MenaxhimiKafiteris.AdminForms
             this.raportetButton.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.raportetButton.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.raportetButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.raportetButton.Location = new System.Drawing.Point(0, 708);
-            this.raportetButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.raportetButton.Location = new System.Drawing.Point(0, 634);
+            this.raportetButton.Margin = new System.Windows.Forms.Padding(4);
             this.raportetButton.Name = "raportetButton";
             this.raportetButton.Padding = new System.Windows.Forms.Padding(13, 0, 27, 0);
             this.raportetButton.Size = new System.Drawing.Size(279, 74);
@@ -110,8 +108,8 @@ namespace MenaxhimiKafiteris.AdminForms
             this.tavolinatButton.IconColor = System.Drawing.Color.White;
             this.tavolinatButton.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.tavolinatButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.tavolinatButton.Location = new System.Drawing.Point(0, 634);
-            this.tavolinatButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tavolinatButton.Location = new System.Drawing.Point(0, 560);
+            this.tavolinatButton.Margin = new System.Windows.Forms.Padding(4);
             this.tavolinatButton.Name = "tavolinatButton";
             this.tavolinatButton.Padding = new System.Windows.Forms.Padding(13, 0, 27, 0);
             this.tavolinatButton.Size = new System.Drawing.Size(279, 74);
@@ -132,8 +130,8 @@ namespace MenaxhimiKafiteris.AdminForms
             this.sallatButton.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.sallatButton.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.sallatButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.sallatButton.Location = new System.Drawing.Point(0, 560);
-            this.sallatButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.sallatButton.Location = new System.Drawing.Point(0, 486);
+            this.sallatButton.Margin = new System.Windows.Forms.Padding(4);
             this.sallatButton.Name = "sallatButton";
             this.sallatButton.Padding = new System.Windows.Forms.Padding(13, 0, 27, 0);
             this.sallatButton.Size = new System.Drawing.Size(279, 74);
@@ -154,8 +152,8 @@ namespace MenaxhimiKafiteris.AdminForms
             this.llojetProdukteveButton.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.llojetProdukteveButton.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.llojetProdukteveButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.llojetProdukteveButton.Location = new System.Drawing.Point(0, 486);
-            this.llojetProdukteveButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.llojetProdukteveButton.Location = new System.Drawing.Point(0, 412);
+            this.llojetProdukteveButton.Margin = new System.Windows.Forms.Padding(4);
             this.llojetProdukteveButton.Name = "llojetProdukteveButton";
             this.llojetProdukteveButton.Padding = new System.Windows.Forms.Padding(13, 0, 27, 0);
             this.llojetProdukteveButton.Size = new System.Drawing.Size(279, 74);
@@ -176,8 +174,8 @@ namespace MenaxhimiKafiteris.AdminForms
             this.porositeButton.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.porositeButton.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.porositeButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.porositeButton.Location = new System.Drawing.Point(0, 412);
-            this.porositeButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.porositeButton.Location = new System.Drawing.Point(0, 338);
+            this.porositeButton.Margin = new System.Windows.Forms.Padding(4);
             this.porositeButton.Name = "porositeButton";
             this.porositeButton.Padding = new System.Windows.Forms.Padding(13, 0, 27, 0);
             this.porositeButton.Size = new System.Drawing.Size(279, 74);
@@ -186,28 +184,6 @@ namespace MenaxhimiKafiteris.AdminForms
             this.porositeButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.porositeButton.UseVisualStyleBackColor = true;
             this.porositeButton.Click += new System.EventHandler(this.porositeButton_Click);
-            // 
-            // stokuButton
-            // 
-            this.stokuButton.Dock = System.Windows.Forms.DockStyle.Top;
-            this.stokuButton.FlatAppearance.BorderSize = 0;
-            this.stokuButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.stokuButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.stokuButton.ForeColor = System.Drawing.Color.Gainsboro;
-            this.stokuButton.IconChar = FontAwesome.Sharp.IconChar.Boxes;
-            this.stokuButton.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.stokuButton.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.stokuButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.stokuButton.Location = new System.Drawing.Point(0, 338);
-            this.stokuButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.stokuButton.Name = "stokuButton";
-            this.stokuButton.Padding = new System.Windows.Forms.Padding(13, 0, 27, 0);
-            this.stokuButton.Size = new System.Drawing.Size(279, 74);
-            this.stokuButton.TabIndex = 3;
-            this.stokuButton.Text = "Stoku";
-            this.stokuButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.stokuButton.UseVisualStyleBackColor = true;
-            this.stokuButton.Click += new System.EventHandler(this.stokuButton_Click);
             // 
             // perbersitButton
             // 
@@ -221,7 +197,7 @@ namespace MenaxhimiKafiteris.AdminForms
             this.perbersitButton.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.perbersitButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.perbersitButton.Location = new System.Drawing.Point(0, 264);
-            this.perbersitButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.perbersitButton.Margin = new System.Windows.Forms.Padding(4);
             this.perbersitButton.Name = "perbersitButton";
             this.perbersitButton.Padding = new System.Windows.Forms.Padding(13, 0, 27, 0);
             this.perbersitButton.Size = new System.Drawing.Size(279, 74);
@@ -243,7 +219,7 @@ namespace MenaxhimiKafiteris.AdminForms
             this.produktetButton.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.produktetButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.produktetButton.Location = new System.Drawing.Point(0, 190);
-            this.produktetButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.produktetButton.Margin = new System.Windows.Forms.Padding(4);
             this.produktetButton.Name = "produktetButton";
             this.produktetButton.Padding = new System.Windows.Forms.Padding(13, 0, 27, 0);
             this.produktetButton.Size = new System.Drawing.Size(279, 74);
@@ -258,7 +234,7 @@ namespace MenaxhimiKafiteris.AdminForms
             this.panelLogo.Controls.Add(this.pictureBox2);
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
-            this.panelLogo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelLogo.Margin = new System.Windows.Forms.Padding(4);
             this.panelLogo.Name = "panelLogo";
             this.panelLogo.Padding = new System.Windows.Forms.Padding(13, 0, 27, 0);
             this.panelLogo.Size = new System.Drawing.Size(279, 190);
@@ -268,7 +244,7 @@ namespace MenaxhimiKafiteris.AdminForms
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(13, 15);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(235, 167);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -283,7 +259,7 @@ namespace MenaxhimiKafiteris.AdminForms
             this.panelTitle.Controls.Add(this.iconCurrentChild);
             this.panelTitle.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTitle.Location = new System.Drawing.Point(279, 0);
-            this.panelTitle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelTitle.Margin = new System.Windows.Forms.Padding(4);
             this.panelTitle.Name = "panelTitle";
             this.panelTitle.Size = new System.Drawing.Size(897, 85);
             this.panelTitle.TabIndex = 22;
@@ -312,7 +288,7 @@ namespace MenaxhimiKafiteris.AdminForms
             this.iconCurrentChild.IconSize = 50;
             this.iconCurrentChild.InitialImage = null;
             this.iconCurrentChild.Location = new System.Drawing.Point(32, 15);
-            this.iconCurrentChild.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.iconCurrentChild.Margin = new System.Windows.Forms.Padding(4);
             this.iconCurrentChild.Name = "iconCurrentChild";
             this.iconCurrentChild.Size = new System.Drawing.Size(56, 50);
             this.iconCurrentChild.TabIndex = 0;
@@ -320,11 +296,12 @@ namespace MenaxhimiKafiteris.AdminForms
             // 
             // timeLabel
             // 
+            this.timeLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.timeLabel.AutoSize = true;
             this.timeLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(34)))), ((int)(((byte)(74)))));
             this.timeLabel.Font = new System.Drawing.Font("Nirmala UI", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.timeLabel.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.timeLabel.Location = new System.Drawing.Point(152, 527);
+            this.timeLabel.Location = new System.Drawing.Point(377, 542);
             this.timeLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.timeLabel.Name = "timeLabel";
             this.timeLabel.Size = new System.Drawing.Size(194, 81);
@@ -337,22 +314,25 @@ namespace MenaxhimiKafiteris.AdminForms
             // 
             // panelDesktop
             // 
+            this.panelDesktop.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panelDesktop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(34)))), ((int)(((byte)(74)))));
             this.panelDesktop.Controls.Add(this.timeLabel);
             this.panelDesktop.Controls.Add(this.pictureBox1);
-            this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelDesktop.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.panelDesktop.Location = new System.Drawing.Point(279, 85);
-            this.panelDesktop.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelDesktop.Margin = new System.Windows.Forms.Padding(4);
             this.panelDesktop.Name = "panelDesktop";
             this.panelDesktop.Size = new System.Drawing.Size(897, 713);
             this.panelDesktop.TabIndex = 24;
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox1.Image = global::MenaxhimiKafiteris.Properties.Resources.CoffeLogo2;
             this.pictureBox1.Location = new System.Drawing.Point(279, 105);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(351, 321);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -367,7 +347,7 @@ namespace MenaxhimiKafiteris.AdminForms
             this.Controls.Add(this.panelDesktop);
             this.Controls.Add(this.panelTitle);
             this.Controls.Add(this.panelMenu);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "mainAdmin";
             this.Text = "mainAdmin";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -393,7 +373,6 @@ namespace MenaxhimiKafiteris.AdminForms
         private FontAwesome.Sharp.IconButton sallatButton;
         private FontAwesome.Sharp.IconButton llojetProdukteveButton;
         private FontAwesome.Sharp.IconButton porositeButton;
-        private FontAwesome.Sharp.IconButton stokuButton;
         private FontAwesome.Sharp.IconButton perbersitButton;
         private FontAwesome.Sharp.IconButton produktetButton;
         private System.Windows.Forms.Panel panelLogo;
