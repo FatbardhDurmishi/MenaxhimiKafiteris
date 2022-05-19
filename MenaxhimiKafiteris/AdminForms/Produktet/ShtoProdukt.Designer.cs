@@ -161,9 +161,8 @@ namespace MenaxhimiKafiteris.AdminForms.Produktet
             this.lblListaPerbersve.ForeColor = System.Drawing.SystemColors.Control;
             this.lblListaPerbersve.Location = new System.Drawing.Point(234, 255);
             this.lblListaPerbersve.Name = "lblListaPerbersve";
-            this.lblListaPerbersve.Size = new System.Drawing.Size(40, 16);
+            this.lblListaPerbersve.Size = new System.Drawing.Size(0, 16);
             this.lblListaPerbersve.TabIndex = 23;
-            this.lblListaPerbersve.Text = "aaaa";
             // 
             // ShtoProdukt
             // 

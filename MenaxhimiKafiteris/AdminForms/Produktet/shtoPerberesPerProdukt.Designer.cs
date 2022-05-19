@@ -50,6 +50,7 @@ namespace MenaxhimiKafiteris.AdminForms.Produktet
             this.btnShtoPerberes.Size = new System.Drawing.Size(90, 25);
             this.btnShtoPerberes.TabIndex = 1;
             this.btnShtoPerberes.Values.Text = "Shto";
+            this.btnShtoPerberes.Click += new System.EventHandler(this.btnShtoPerberes_Click);
             // 
             // tbSasia
             // 
