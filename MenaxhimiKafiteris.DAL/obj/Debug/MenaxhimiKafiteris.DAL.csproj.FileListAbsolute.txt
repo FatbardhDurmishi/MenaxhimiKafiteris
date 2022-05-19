@@ -15,3 +15,7 @@ C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiter
 C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris.DAL\obj\Debug\MenaxhimiKafiteris.DAL.csproj.CopyComplete
 C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris.DAL\obj\Debug\MenaxhimiKafiteris.DAL.dll
 C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris.DAL\obj\Debug\MenaxhimiKafiteris.DAL.pdb
+C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\MenaxhimiKafiteris\MenaxhimiKafiteris.DAL\bin\Debug\Krypton.Toolkit.dll
+C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\MenaxhimiKafiteris\MenaxhimiKafiteris.DAL\bin\Debug\MenaxhimiKafiteris.BO.dll
+C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\MenaxhimiKafiteris\MenaxhimiKafiteris.DAL\bin\Debug\MenaxhimiKafiteris.BO.pdb
+C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\MenaxhimiKafiteris\MenaxhimiKafiteris.DAL\bin\Debug\Krypton.Toolkit.xml
