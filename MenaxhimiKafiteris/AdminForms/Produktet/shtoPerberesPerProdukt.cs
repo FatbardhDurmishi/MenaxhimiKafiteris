@@ -47,6 +47,7 @@ namespace MenaxhimiKafiteris.AdminForms.Produktet
 
             }
             this.DataSent(perbersi1);
+            this.Close();
 
         }
     }

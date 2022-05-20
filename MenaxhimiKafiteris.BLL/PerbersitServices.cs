@@ -30,6 +30,12 @@ namespace MenaxhimiKafiteris.BLL
         {
            return perbersitRepository.ShtoPerbers(perbers);
         }
+
+        public bool ShtoPerberesitEProduktit(int perberes_ID, int produkt_ID, int sasia)
+        {
+            return perbersitRepository.ShtoPerberesitEProduktit(perberes_ID, produkt_ID, sasia);
+        }
+
         //public bool FshiPerbers(int ID)
         //{
         //    try

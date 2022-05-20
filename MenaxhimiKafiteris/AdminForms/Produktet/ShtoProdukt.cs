@@ -15,6 +15,7 @@ namespace MenaxhimiKafiteris.AdminForms.Produktet
     public partial class ShtoProdukt : Form
     {
         List<Perbersi> perbersitList = new List<Perbersi>();
+        PerbersitServices perbersitServices;
         ProduktetServices produktetServices;
         LlojetEProdukteveService llojetEProdukteveService;
         public ShtoProdukt()
@@ -34,6 +35,19 @@ namespace MenaxhimiKafiteris.AdminForms.Produktet
             newProdukt.Sasia = int.Parse(txtSasia.Text);
             newProdukt.LlojiID = int.Parse(cbLloji.SelectedValue.ToString());
             bool isSaved = produktetServices.ShtoProdukt(newProdukt);
+
+
+            //Get last product created, get its id
+            //dgProduktet.DataSource = produktetServices.GetLast().Tables[0];
+            foreach (var perberes in perbersitList)
+            {
+                int  lastInsertionID= produktetServices.GetLastProdukt();
+                PerbersitEProdukteve perbersitEProdukteve = new PerbersitEProdukteve();
+                perbersitEProdukteve.PerbersiID = 2;
+                perbersitEProdukteve.SasiaPerbersit = perberes.Sasia;
+                
+                bool savePerberesPerProdukt = perbersitServices.ShtoPerberesitEProduktit(perbersitEProdukteve.PerbersiID,2, (int)perbersitEProdukteve.SasiaPerbersit);
+            }
             this.Close();
         }
         private void PopulloComboList()

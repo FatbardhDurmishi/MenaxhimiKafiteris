@@ -63,3 +63,4 @@ C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiter
 C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.AdminForms.Produktet.shtoPerberesPerProdukt.resources
 C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.AdminForms.Staffi.ShtoStaff.resources
 C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.AdminForms.Staffi.Stafi.resources
+C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.csproj.CopyComplete

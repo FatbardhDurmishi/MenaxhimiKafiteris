@@ -31,6 +31,41 @@ namespace MenaxhimiKafiteris.DAL
                 return null;
             }
         }
+
+        public int GetLastProdukt()
+        {
+
+
+            try
+            {
+                //Using closes it vet. Forces it to close itself
+                using (DatabaseConfig.connection = new SqlConnection(DatabaseConfig.ConnectionString))
+                {
+                    DatabaseConfig.connection.Open();
+                    DatabaseConfig.command = new SqlCommand("usp_MerrProduktinFundit", DatabaseConfig.connection);
+                    DatabaseConfig.command.CommandType = System.Data.CommandType.StoredProcedure;
+
+                    //Stored procedure with outPut parameter
+                    SqlParameter outputSqlParameter = new SqlParameter();
+                    outputSqlParameter.ParameterName = "@productID";
+                    outputSqlParameter.SqlDbType = System.Data.SqlDbType.Int;
+                    outputSqlParameter.Direction = ParameterDirection.Output;
+
+                    DatabaseConfig.command.Parameters.Add("@produktID");
+                    DatabaseConfig.command.ExecuteNonQuery();
+
+                    int lastProduct = int.Parse( outputSqlParameter.Value.ToString());
+
+                    return lastProduct;
+                }
+            }
+            catch (Exception ex)
+            {
+                return 0;
+            }
+        }
+
+
         public bool FshiProdukt(int ID)
         {
             try
