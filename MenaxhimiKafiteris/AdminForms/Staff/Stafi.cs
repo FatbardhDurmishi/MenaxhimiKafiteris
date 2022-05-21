@@ -66,6 +66,9 @@ namespace MenaxhimiKafiteris.AdminForms.Staffi
             
         }
 
-       
+        private void shtoStaffBtn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

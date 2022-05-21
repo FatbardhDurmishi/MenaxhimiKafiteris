@@ -213,7 +213,7 @@ namespace MenaxhimiKafiteris.AdminForms
         private void shtoStaffButton_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color9, "Staff");
-            OpenChildForm(new Staffi.ShtoStaff());
+            OpenChildForm(new Staffi.Stafi());
         }
     }
 }

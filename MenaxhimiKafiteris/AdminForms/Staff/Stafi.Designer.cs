@@ -41,37 +41,36 @@ namespace MenaxhimiKafiteris.AdminForms.Staffi
             // dgStafi
             // 
             this.dgStafi.ColumnHeadersHeight = 36;
-            this.dgStafi.Location = new System.Drawing.Point(23, 13);
-            this.dgStafi.Margin = new System.Windows.Forms.Padding(4);
+            this.dgStafi.Location = new System.Drawing.Point(17, 11);
             this.dgStafi.Name = "dgStafi";
             this.dgStafi.RowHeadersWidth = 51;
-            this.dgStafi.Size = new System.Drawing.Size(892, 480);
+            this.dgStafi.Size = new System.Drawing.Size(669, 390);
             this.dgStafi.TabIndex = 0;
             // 
             // shtoStaffBtn
             // 
-            this.shtoStaffBtn.Location = new System.Drawing.Point(93, 593);
-            this.shtoStaffBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.shtoStaffBtn.Location = new System.Drawing.Point(70, 482);
             this.shtoStaffBtn.Name = "shtoStaffBtn";
-            this.shtoStaffBtn.Size = new System.Drawing.Size(120, 31);
+            this.shtoStaffBtn.Size = new System.Drawing.Size(90, 25);
             this.shtoStaffBtn.TabIndex = 1;
             this.shtoStaffBtn.Values.Text = "Shto";
+            this.shtoStaffBtn.Click += new System.EventHandler(this.shtoStaffBtn_Click);
             // 
             // deleteStafBtn
             // 
-            this.deleteStafBtn.Location = new System.Drawing.Point(340, 593);
-            this.deleteStafBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.deleteStafBtn.Location = new System.Drawing.Point(255, 482);
             this.deleteStafBtn.Name = "deleteStafBtn";
-            this.deleteStafBtn.Size = new System.Drawing.Size(120, 31);
+            this.deleteStafBtn.Size = new System.Drawing.Size(90, 25);
             this.deleteStafBtn.TabIndex = 2;
             this.deleteStafBtn.Values.Text = "Delete";
             // 
             // btnShtoStaff
             // 
             this.btnShtoStaff.AutoSize = true;
-            this.btnShtoStaff.Location = new System.Drawing.Point(23, 513);
+            this.btnShtoStaff.Location = new System.Drawing.Point(17, 417);
+            this.btnShtoStaff.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnShtoStaff.Name = "btnShtoStaff";
-            this.btnShtoStaff.Size = new System.Drawing.Size(144, 26);
+            this.btnShtoStaff.Size = new System.Drawing.Size(108, 22);
             this.btnShtoStaff.TabIndex = 3;
             this.btnShtoStaff.Values.Text = "Shto Staff";
             this.btnShtoStaff.Click += new System.EventHandler(this.btnShtoStaff_Click);
@@ -79,9 +78,10 @@ namespace MenaxhimiKafiteris.AdminForms.Staffi
             // btnFshijStaff
             // 
             this.btnFshijStaff.AutoSize = true;
-            this.btnFshijStaff.Location = new System.Drawing.Point(236, 513);
+            this.btnFshijStaff.Location = new System.Drawing.Point(177, 417);
+            this.btnFshijStaff.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnFshijStaff.Name = "btnFshijStaff";
-            this.btnFshijStaff.Size = new System.Drawing.Size(116, 26);
+            this.btnFshijStaff.Size = new System.Drawing.Size(87, 22);
             this.btnFshijStaff.TabIndex = 4;
             this.btnFshijStaff.Values.Text = "Fshij Staff";
             this.btnFshijStaff.Click += new System.EventHandler(this.btnFshijStaff_Click);
@@ -89,26 +89,26 @@ namespace MenaxhimiKafiteris.AdminForms.Staffi
             // btnUpdateUser
             // 
             this.btnUpdateUser.AutoSize = true;
-            this.btnUpdateUser.Location = new System.Drawing.Point(414, 513);
+            this.btnUpdateUser.Location = new System.Drawing.Point(310, 417);
+            this.btnUpdateUser.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnUpdateUser.Name = "btnUpdateUser";
-            this.btnUpdateUser.Size = new System.Drawing.Size(121, 26);
+            this.btnUpdateUser.Size = new System.Drawing.Size(97, 22);
             this.btnUpdateUser.TabIndex = 5;
             this.btnUpdateUser.Values.Text = "Perditeso Userin";
             this.btnUpdateUser.Click += new System.EventHandler(this.btnUpdateUser_Click);
             // 
             // Stafi
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(34)))), ((int)(((byte)(74)))));
-            this.ClientSize = new System.Drawing.Size(1007, 692);
+            this.ClientSize = new System.Drawing.Size(755, 562);
             this.Controls.Add(this.btnUpdateUser);
             this.Controls.Add(this.btnFshijStaff);
             this.Controls.Add(this.btnShtoStaff);
             this.Controls.Add(this.deleteStafBtn);
             this.Controls.Add(this.shtoStaffBtn);
             this.Controls.Add(this.dgStafi);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Stafi";
             this.Text = "Stafi";
             ((System.ComponentModel.ISupportInitialize)(this.dgStafi)).EndInit();
