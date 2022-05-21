@@ -54,6 +54,29 @@ namespace MenaxhimiKafiteris.DAL
             }
 
         }
+
+        public bool ShtoPerberesitEProduktit(int perberes_ID, int produkt_ID, int sasia)
+        {
+       
+                //Using closes it vet. Forces it to close itself
+                using (DatabaseConfig.connection = new SqlConnection(DatabaseConfig.ConnectionString))
+                {
+                    DatabaseConfig.connection.Open();
+                    DatabaseConfig.command = new SqlCommand("usp_shtoPerberesNeProdukt", DatabaseConfig.connection);
+                    DatabaseConfig.command.CommandType = System.Data.CommandType.StoredProcedure;
+
+                    //Stored procedure usp_shtoPerberesNeProdukt.
+                    //Shto ne tabelen dytesore(ndermjetsuese).
+                    DatabaseConfig.command.Parameters.AddWithValue("@produkti_ID", produkt_ID);
+                    DatabaseConfig.command.Parameters.AddWithValue("@perbersi_ID", perberes_ID);
+                    DatabaseConfig.command.Parameters.AddWithValue("@sasia", sasia);
+                    DatabaseConfig.command.ExecuteNonQuery();
+                    return true;
+                }
+ 
+
+        }
+
         public bool ShtoPerbers(Perbersi perbersi)
         {
             try

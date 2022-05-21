@@ -29,10 +29,19 @@ namespace MenaxhimiKafiteris.BLL
         {
             return produktetRepository.ShtoProdukt(produkti);
         }
+<<<<<<< HEAD
         public List<Produkti> ListaProdukteve()
         {
             return produktetRepository.ListaProduktev();
         }
+=======
+
+        public int GetLastProdukt()
+        {
+            return produktetRepository.GetLastProdukt();
+        }
+
+>>>>>>> e250eff23f6ba8275ee893fddab5647baaaa3678
        
     }
     

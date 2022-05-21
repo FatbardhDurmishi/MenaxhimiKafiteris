@@ -15,7 +15,6 @@ C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\Menax
 C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.pdb
 C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.AdminForms.LLojet.Llojet.resources
 C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.AdminForms.Sallat.Salla.resources
-C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.AdminForms.Tavolinat.shtoTavoline.resources
 C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.AdminForms.Tavolinat.tavolina.resources
 C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\MenaxhimiKafiteris\MenaxhimiKafiteris\bin\Debug\FontAwesome.Sharp.dll
 C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.UC_mainPannel.resources
@@ -60,4 +59,11 @@ C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiter
 C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.csproj.CopyComplete
 C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.exe
 C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.pdb
+<<<<<<< HEAD
 C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.LogInForm.LogIn.resources
+=======
+C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.AdminForms.Produktet.shtoPerberesPerProdukt.resources
+C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.AdminForms.Staffi.ShtoStaff.resources
+C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.AdminForms.Staffi.Stafi.resources
+C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.csproj.CopyComplete
+>>>>>>> e250eff23f6ba8275ee893fddab5647baaaa3678

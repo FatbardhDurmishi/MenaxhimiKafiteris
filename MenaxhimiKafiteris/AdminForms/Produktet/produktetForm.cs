@@ -28,7 +28,7 @@ namespace MenaxhimiKafiteris.AdminForms
         private void shtoProduktinBtn_Click(object sender, EventArgs e)
         {
             var formPopup = new Produktet.ShtoProdukt();
-            formPopup.Show(this);
+            formPopup.ShowDialog();
             ShfaqProduktet();
 
         }

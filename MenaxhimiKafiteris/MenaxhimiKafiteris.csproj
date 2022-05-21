@@ -88,6 +88,12 @@
     <Compile Include="AdminForms\Produktet\produktetForm.Designer.cs">
       <DependentUpon>produktetForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="AdminForms\Produktet\shtoPerberesPerProdukt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\Produktet\shtoPerberesPerProdukt.Designer.cs">
+      <DependentUpon>shtoPerberesPerProdukt.cs</DependentUpon>
+    </Compile>
     <Compile Include="AdminForms\Produktet\ShtoProdukt.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -164,6 +170,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AdminForms\Produktet\produktetForm.resx">
       <DependentUpon>produktetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\Produktet\shtoPerberesPerProdukt.resx">
+      <DependentUpon>shtoPerberesPerProdukt.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AdminForms\Produktet\ShtoProdukt.resx">
       <DependentUpon>ShtoProdukt.cs</DependentUpon>
