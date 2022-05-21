@@ -32,6 +32,7 @@ namespace MenaxhimiKafiteris.AdminForms
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainAdmin));
             this.panelMenu = new System.Windows.Forms.Panel();
+            this.shtoStaffButton = new FontAwesome.Sharp.IconButton();
             this.raportetButton = new FontAwesome.Sharp.IconButton();
             this.tavolinatButton = new FontAwesome.Sharp.IconButton();
             this.sallatButton = new FontAwesome.Sharp.IconButton();
@@ -48,7 +49,6 @@ namespace MenaxhimiKafiteris.AdminForms
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panelDesktop = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.shtoStaffButton = new FontAwesome.Sharp.IconButton();
             this.panelMenu.SuspendLayout();
             this.panelLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -75,6 +75,27 @@ namespace MenaxhimiKafiteris.AdminForms
             this.panelMenu.Name = "panelMenu";
             this.panelMenu.Size = new System.Drawing.Size(209, 648);
             this.panelMenu.TabIndex = 21;
+            // 
+            // shtoStaffButton
+            // 
+            this.shtoStaffButton.Dock = System.Windows.Forms.DockStyle.Top;
+            this.shtoStaffButton.FlatAppearance.BorderSize = 0;
+            this.shtoStaffButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.shtoStaffButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.shtoStaffButton.ForeColor = System.Drawing.Color.GhostWhite;
+            this.shtoStaffButton.IconChar = FontAwesome.Sharp.IconChar.PeopleArrows;
+            this.shtoStaffButton.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.shtoStaffButton.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.shtoStaffButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.shtoStaffButton.Location = new System.Drawing.Point(0, 574);
+            this.shtoStaffButton.Name = "shtoStaffButton";
+            this.shtoStaffButton.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.shtoStaffButton.Size = new System.Drawing.Size(209, 60);
+            this.shtoStaffButton.TabIndex = 9;
+            this.shtoStaffButton.Text = "Staffi";
+            this.shtoStaffButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.shtoStaffButton.UseVisualStyleBackColor = true;
+            this.shtoStaffButton.Click += new System.EventHandler(this.shtoStaffButton_Click);
             // 
             // raportetButton
             // 
@@ -324,27 +345,6 @@ namespace MenaxhimiKafiteris.AdminForms
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            // 
-            // shtoStaffButton
-            // 
-            this.shtoStaffButton.Dock = System.Windows.Forms.DockStyle.Top;
-            this.shtoStaffButton.FlatAppearance.BorderSize = 0;
-            this.shtoStaffButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.shtoStaffButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.shtoStaffButton.ForeColor = System.Drawing.Color.GhostWhite;
-            this.shtoStaffButton.IconChar = FontAwesome.Sharp.IconChar.PeopleArrows;
-            this.shtoStaffButton.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.shtoStaffButton.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.shtoStaffButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.shtoStaffButton.Location = new System.Drawing.Point(0, 574);
-            this.shtoStaffButton.Name = "shtoStaffButton";
-            this.shtoStaffButton.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.shtoStaffButton.Size = new System.Drawing.Size(209, 60);
-            this.shtoStaffButton.TabIndex = 9;
-            this.shtoStaffButton.Text = "Staffi";
-            this.shtoStaffButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.shtoStaffButton.UseVisualStyleBackColor = true;
-            this.shtoStaffButton.Click += new System.EventHandler(this.shtoStaffButton_Click);
             // 
             // mainAdmin
             // 

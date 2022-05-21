@@ -19,3 +19,4 @@ C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\Menax
 C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\MenaxhimiKafiteris\MenaxhimiKafiteris.DAL\bin\Debug\MenaxhimiKafiteris.BO.dll
 C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\MenaxhimiKafiteris\MenaxhimiKafiteris.DAL\bin\Debug\MenaxhimiKafiteris.BO.pdb
 C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\MenaxhimiKafiteris\MenaxhimiKafiteris.DAL\bin\Debug\Krypton.Toolkit.xml
+C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\MenaxhimiKafiteris\MenaxhimiKafiteris.DAL\obj\Debug\MenaxhimiKafiteris.DAL.csproj.CopyComplete
