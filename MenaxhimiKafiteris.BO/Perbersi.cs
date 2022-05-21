@@ -8,6 +8,7 @@ namespace MenaxhimiKafiteris.BO
 {
     public class Perbersi
     {
+        public int ID { get; set; }
         public string Emri { get; set; }
         public decimal Sasia { get; set; }
     }

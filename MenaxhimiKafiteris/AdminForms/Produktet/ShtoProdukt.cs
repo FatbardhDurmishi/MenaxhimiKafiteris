@@ -22,13 +22,14 @@ namespace MenaxhimiKafiteris.AdminForms.Produktet
         {
             llojetEProdukteveService = new LlojetEProdukteveService();
             produktetServices = new ProduktetServices();
+            perbersitServices = new PerbersitServices();
             InitializeComponent();
             PopulloComboList();
         }
         
         private void btnShtoProdukt_Click(object sender, EventArgs e)
         {
-
+            //Shto produktin duke krijuar new produkt
             Produkti newProdukt = new Produkti();
             newProdukt.Emri = txtEmri.Text;
             newProdukt.Cmimi = decimal.Parse(txtCmimi.Text);
@@ -38,15 +39,17 @@ namespace MenaxhimiKafiteris.AdminForms.Produktet
 
 
             //Get last product created, get its id
-            //dgProduktet.DataSource = produktetServices.GetLast().Tables[0];
+            //dgProduktet.DataSource = produktetServices.GetLastProdukt();
+            //Tani get the other values te perbersit nga lista e perbersve, and shtoj all values ne ShtoPerberesitEProduktit();
+            //forEach se mujna me pas ma shum perberes
             foreach (var perberes in perbersitList)
             {
-                int  lastInsertionID= produktetServices.GetLastProdukt();
-                PerbersitEProdukteve perbersitEProdukteve = new PerbersitEProdukteve();
-                perbersitEProdukteve.PerbersiID = 2;
-                perbersitEProdukteve.SasiaPerbersit = perberes.Sasia;
+                //Get last produkt inserted, so we know where to add the perberes
+                int  produktID= produktetServices.GetLastProdukt();
+                int perbersiID = perberes.ID;
+                int sasia= (int) perberes.Sasia;
                 
-                bool savePerberesPerProdukt = perbersitServices.ShtoPerberesitEProduktit(perbersitEProdukteve.PerbersiID,2, (int)perbersitEProdukteve.SasiaPerbersit);
+                bool savePerberesPerProdukt = perbersitServices.ShtoPerberesitEProduktit(produktID, perbersiID,  sasia);
             }
             this.Close();
         }
@@ -67,6 +70,8 @@ namespace MenaxhimiKafiteris.AdminForms.Produktet
         }
 
         //EventHandler listenes for events and adds from the other form
+        //Its subscription based thing. Subscribed to an event from the new Produktet.shtoPerberesPerProdukt();
+        //Now it gets a perberes si parameter, and we add it to the list and update the text
         private void FormPopup_DataSent(Perbersi perbersi)
         {
             perbersitList.Add(perbersi);

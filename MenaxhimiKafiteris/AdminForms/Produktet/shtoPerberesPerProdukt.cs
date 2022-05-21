@@ -17,7 +17,8 @@ namespace MenaxhimiKafiteris.AdminForms.Produktet
     public partial class shtoPerberesPerProdukt : Form
     {
         PerbersitServices perbersiservices;
-        //Event si delegat.
+        //Event si delegat. Kjo sherben me komuniku prej 2 formave. Now we are at child form, and parent form 
+        //has subscribed to the event
         public event DataSendhandler DataSent;
 
         public shtoPerberesPerProdukt()
@@ -40,12 +41,15 @@ namespace MenaxhimiKafiteris.AdminForms.Produktet
             {
 
                 //gets index from cells
+                int id = (int)row.Cells[0].Value;
                 string emri = (string)row.Cells[1].Value;
                 int sasia = int.Parse(tbSasia.Text);
+                perbersi1.ID = id;
                 perbersi1.Emri = emri;
                 perbersi1.Sasia = sasia;
 
             }
+            //Sends to all the listeners
             this.DataSent(perbersi1);
             this.Close();
 
