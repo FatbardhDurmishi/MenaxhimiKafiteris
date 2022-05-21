@@ -46,6 +46,7 @@ namespace MenaxhimiKafiteris.AdminForms
             public static Color color6 = Color.FromArgb(24, 161, 251);
             public static Color color7 = Color.FromArgb(146, 121, 88);
             public static Color color8 = Color.FromArgb(184, 222, 213);
+            public static Color color9 = Color.FromArgb(80, 154, 132);
         }
 
 
@@ -209,6 +210,10 @@ namespace MenaxhimiKafiteris.AdminForms
             this.timeLabel.Text = datetime.ToString();
         }
 
-      
+        private void shtoStaffButton_Click(object sender, EventArgs e)
+        {
+            ActivateButton(sender, RGBColors.color9, "Staff");
+            OpenChildForm(new Staffi.ShtoStaff());
+        }
     }
 }
