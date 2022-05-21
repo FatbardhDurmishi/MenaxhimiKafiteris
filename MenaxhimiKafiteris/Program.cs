@@ -16,7 +16,8 @@ namespace MenaxhimiKafiteris
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AdminForms.mainAdmin());
+            //Application.Run(new AdminForms.mainAdmin());
+            Application.Run(new LogInForm.LogIn());
 
         }
     }

@@ -50,6 +50,7 @@
     <Compile Include="PerbersitServices.cs" />
     <Compile Include="ProduktetServices.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RoletServices.cs" />
     <Compile Include="SallatServices.cs" />
     <Compile Include="TavolinatServices.cs" />
     <Compile Include="UseretServices.cs" />

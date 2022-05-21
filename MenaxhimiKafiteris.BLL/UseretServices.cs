@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using MenaxhimiKafiteris.DAL;
 using System.Data;
+using MenaxhimiKafiteris.BO;
 
 namespace MenaxhimiKafiteris.BLL
 {
@@ -18,6 +19,22 @@ namespace MenaxhimiKafiteris.BLL
         public DataSet GetAll()
         {
             return  useretRepository.GetAll();
+        }
+        public bool ShtoUser(Useri useri)
+        {
+            return useretRepository.ShtoUser(useri);
+        }
+        public bool FshijUser(int id)
+        {
+            return useretRepository.FshijUser(id);
+        }
+        public bool EditoUser(Useri user, int id)
+        {
+            return useretRepository.EditoUser(user, id);
+        }
+        public Useri MerrUserin(Useri useri)
+        {
+            return useretRepository.MerrUserin(useri);
         }
     }
 }

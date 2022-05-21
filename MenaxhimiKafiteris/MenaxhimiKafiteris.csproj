@@ -106,16 +106,16 @@
     <Compile Include="AdminForms\Sallat\Salla.Designer.cs">
       <DependentUpon>Salla.cs</DependentUpon>
     </Compile>
-    <Compile Include="AdminForms\Staffi\ShtoStaff.cs">
+    <Compile Include="AdminForms\Staff\ShtoStaff.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AdminForms\Staffi\ShtoStaff.Designer.cs">
+    <Compile Include="AdminForms\Staff\ShtoStaff.Designer.cs">
       <DependentUpon>ShtoStaff.cs</DependentUpon>
     </Compile>
-    <Compile Include="AdminForms\Staffi\Stafi.cs">
+    <Compile Include="AdminForms\Staff\Stafi.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AdminForms\Staffi\Stafi.Designer.cs">
+    <Compile Include="AdminForms\Staff\Stafi.Designer.cs">
       <DependentUpon>Stafi.cs</DependentUpon>
     </Compile>
     <Compile Include="AdminForms\Tavolinat\tavolina.cs">
@@ -124,11 +124,11 @@
     <Compile Include="AdminForms\Tavolinat\tavolina.Designer.cs">
       <DependentUpon>tavolina.cs</DependentUpon>
     </Compile>
-    <Compile Include="LogInForm.cs">
+    <Compile Include="LogInForm\LogIn.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LogInForm.Designer.cs">
-      <DependentUpon>LogInForm.cs</DependentUpon>
+    <Compile Include="LogInForm\LogIn.Designer.cs">
+      <DependentUpon>LogIn.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -180,17 +180,17 @@
     <EmbeddedResource Include="AdminForms\Sallat\Salla.resx">
       <DependentUpon>Salla.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AdminForms\Staffi\ShtoStaff.resx">
+    <EmbeddedResource Include="AdminForms\Staff\ShtoStaff.resx">
       <DependentUpon>ShtoStaff.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AdminForms\Staffi\Stafi.resx">
+    <EmbeddedResource Include="AdminForms\Staff\Stafi.resx">
       <DependentUpon>Stafi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AdminForms\Tavolinat\tavolina.resx">
       <DependentUpon>tavolina.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LogInForm.resx">
-      <DependentUpon>LogInForm.cs</DependentUpon>
+    <EmbeddedResource Include="LogInForm\LogIn.resx">
+      <DependentUpon>LogIn.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

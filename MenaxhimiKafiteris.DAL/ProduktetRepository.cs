@@ -11,6 +11,32 @@ namespace MenaxhimiKafiteris.DAL
 {
     public class ProduktetRepository
     {
+        public List<Produkti> ListaProduktev()
+        {
+            try
+            {
+                using (DatabaseConfig.connection = new SqlConnection(DatabaseConfig.ConnectionString))
+                {
+                    DatabaseConfig.connection.Open();
+                    DataSet ds = new DataSet();
+                    DatabaseConfig.adapter = new SqlDataAdapter();
+                    DatabaseConfig.adapter.SelectCommand = new SqlCommand("usp_MerrProduktet", DatabaseConfig.connection);
+                    DatabaseConfig.adapter.Fill(ds);
+                    var lstProduktet=ds.Tables[0].AsEnumerable()
+                        .Select(DataRow => new Produkti
+                        {
+                            Emri=DataRow.Field<string>("Emri"),
+                            Cmimi=DataRow.Field<decimal>("Çmimi"),
+                            
+                        }).ToList();
+                    return lstProduktet;
+                }
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+        }
         public DataSet GetAll()
         {
 
