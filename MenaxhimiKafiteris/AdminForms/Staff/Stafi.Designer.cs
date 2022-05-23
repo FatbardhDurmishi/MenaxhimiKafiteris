@@ -116,6 +116,7 @@ namespace MenaxhimiKafiteris.AdminForms.Staffi
             // 
             // panel1
             // 
+<<<<<<< HEAD
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -124,6 +125,14 @@ namespace MenaxhimiKafiteris.AdminForms.Staffi
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(738, 276);
             this.panel1.TabIndex = 53;
+=======
+            this.shtoStaffBtn.Location = new System.Drawing.Point(70, 482);
+            this.shtoStaffBtn.Name = "shtoStaffBtn";
+            this.shtoStaffBtn.Size = new System.Drawing.Size(90, 25);
+            this.shtoStaffBtn.TabIndex = 1;
+            this.shtoStaffBtn.Values.Text = "Shto";
+            
+>>>>>>> 0b8cdc4746cc0e9adedc8fe5da48a5d6df9f1a4a
             // 
             // panel2
             // 

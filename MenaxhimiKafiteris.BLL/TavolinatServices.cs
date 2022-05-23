@@ -31,5 +31,9 @@ namespace MenaxhimiKafiteris.BLL
         {
             return _tavolinatRepository.FshiTavolin(id);
         }
+        public bool UpdateTavolin(Tavolina tavolina,int id)
+        {
+            return _tavolinatRepository.UpdateTavolin(tavolina,id);
+        }
     }
 }

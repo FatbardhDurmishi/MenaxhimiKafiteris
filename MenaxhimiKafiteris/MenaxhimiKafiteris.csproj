@@ -191,6 +191,12 @@
     <Compile Include="UserForms\mainKamarier.Designer.cs">
       <DependentUpon>mainKamarier.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserForms\PaguajPorosin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForms\PaguajPorosin.Designer.cs">
+      <DependentUpon>PaguajPorosin.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserForms\raportiDitor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -250,9 +256,13 @@
     <EmbeddedResource Include="UC_mainPannel.resx">
       <DependentUpon>UC_mainPannel.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserForms\krijoPorosi.resx">
+      <DependentUpon>krijoPorosi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserForms\mainKamarier.resx">
       <DependentUpon>mainKamarier.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <None Include="DbChart.dbml">
       <Generator>MSLinqToSQLGenerator</Generator>
       <LastGenOutput>DbChart.designer.cs</LastGenOutput>
@@ -261,6 +271,11 @@
     <None Include="DbChart.dbml.layout">
       <DependentUpon>DbChart.dbml</DependentUpon>
     </None>
+=======
+    <EmbeddedResource Include="UserForms\PaguajPorosin.resx">
+      <DependentUpon>PaguajPorosin.cs</DependentUpon>
+    </EmbeddedResource>
+>>>>>>> 0b8cdc4746cc0e9adedc8fe5da48a5d6df9f1a4a
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -57,9 +57,11 @@ namespace MenaxhimiKafiteris.DAL
 
         public bool ShtoPerberesitEProduktit(int perberes_ID, int produkt_ID, int sasia)
         {
-       
-                //Using closes it vet. Forces it to close itself
-                using (DatabaseConfig.connection = new SqlConnection(DatabaseConfig.ConnectionString))
+
+            //Using closes it vet. Forces it to close itself
+            using (DatabaseConfig.connection = new SqlConnection(DatabaseConfig.ConnectionString))
+            {
+                try
                 {
                     DatabaseConfig.connection.Open();
                     DatabaseConfig.command = new SqlCommand("usp_shtoPerberesNeProdukt", DatabaseConfig.connection);
@@ -73,7 +75,13 @@ namespace MenaxhimiKafiteris.DAL
                     DatabaseConfig.command.ExecuteNonQuery();
                     return true;
                 }
- 
+                catch (Exception ex)
+                {
+                    return false;
+                }
+
+            }
+
 
         }
 

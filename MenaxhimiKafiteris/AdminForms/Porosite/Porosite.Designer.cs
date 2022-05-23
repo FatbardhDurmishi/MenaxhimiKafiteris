@@ -29,6 +29,7 @@ namespace MenaxhimiKafiteris.AdminForms
         /// </summary>
         private void InitializeComponent()
         {
+<<<<<<< HEAD
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -117,11 +118,32 @@ namespace MenaxhimiKafiteris.AdminForms
             // 
             this.bunifuElipse1.ElipseRadius = 7;
             this.bunifuElipse1.TargetControl = this.dgLlojet;
+=======
+            this.dgPorosite = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dgPorosite)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // dgPorosite
+            // 
+            this.dgPorosite.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgPorosite.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgPorosite.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dgPorosite.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgPorosite.Location = new System.Drawing.Point(22, 32);
+            this.dgPorosite.Name = "dgPorosite";
+            this.dgPorosite.RowHeadersWidth = 51;
+            this.dgPorosite.RowTemplate.Height = 24;
+            this.dgPorosite.Size = new System.Drawing.Size(1231, 554);
+            this.dgPorosite.TabIndex = 0;
+>>>>>>> 0b8cdc4746cc0e9adedc8fe5da48a5d6df9f1a4a
             // 
             // Porosite
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(55)))), ((int)(((byte)(106)))));
             this.ClientSize = new System.Drawing.Size(1040, 820);
             this.Controls.Add(this.panel1);
@@ -130,14 +152,27 @@ namespace MenaxhimiKafiteris.AdminForms
             this.Load += new System.EventHandler(this.Porosite_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgLlojet)).EndInit();
+=======
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(34)))), ((int)(((byte)(74)))));
+            this.ClientSize = new System.Drawing.Size(1279, 618);
+            this.Controls.Add(this.dgPorosite);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Name = "Porosite";
+            this.Text = "Porosite";
+            ((System.ComponentModel.ISupportInitialize)(this.dgPorosite)).EndInit();
+>>>>>>> 0b8cdc4746cc0e9adedc8fe5da48a5d6df9f1a4a
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
+<<<<<<< HEAD
         private System.Windows.Forms.Panel panel1;
         private Bunifu.UI.WinForms.BunifuDataGridView dgLlojet;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
+=======
+        private System.Windows.Forms.DataGridView dgPorosite;
+>>>>>>> 0b8cdc4746cc0e9adedc8fe5da48a5d6df9f1a4a
     }
 }
