@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Kafiteria" Class="DbChartDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=Kafiteria;Integrated Security=True" SettingsObjectName="MenaxhimiKafiteris.Properties.Settings" SettingsPropertyName="KafiteriaConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.view_KamarieratDheTotalin" Member="view_KamarieratDheTotalins">
+    <Type Name="view_KamarieratDheTotalin">
+      <Column Name="Totali" Type="System.Decimal" DbType="Decimal(38,0)" CanBeNull="true" />
+      <Column Name="Kamarieri" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.view_ShitjetPerTavoline" Member="view_ShitjetPerTavolines">
+    <Type Name="view_ShitjetPerTavoline">
+      <Column Name="Totali" Type="System.Decimal" DbType="Decimal(38,0)" CanBeNull="true" />
+      <Column Name="TavolinaID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.view_topKategoriteMeShitje" Member="view_topKategoriteMeShitjes">
+    <Type Name="view_topKategoriteMeShitje">
+      <Column Name="sasia" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Lloji" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.view_TotalOrdersLast7Days" Member="view_TotalOrdersLast7Days">
+    <Type Name="view_TotalOrdersLast7Day">
+      <Column Name="nr_Porosive" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DayofYear_OrderDate" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
