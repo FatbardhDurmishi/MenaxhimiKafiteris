@@ -29,83 +29,42 @@ namespace MenaxhimiKafiteris.AdminForms
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.PorosiaIDColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dateColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.totaliColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tvshColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tavolinaIDColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.kamerieriColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.dgPorosite = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dgPorosite)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // dgPorosite
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.PorosiaIDColumn,
-            this.dateColumn,
-            this.totaliColumn,
-            this.tvshColumn,
-            this.tavolinaIDColumn,
-            this.kamerieriColumn});
-            this.dataGridView1.Location = new System.Drawing.Point(12, 12);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(641, 399);
-            this.dataGridView1.TabIndex = 0;
-            // 
-            // PorosiaIDColumn
-            // 
-            this.PorosiaIDColumn.HeaderText = "PorosiaID";
-            this.PorosiaIDColumn.Name = "PorosiaIDColumn";
-            // 
-            // dateColumn
-            // 
-            this.dateColumn.HeaderText = "Data";
-            this.dateColumn.Name = "dateColumn";
-            // 
-            // totaliColumn
-            // 
-            this.totaliColumn.HeaderText = "Totali";
-            this.totaliColumn.Name = "totaliColumn";
-            // 
-            // tvshColumn
-            // 
-            this.tvshColumn.HeaderText = "TVSH";
-            this.tvshColumn.Name = "tvshColumn";
-            // 
-            // tavolinaIDColumn
-            // 
-            this.tavolinaIDColumn.HeaderText = "Tavolina";
-            this.tavolinaIDColumn.Name = "tavolinaIDColumn";
-            // 
-            // kamerieriColumn
-            // 
-            this.kamerieriColumn.HeaderText = "Kamarieri";
-            this.kamerieriColumn.Name = "kamerieriColumn";
+            this.dgPorosite.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgPorosite.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgPorosite.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dgPorosite.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgPorosite.Location = new System.Drawing.Point(22, 32);
+            this.dgPorosite.Name = "dgPorosite";
+            this.dgPorosite.RowHeadersWidth = 51;
+            this.dgPorosite.RowTemplate.Height = 24;
+            this.dgPorosite.Size = new System.Drawing.Size(1231, 554);
+            this.dgPorosite.TabIndex = 0;
             // 
             // Porosite
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(34)))), ((int)(((byte)(74)))));
-            this.ClientSize = new System.Drawing.Size(814, 502);
-            this.Controls.Add(this.dataGridView1);
+            this.ClientSize = new System.Drawing.Size(1279, 618);
+            this.Controls.Add(this.dgPorosite);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Porosite";
             this.Text = "Porosite";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgPorosite)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn PorosiaIDColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dateColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn totaliColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn tvshColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn tavolinaIDColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn kamerieriColumn;
+        private System.Windows.Forms.DataGridView dgPorosite;
     }
 }

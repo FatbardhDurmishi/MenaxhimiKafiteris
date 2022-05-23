@@ -14,6 +14,7 @@ namespace MenaxhimiKafiteris.AdminForms.Tavolinat
 {
     public partial class tavolina : Form
     {
+        public int id;
         SallatServices sallatServices;
         TavolinatServices tavolinatServices;
         public tavolina()
@@ -22,9 +23,9 @@ namespace MenaxhimiKafiteris.AdminForms.Tavolinat
             tavolinatServices = new TavolinatServices();
             InitializeComponent();
             PopulloComboList();
-            ShfaqSallat();
+            ShfaqTavolinaat();
         }
-        public void ShfaqSallat()
+        public void ShfaqTavolinaat()
         {
             dgTavolinat.DataSource = tavolinatServices.GetAll().Tables[0];
         }
@@ -34,8 +35,35 @@ namespace MenaxhimiKafiteris.AdminForms.Tavolinat
             Tavolina newtav=new Tavolina();
             newtav.NrKarrigave = int.Parse(txtNrUlseve.Text);
             newtav.SallaID=int.Parse(cbSalla.SelectedValue.ToString());
-            bool isSaved = tavolinatServices.ShtoTavolin(newtav);
-            ShfaqSallat();
+            if (id > 0)
+            {
+                bool isUpdatet = tavolinatServices.UpdateTavolin(newtav, id);
+                ShfaqTavolinaat();
+                if (isUpdatet)
+                {
+                    MessageBox.Show("Tavolina eshte ruajtur me sukses");
+                }
+                else
+                {
+                    MessageBox.Show("Ka ndodhur nje problem");
+                }
+            }
+            else
+            {
+                bool isSaved = tavolinatServices.ShtoTavolin(newtav);
+                if (isSaved)
+                {
+                    MessageBox.Show("Salla eshte shtuar me sukses");
+                    ShfaqTavolinaat();
+                }
+                else
+                {
+                    MessageBox.Show("Ka ndodhur nje problme,provoni perseri");
+                }
+               
+
+            }
+           
         }
 
         private void btnFshij_Click(object sender, EventArgs e)
@@ -47,7 +75,7 @@ namespace MenaxhimiKafiteris.AdminForms.Tavolinat
                 int rowIndex = (int)row.Cells[0].Value;
                 dgTavolinat.Rows.RemoveAt(row.Index);
                 tavolinatServices.FshiTavolin(rowIndex);
-                ShfaqSallat();
+                ShfaqTavolinaat();
             }
         }
         private void PopulloComboList()
@@ -56,8 +84,13 @@ namespace MenaxhimiKafiteris.AdminForms.Tavolinat
             cbSalla.ValueMember = "ID";
             cbSalla.DisplayMember = "Emri";
 
-           
+        }
 
+        private void dgTavolinat_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            id = (int)dgTavolinat.CurrentRow.Cells[0].Value;
+            txtNrUlseve.Text = dgTavolinat.CurrentRow.Cells[1].Value.ToString();
+            cbSalla.SelectedValue = dgTavolinat.CurrentRow.Cells[2].Value;
         }
     }
 }

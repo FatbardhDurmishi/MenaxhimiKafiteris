@@ -38,7 +38,10 @@ namespace MenaxhimiKafiteris.BLL
         {
             return produktetRepository.GetLastProdukt();
         }
-
+        public bool UpdateSasinEProduktit(int produktiID)
+        {
+            return produktetRepository.UpdateSasinEProduktit(produktiID);
+        }
 
        
     }

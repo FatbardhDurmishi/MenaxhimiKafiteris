@@ -24,15 +24,19 @@ namespace MenaxhimiKafiteris.AdminForms.Staffi
         {
             InitializeComponent();
             useretServices = new UseretServices();
+            dgStafi.ClearSelection();
+            ShfaqUseret();
+            this.Refresh();
         }
-        private void ShfaqUseret()
+        public void ShfaqUseret()
         {
             dgStafi.DataSource = useretServices.GetAll().Tables[0];
         }
         private void btnShtoStaff_Click(object sender, EventArgs e)
         {
             var formPopup = new Staffi.ShtoStaff();
-            formPopup.Show(this);
+            formPopup.Visible = false;
+            formPopup.ShowDialog();
         }
 
         private void btnFshijStaff_Click(object sender, EventArgs e)
@@ -50,25 +54,35 @@ namespace MenaxhimiKafiteris.AdminForms.Staffi
 
         private void btnUpdateUser_Click(object sender, EventArgs e)
         {
-            foreach(DataGridViewRow row in dgStafi.SelectedRows)
+            foreach (DataGridViewRow row in dgStafi.SelectedRows)
             {
                 id = (int)row.Cells[0].Value;
-                username=row.Cells[1].ToString();
-                password=row.Cells[2].ToString();
-                gjinia= row.Cells[3].ToString();
-                roliId = (int)row.Cells[4].Value;
+                username = row.Cells[1].Value.ToString();
+                password = row.Cells[2].Value.ToString();
+                gjinia = row.Cells[3].Value.ToString();
+                if (row.Cells[4].Value.ToString().Equals("Admin"))
+                {
+                    roliId = 1;
+                }
+                else if (row.Cells[4].Value.ToString().Equals("Kamarier"))
+                {
+                    roliId = 2;
+                }
             }
 
-            
-            ShtoStaff frm=new Staffi.ShtoStaff();
-            
-            frm.Show(this);
-            
+
+            ShtoStaff frm = new ShtoStaff();
+            frm.Visible = false;
+            frm.ShowDialog();
+            //this.Enabled = false;
+            id = 0;
+            username = null;
+            password = null;
+            gjinia = null;
+            roliId=0;
+
         }
 
-        private void shtoStaffBtn_Click(object sender, EventArgs e)
-        {
 
-        }
     }
 }

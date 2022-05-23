@@ -11,32 +11,6 @@ namespace MenaxhimiKafiteris.DAL
 {
     public class ProduktetRepository
     {
-        public List<Produkti> ListaProduktev()
-        {
-            try
-            {
-                using (DatabaseConfig.connection = new SqlConnection(DatabaseConfig.ConnectionString))
-                {
-                    DatabaseConfig.connection.Open();
-                    DataSet ds = new DataSet();
-                    DatabaseConfig.adapter = new SqlDataAdapter();
-                    DatabaseConfig.adapter.SelectCommand = new SqlCommand("usp_MerrProduktet", DatabaseConfig.connection);
-                    DatabaseConfig.adapter.Fill(ds);
-                    var lstProduktet=ds.Tables[0].AsEnumerable()
-                        .Select(DataRow => new Produkti
-                        {
-                            Emri=DataRow.Field<string>("Emri"),
-                            Cmimi=DataRow.Field<decimal>("Çmimi"),
-                            
-                        }).ToList();
-                    return lstProduktet;
-                }
-            }
-            catch (Exception ex)
-            {
-                return null;
-            }
-        }
         public DataSet GetAll()
         {
 
@@ -83,7 +57,7 @@ namespace MenaxhimiKafiteris.DAL
                 return 0;
             }
 
-    
+
         }
 
 
@@ -135,8 +109,63 @@ namespace MenaxhimiKafiteris.DAL
             {
                 return false;
             }
+        }
+        public List<Produkti> ListaProduktev()
+        {
 
-            //// loadData();
+            //useri.RoliID = int.Parse(dt.Rows[0]["Roli_Id"].ToString());
+            try
+            { 
+                using (DatabaseConfig.connection = new SqlConnection(DatabaseConfig.ConnectionString))
+                {
+                    List<Produkti> list = new List<Produkti>();
+                    DatabaseConfig.connection.Open();
+                    SqlCommand cmd = new SqlCommand("usp_MerrProduktet", DatabaseConfig.connection);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    //cmd.ExecuteNonQuery();
+                    SqlDataAdapter da = new SqlDataAdapter(cmd);
+                    DataTable dt = new DataTable();
+                    da.Fill(dt);
+
+                    for (int i = 0; i < dt.Rows.Count; i++)
+                    {
+                        Produkti pr = new Produkti();
+                        pr.Id = (int)dt.Rows[i]["ID"];
+                        pr.Emri = dt.Rows[i]["Emri"].ToString();
+                        pr.Cmimi = (decimal)dt.Rows[i]["Çmimi"];
+                        pr.Lloji = dt.Rows[i]["Lloji"].ToString();
+                        list.Add(pr);
+                    }  
+                    return list;
+                }
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+        }
+        public bool UpdateSasinEProduktit(int produktiID)
+        {
+            try
+            {
+                //Using closes it vet. Forces it to close itself
+                using (DatabaseConfig.connection = new SqlConnection(DatabaseConfig.ConnectionString))
+                {
+                    DatabaseConfig.connection.Open();
+                    DatabaseConfig.command = new SqlCommand("usp_UpdateSasinEProduktit", DatabaseConfig.connection);
+                    DatabaseConfig.command.CommandType = System.Data.CommandType.StoredProcedure;
+
+                    //Stored procedure spGetLLojetProdukteve
+                    DatabaseConfig.command.Parameters.AddWithValue("@produktiID", produktiID);
+                    DatabaseConfig.command.ExecuteNonQuery();
+                    return true;
+                }
+            }
+            catch
+            {
+                return false;
+            }
         }
     }
+    
 }

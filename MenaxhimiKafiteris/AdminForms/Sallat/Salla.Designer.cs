@@ -29,7 +29,7 @@ namespace MenaxhimiKafiteris.AdminForms.Sallat
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dgSallat = new Krypton.Toolkit.KryptonDataGridView();
             this.btnFshij = new Krypton.Toolkit.KryptonButton();
             this.emri = new System.Windows.Forms.Label();
@@ -46,11 +46,12 @@ namespace MenaxhimiKafiteris.AdminForms.Sallat
             this.dgSallat.Location = new System.Drawing.Point(26, 31);
             this.dgSallat.Name = "dgSallat";
             this.dgSallat.RowHeadersWidth = 51;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgSallat.RowsDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgSallat.RowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dgSallat.RowTemplate.Height = 24;
             this.dgSallat.Size = new System.Drawing.Size(503, 296);
             this.dgSallat.TabIndex = 43;
+            this.dgSallat.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.datagridToTextbox);
             // 
             // btnFshij
             // 
@@ -101,7 +102,7 @@ namespace MenaxhimiKafiteris.AdminForms.Sallat
             this.btnShto.Name = "btnShto";
             this.btnShto.Size = new System.Drawing.Size(123, 25);
             this.btnShto.TabIndex = 50;
-            this.btnShto.Values.Text = "Shto";
+            this.btnShto.Values.Text = "Ruaj";
             this.btnShto.Click += new System.EventHandler(this.btnShto_Click);
             // 
             // Salla
@@ -117,7 +118,7 @@ namespace MenaxhimiKafiteris.AdminForms.Sallat
             this.Controls.Add(this.emri);
             this.Controls.Add(this.btnFshij);
             this.Controls.Add(this.dgSallat);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Salla";
             this.Text = "Salla";
             ((System.ComponentModel.ISupportInitialize)(this.dgSallat)).EndInit();

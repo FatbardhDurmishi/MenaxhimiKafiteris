@@ -14,12 +14,14 @@ namespace MenaxhimiKafiteris.AdminForms.Sallat
 {
     public partial class Salla : Form
     {
+        public int id;
         SallatServices sallatservices;
         public Salla()
         {
             sallatservices = new SallatServices();
             InitializeComponent();
             ShfaqSallat();
+            //PopulateOnEdit();
         }
         public void ShfaqSallat()
         {
@@ -31,8 +33,28 @@ namespace MenaxhimiKafiteris.AdminForms.Sallat
             Sallacl newSalla = new Sallacl();
             newSalla.Emri = txtEmri.Text;
             newSalla.NrTavolinav = int.Parse(txtnrTavolinat.Text);
-            bool isSaved = sallatservices.ShtoSall(newSalla);
-            ShfaqSallat();
+            if (id > 0)
+            {
+                bool isUpdated = sallatservices.UpdateSall(newSalla, id);
+                ShfaqSallat();
+                txtEmri.Clear();
+                txtnrTavolinat.Clear();
+            }
+            else
+            {
+                bool isSaved = sallatservices.ShtoSall(newSalla);
+                if (isSaved)
+                {
+                    MessageBox.Show("Salla eshte shtuar me sukses");
+                    ShfaqSallat();
+                }
+                else
+                {
+                    MessageBox.Show("Ka ndodhur nje problme,provoni perseri");
+                }
+            }
+           
+            
 
         }
 
@@ -48,8 +70,20 @@ namespace MenaxhimiKafiteris.AdminForms.Sallat
                 ShfaqSallat();
             }
         }
+        //public void PopulateOnEdit()
+        //{
+
+        //}
 
 
+        private void datagridToTextbox(object sender, DataGridViewCellMouseEventArgs e)
+        {
 
+
+            id = (int)dgSallat.CurrentRow.Cells[0].Value;
+            txtEmri.Text = dgSallat.CurrentRow.Cells[1].Value.ToString(); 
+            txtnrTavolinat.Text = dgSallat.CurrentRow.Cells[2].Value.ToString();
+
+        }
     }
 }

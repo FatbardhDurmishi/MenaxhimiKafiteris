@@ -150,6 +150,12 @@
     <Compile Include="UserForms\mainKamarier.Designer.cs">
       <DependentUpon>mainKamarier.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserForms\PaguajPorosin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForms\PaguajPorosin.Designer.cs">
+      <DependentUpon>PaguajPorosin.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserForms\raportiDitor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -205,8 +211,14 @@
     <EmbeddedResource Include="UC_mainPannel.resx">
       <DependentUpon>UC_mainPannel.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserForms\krijoPorosi.resx">
+      <DependentUpon>krijoPorosi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserForms\mainKamarier.resx">
       <DependentUpon>mainKamarier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserForms\PaguajPorosin.resx">
+      <DependentUpon>PaguajPorosin.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

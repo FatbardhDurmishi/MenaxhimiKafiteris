@@ -79,5 +79,47 @@ namespace MenaxhimiKafiteris.DAL
             }
 
         }
+        public List<LlojetEProdukteve> ListaLlojetProduktev()
+        {
+
+            //useri.RoliID = int.Parse(dt.Rows[0]["Roli_Id"].ToString());
+            try
+            {
+                using (DatabaseConfig.connection = new SqlConnection(DatabaseConfig.ConnectionString))
+                {
+                    List<LlojetEProdukteve> list = new List<LlojetEProdukteve>();
+                    DatabaseConfig.connection.Open();
+                    SqlCommand cmd = new SqlCommand("usp_MerrLlojetEprodukteve", DatabaseConfig.connection);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    //cmd.ExecuteNonQuery();
+                    SqlDataAdapter da = new SqlDataAdapter(cmd);
+                    DataTable dt = new DataTable();
+                    da.Fill(dt);
+                    
+                    for (int i = 0; i < dt.Rows.Count; i++)
+                    {
+                        LlojetEProdukteve lloji = new LlojetEProdukteve();
+                        lloji.ID = (int)dt.Rows[i]["ID"];
+                        lloji.Lloji = dt.Rows[i]["Kategoria"].ToString();
+
+                        list.Add(lloji);
+                    }
+                    //foreach (DataRow row in dt.Rows)
+                    //{
+                    //    lloji.ID = (int)dt.Rows[0]["ID"];
+                    //    lloji.Lloji = dt.Rows[0]["Kategoria"].ToString();
+                       
+                    //    list.Add(lloji);
+                    //}
+
+                    return list;
+                }
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+        }
     }
 }
+

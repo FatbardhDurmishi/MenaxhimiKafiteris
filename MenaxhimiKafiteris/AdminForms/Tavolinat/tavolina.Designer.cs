@@ -29,7 +29,7 @@ namespace MenaxhimiKafiteris.AdminForms.Tavolinat
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.btnShto = new System.Windows.Forms.Button();
             this.dgTavolinat = new Krypton.Toolkit.KryptonDataGridView();
             this.btnFshij = new Krypton.Toolkit.KryptonButton();
@@ -58,12 +58,13 @@ namespace MenaxhimiKafiteris.AdminForms.Tavolinat
             this.dgTavolinat.Location = new System.Drawing.Point(31, 28);
             this.dgTavolinat.Name = "dgTavolinat";
             this.dgTavolinat.RowHeadersWidth = 51;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopLeft;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgTavolinat.RowsDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopLeft;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgTavolinat.RowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dgTavolinat.RowTemplate.Height = 24;
             this.dgTavolinat.Size = new System.Drawing.Size(510, 254);
             this.dgTavolinat.TabIndex = 34;
+            this.dgTavolinat.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgTavolinat_RowHeaderMouseClick);
             // 
             // btnFshij
             // 
@@ -103,7 +104,7 @@ namespace MenaxhimiKafiteris.AdminForms.Tavolinat
             // 
             // cbSalla
             // 
-            this.cbSalla.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cbSalla.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
             this.cbSalla.DropDownWidth = 139;
             this.cbSalla.IntegralHeight = false;
             this.cbSalla.Location = new System.Drawing.Point(203, 377);

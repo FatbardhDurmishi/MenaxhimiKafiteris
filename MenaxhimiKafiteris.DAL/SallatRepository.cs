@@ -77,5 +77,32 @@ namespace MenaxhimiKafiteris.DAL
 
             // loadData();
         }
+        public bool UpdateSall(Sallacl salla,int id)
+        {
+            try
+            {
+                //Using closes it vet. Forces it to close itself
+                using (DatabaseConfig.connection = new SqlConnection(DatabaseConfig.ConnectionString))
+                {
+                    DatabaseConfig.connection.Open();
+                    DatabaseConfig.command = new SqlCommand("usp_UpdateSalla", DatabaseConfig.connection);
+                    DatabaseConfig.command.CommandType = System.Data.CommandType.StoredProcedure;
+
+                    //Stored procedure spGetLLojetProdukteve
+                    DatabaseConfig.command.Parameters.AddWithValue("@emri", salla.Emri);
+                    DatabaseConfig.command.Parameters.AddWithValue("@nrTavolinave", salla.NrTavolinav);
+                    DatabaseConfig.command.Parameters.AddWithValue("@userID", 1);
+                    DatabaseConfig.command.Parameters.AddWithValue("@sallaID", id);
+                    DatabaseConfig.command.ExecuteNonQuery();
+                    return true;
+                }
+            }
+            catch
+            {
+                return false;
+            }
+
+            // loadData();
+        }
     }
 }

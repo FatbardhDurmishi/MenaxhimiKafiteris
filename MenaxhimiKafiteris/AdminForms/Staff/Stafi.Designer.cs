@@ -54,7 +54,7 @@ namespace MenaxhimiKafiteris.AdminForms.Staffi
             this.shtoStaffBtn.Size = new System.Drawing.Size(90, 25);
             this.shtoStaffBtn.TabIndex = 1;
             this.shtoStaffBtn.Values.Text = "Shto";
-            this.shtoStaffBtn.Click += new System.EventHandler(this.shtoStaffBtn_Click);
+            
             // 
             // deleteStafBtn
             // 
