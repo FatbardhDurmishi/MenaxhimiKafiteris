@@ -201,6 +201,7 @@ namespace MenaxhimiKafiteris.AdminForms
         private void raportetButton_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color8, "Raportet");
+            OpenChildForm(new Raportet.RaportetForm());
         }
 
         //Timer object. Display on label the date.

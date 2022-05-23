@@ -33,7 +33,19 @@ namespace MenaxhimiKafiteris.AdminForms.Produktet
             dgPerbersit.DataSource = perbersiservices.GetAll().Tables[0];
         }
 
-        private void btnShtoPerberes_Click(object sender, EventArgs e)
+      
+
+        private void dgPerbersit_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void shtoPerberesPerProdukt_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnShtoPerberes_Click_1(object sender, EventArgs e)
         {
             //Create new perberes and add it to DataSent.
             Perbersi perbersi1 = new Perbersi();
@@ -52,7 +64,6 @@ namespace MenaxhimiKafiteris.AdminForms.Produktet
             //Sends to all the listeners
             this.DataSent(perbersi1);
             this.Close();
-
         }
     }
 }

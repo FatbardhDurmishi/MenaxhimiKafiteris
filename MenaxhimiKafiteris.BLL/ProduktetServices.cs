@@ -39,8 +39,18 @@ namespace MenaxhimiKafiteris.BLL
             return produktetRepository.GetLastProdukt();
         }
 
+        public string GetTopProduktName()
+        {
+            return produktetRepository.GetTopProduktName();
+        }
 
-       
+        public string GetTopProdukSasia()
+        {
+            return produktetRepository.GetTopProdukSasia();
+        }
+
+
+
     }
     
 }

@@ -29,16 +29,34 @@ namespace MenaxhimiKafiteris.AdminForms.Tavolinat
             dgTavolinat.DataSource = tavolinatServices.GetAll().Tables[0];
         }
 
-        private void btnShto_Click(object sender, EventArgs e)
+
+
+
+        private void PopulloComboList()
         {
-            Tavolina newtav=new Tavolina();
+            cbSalla.DataSource = sallatServices.GetAll().Tables[0];
+            cbSalla.ValueMember = "ID";
+            cbSalla.DisplayMember = "Emri";
+
+           
+
+        }
+
+        private void dgTavolinat_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void btnShto_Click_1(object sender, EventArgs e)
+        {
+            Tavolina newtav = new Tavolina();
             newtav.NrKarrigave = int.Parse(txtNrUlseve.Text);
-            newtav.SallaID=int.Parse(cbSalla.SelectedValue.ToString());
+            newtav.SallaID = int.Parse(cbSalla.SelectedValue.ToString());
             bool isSaved = tavolinatServices.ShtoTavolin(newtav);
             ShfaqSallat();
         }
 
-        private void btnFshij_Click(object sender, EventArgs e)
+        private void btnFshij_Click_1(object sender, EventArgs e)
         {
             foreach (DataGridViewRow row in dgTavolinat.SelectedRows)
             {
@@ -49,15 +67,6 @@ namespace MenaxhimiKafiteris.AdminForms.Tavolinat
                 tavolinatServices.FshiTavolin(rowIndex);
                 ShfaqSallat();
             }
-        }
-        private void PopulloComboList()
-        {
-            cbSalla.DataSource = sallatServices.GetAll().Tables[0];
-            cbSalla.ValueMember = "ID";
-            cbSalla.DisplayMember = "Emri";
-
-           
-
         }
     }
 }
