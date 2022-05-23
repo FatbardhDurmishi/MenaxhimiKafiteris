@@ -14,14 +14,12 @@ namespace MenaxhimiKafiteris.AdminForms.Sallat
 {
     public partial class Salla : Form
     {
-        public int id;
         SallatServices sallatservices;
         public Salla()
         {
             sallatservices = new SallatServices();
             InitializeComponent();
             ShfaqSallat();
-            //PopulateOnEdit();
         }
         public void ShfaqSallat()
         {
@@ -37,34 +35,8 @@ namespace MenaxhimiKafiteris.AdminForms.Sallat
             Sallacl newSalla = new Sallacl();
             newSalla.Emri = txtEmri.Text;
             newSalla.NrTavolinav = int.Parse(txtnrTavolinat.Text);
-<<<<<<< HEAD
             bool isSaved = sallatservices.ShtoSall(newSalla);
             ShfaqSallat();
-=======
-            if (id > 0)
-            {
-                bool isUpdated = sallatservices.UpdateSall(newSalla, id);
-                ShfaqSallat();
-                txtEmri.Clear();
-                txtnrTavolinat.Clear();
-            }
-            else
-            {
-                bool isSaved = sallatservices.ShtoSall(newSalla);
-                if (isSaved)
-                {
-                    MessageBox.Show("Salla eshte shtuar me sukses");
-                    ShfaqSallat();
-                }
-                else
-                {
-                    MessageBox.Show("Ka ndodhur nje problme,provoni perseri");
-                }
-            }
-           
-            
-
->>>>>>> 0b8cdc4746cc0e9adedc8fe5da48a5d6df9f1a4a
         }
 
         private void btnFshij_Click_1(object sender, EventArgs e)
@@ -81,23 +53,5 @@ namespace MenaxhimiKafiteris.AdminForms.Sallat
                 ShfaqSallat();
             }
         }
-<<<<<<< HEAD
-=======
-        //public void PopulateOnEdit()
-        //{
-
-        //}
-
-
-        private void datagridToTextbox(object sender, DataGridViewCellMouseEventArgs e)
-        {
-
-
-            id = (int)dgSallat.CurrentRow.Cells[0].Value;
-            txtEmri.Text = dgSallat.CurrentRow.Cells[1].Value.ToString(); 
-            txtnrTavolinat.Text = dgSallat.CurrentRow.Cells[2].Value.ToString();
-
-        }
->>>>>>> 0b8cdc4746cc0e9adedc8fe5da48a5d6df9f1a4a
     }
 }

@@ -24,11 +24,8 @@ namespace MenaxhimiKafiteris.AdminForms.Staffi
         {
             InitializeComponent();
             useretServices = new UseretServices();
-            dgStafi.ClearSelection();
-            ShfaqUseret();
-            this.Refresh();
         }
-        public void ShfaqUseret()
+        private void ShfaqUseret()
         {
             dgStafi.DataSource = useretServices.GetAll().Tables[0];
             //dataGridView1.DataSource = useretServices.GetAll().Tables[0];
@@ -54,8 +51,7 @@ namespace MenaxhimiKafiteris.AdminForms.Staffi
         private void btnShtoStaff_Click_1(object sender, EventArgs e)
         {
             var formPopup = new Staffi.ShtoStaff();
-            formPopup.Visible = false;
-            formPopup.ShowDialog();
+            formPopup.Show(this);
         }
 
         private void btnFshijStaff_Click_1(object sender, EventArgs e)
@@ -76,7 +72,6 @@ namespace MenaxhimiKafiteris.AdminForms.Staffi
             foreach (DataGridViewRow row in dgStafi.SelectedRows)
             {
                 id = (int)row.Cells[0].Value;
-<<<<<<< HEAD
                 username = row.Cells[1].ToString();
                 password = row.Cells[2].ToString();
                 gjinia = row.Cells[3].ToString();
@@ -87,34 +82,7 @@ namespace MenaxhimiKafiteris.AdminForms.Staffi
             ShtoStaff frm = new Staffi.ShtoStaff();
 
             frm.Show(this);
-=======
-                username = row.Cells[1].Value.ToString();
-                password = row.Cells[2].Value.ToString();
-                gjinia = row.Cells[3].Value.ToString();
-                if (row.Cells[4].Value.ToString().Equals("Admin"))
-                {
-                    roliId = 1;
-                }
-                else if (row.Cells[4].Value.ToString().Equals("Kamarier"))
-                {
-                    roliId = 2;
-                }
-            }
-
-
-            ShtoStaff frm = new ShtoStaff();
-            frm.Visible = false;
-            frm.ShowDialog();
-            //this.Enabled = false;
-            id = 0;
-            username = null;
-            password = null;
-            gjinia = null;
-            roliId=0;
->>>>>>> 0b8cdc4746cc0e9adedc8fe5da48a5d6df9f1a4a
 
         }
-
-
     }
 }

@@ -17,12 +17,10 @@ namespace MenaxhimiKafiteris.LogInForm
     public partial class LogIn : Form
     {
         UseretServices useretServices;
-        public static int userID;
-        public static string username = "";
         public LogIn()
-        {          
-            InitializeComponent();
+        {
             useretServices = new UseretServices();
+            InitializeComponent();
         }
 
         private void btnLogIn_Click(object sender, EventArgs e)
@@ -34,8 +32,6 @@ namespace MenaxhimiKafiteris.LogInForm
                 Passwordi = txtPass.Text
             };
             useretServices.MerrUserin(useri);
-            userID = useri.Id;
-            username = useri.Username;
             if (useri.RoliID == 1)
             {
                 mainAdmin frm=new mainAdmin();
@@ -45,8 +41,7 @@ namespace MenaxhimiKafiteris.LogInForm
             {
                 mainKamarier frm=new mainKamarier();
                 frm.Show();
-                LogIn logIn = new LogIn();
-                logIn.Close();
+                Hide();
             }
             else
             {

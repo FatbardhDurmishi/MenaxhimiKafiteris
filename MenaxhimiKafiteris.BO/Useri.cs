@@ -8,7 +8,6 @@ namespace MenaxhimiKafiteris.BO
 {
     public class Useri
     {
-        public int Id { get; set; }
         public string Username { get; set; }
         public string Passwordi { get; set; }
         public string Gjinia { get; set; }

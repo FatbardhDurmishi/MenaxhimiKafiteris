@@ -29,10 +29,6 @@ namespace MenaxhimiKafiteris.BLL
         {
             return sallatRepository.ShtoSall(salla);
         }
-        public bool UpdateSall(Sallacl salla,int id)
-        {
-            return sallatRepository.UpdateSall(salla,id);
-        }
         //public bool FshiSall(int ID)
         //{
         //    try

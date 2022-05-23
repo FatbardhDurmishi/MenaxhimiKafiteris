@@ -29,7 +29,6 @@ namespace MenaxhimiKafiteris.AdminForms.Sallat
         /// </summary>
         private void InitializeComponent()
         {
-<<<<<<< HEAD
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -45,11 +44,6 @@ namespace MenaxhimiKafiteris.AdminForms.Sallat
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties6 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties7 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties8 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-=======
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.dgSallat = new Krypton.Toolkit.KryptonDataGridView();
-            this.btnFshij = new Krypton.Toolkit.KryptonButton();
->>>>>>> 0b8cdc4746cc0e9adedc8fe5da48a5d6df9f1a4a
             this.emri = new System.Windows.Forms.Label();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.dgSallat = new Bunifu.UI.WinForms.BunifuDataGridView();
@@ -65,31 +59,6 @@ namespace MenaxhimiKafiteris.AdminForms.Sallat
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
-<<<<<<< HEAD
-=======
-            // dgSallat
-            // 
-            this.dgSallat.ColumnHeadersHeight = 36;
-            this.dgSallat.Location = new System.Drawing.Point(26, 31);
-            this.dgSallat.Name = "dgSallat";
-            this.dgSallat.RowHeadersWidth = 51;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgSallat.RowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.dgSallat.RowTemplate.Height = 24;
-            this.dgSallat.Size = new System.Drawing.Size(503, 296);
-            this.dgSallat.TabIndex = 43;
-            this.dgSallat.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.datagridToTextbox);
-            // 
-            // btnFshij
-            // 
-            this.btnFshij.Location = new System.Drawing.Point(254, 488);
-            this.btnFshij.Name = "btnFshij";
-            this.btnFshij.Size = new System.Drawing.Size(148, 25);
-            this.btnFshij.TabIndex = 44;
-            this.btnFshij.Values.Text = "Fshij";
-            this.btnFshij.Click += new System.EventHandler(this.btnFshij_Click);
-            // 
->>>>>>> 0b8cdc4746cc0e9adedc8fe5da48a5d6df9f1a4a
             // emri
             // 
             this.emri.AutoSize = true;
@@ -245,7 +214,6 @@ namespace MenaxhimiKafiteris.AdminForms.Sallat
             this.btnShto.IndicateFocus = false;
             this.btnShto.Location = new System.Drawing.Point(29, 170);
             this.btnShto.Name = "btnShto";
-<<<<<<< HEAD
             this.btnShto.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnShto.OnDisabledState.BorderRadius = 1;
             this.btnShto.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
@@ -536,34 +504,15 @@ namespace MenaxhimiKafiteris.AdminForms.Sallat
             this.txtnrTavolinat.TextPlaceholder = "Enter text";
             this.txtnrTavolinat.UseSystemPasswordChar = false;
             this.txtnrTavolinat.WordWrap = true;
-=======
-            this.btnShto.Size = new System.Drawing.Size(123, 25);
-            this.btnShto.TabIndex = 50;
-            this.btnShto.Values.Text = "Ruaj";
-            this.btnShto.Click += new System.EventHandler(this.btnShto_Click);
->>>>>>> 0b8cdc4746cc0e9adedc8fe5da48a5d6df9f1a4a
             // 
             // Salla
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(55)))), ((int)(((byte)(106)))));
             this.ClientSize = new System.Drawing.Size(669, 735);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-=======
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(34)))), ((int)(((byte)(74)))));
-            this.ClientSize = new System.Drawing.Size(833, 604);
-            this.Controls.Add(this.btnShto);
-            this.Controls.Add(this.txtnrTavolinat);
-            this.Controls.Add(this.txtEmri);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.emri);
-            this.Controls.Add(this.btnFshij);
-            this.Controls.Add(this.dgSallat);
-            this.Margin = new System.Windows.Forms.Padding(4);
->>>>>>> 0b8cdc4746cc0e9adedc8fe5da48a5d6df9f1a4a
             this.Name = "Salla";
             this.Text = "Salla";
             ((System.ComponentModel.ISupportInitialize)(this.dgSallat)).EndInit();
