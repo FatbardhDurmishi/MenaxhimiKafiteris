@@ -30,30 +30,16 @@ namespace MenaxhimiKafiteris.AdminForms.Tavolinat
             dgTavolinat.DataSource = tavolinatServices.GetAll().Tables[0];
         }
 
-
-
-
-        private void PopulloComboList()
+        private void btnShto_Click(object sender, EventArgs e)
         {
-            cbSalla.DataSource = sallatServices.GetAll().Tables[0];
-            cbSalla.ValueMember = "ID";
-            cbSalla.DisplayMember = "Emri";
-
-           
-
-        }
-
-        private void dgTavolinat_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void btnShto_Click_1(object sender, EventArgs e)
-        {
-            Tavolina newtav = new Tavolina();
+            Tavolina newtav=new Tavolina();
             newtav.NrKarrigave = int.Parse(txtNrUlseve.Text);
 <<<<<<< HEAD
+<<<<<<< HEAD
             newtav.SallaID = int.Parse(cbSalla.SelectedValue.ToString());
+=======
+            newtav.SallaID=int.Parse(cbSalla.SelectedValue.ToString());
+>>>>>>> parent of 0e87859 (raportet)
             bool isSaved = tavolinatServices.ShtoTavolin(newtav);
             ShfaqSallat();
 =======
@@ -90,7 +76,7 @@ namespace MenaxhimiKafiteris.AdminForms.Tavolinat
 >>>>>>> 0b8cdc4746cc0e9adedc8fe5da48a5d6df9f1a4a
         }
 
-        private void btnFshij_Click_1(object sender, EventArgs e)
+        private void btnFshij_Click(object sender, EventArgs e)
         {
             foreach (DataGridViewRow row in dgTavolinat.SelectedRows)
             {
@@ -103,13 +89,17 @@ namespace MenaxhimiKafiteris.AdminForms.Tavolinat
             }
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 0e87859 (raportet)
         private void PopulloComboList()
         {
             cbSalla.DataSource = sallatServices.GetAll().Tables[0];
             cbSalla.ValueMember = "ID";
             cbSalla.DisplayMember = "Emri";
 
+<<<<<<< HEAD
         }
 
         private void dgTavolinat_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
@@ -119,5 +109,10 @@ namespace MenaxhimiKafiteris.AdminForms.Tavolinat
             cbSalla.SelectedValue = dgTavolinat.CurrentRow.Cells[2].Value;
         }
 >>>>>>> 0b8cdc4746cc0e9adedc8fe5da48a5d6df9f1a4a
+=======
+           
+
+        }
+>>>>>>> parent of 0e87859 (raportet)
     }
 }

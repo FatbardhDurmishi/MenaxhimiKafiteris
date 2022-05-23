@@ -30,6 +30,7 @@ namespace MenaxhimiKafiteris.AdminForms.Sallat
         private void InitializeComponent()
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -50,35 +51,44 @@ namespace MenaxhimiKafiteris.AdminForms.Sallat
             this.dgSallat = new Krypton.Toolkit.KryptonDataGridView();
             this.btnFshij = new Krypton.Toolkit.KryptonButton();
 >>>>>>> 0b8cdc4746cc0e9adedc8fe5da48a5d6df9f1a4a
+=======
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.dgSallat = new Krypton.Toolkit.KryptonDataGridView();
+            this.btnFshij = new Krypton.Toolkit.KryptonButton();
+>>>>>>> parent of 0e87859 (raportet)
             this.emri = new System.Windows.Forms.Label();
-            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.dgSallat = new Bunifu.UI.WinForms.BunifuDataGridView();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.btnShto = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.btnFshij = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtEmri = new Bunifu.UI.WinForms.BunifuTextBox();
-            this.txtnrTavolinat = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtEmri = new Krypton.Toolkit.KryptonTextBox();
+            this.txtnrTavolinat = new Krypton.Toolkit.KryptonTextBox();
+            this.btnShto = new Krypton.Toolkit.KryptonButton();
             ((System.ComponentModel.ISupportInitialize)(this.dgSallat)).BeginInit();
-            this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 0e87859 (raportet)
             // dgSallat
             // 
             this.dgSallat.ColumnHeadersHeight = 36;
             this.dgSallat.Location = new System.Drawing.Point(26, 31);
             this.dgSallat.Name = "dgSallat";
             this.dgSallat.RowHeadersWidth = 51;
+<<<<<<< HEAD
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgSallat.RowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dgSallat.RowTemplate.Height = 24;
             this.dgSallat.Size = new System.Drawing.Size(503, 296);
             this.dgSallat.TabIndex = 43;
             this.dgSallat.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.datagridToTextbox);
+=======
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgSallat.RowsDefaultCellStyle = dataGridViewCellStyle6;
+            this.dgSallat.RowTemplate.Height = 24;
+            this.dgSallat.Size = new System.Drawing.Size(503, 296);
+            this.dgSallat.TabIndex = 43;
+>>>>>>> parent of 0e87859 (raportet)
             // 
             // btnFshij
             // 
@@ -89,21 +99,23 @@ namespace MenaxhimiKafiteris.AdminForms.Sallat
             this.btnFshij.Values.Text = "Fshij";
             this.btnFshij.Click += new System.EventHandler(this.btnFshij_Click);
             // 
+<<<<<<< HEAD
 >>>>>>> 0b8cdc4746cc0e9adedc8fe5da48a5d6df9f1a4a
+=======
+>>>>>>> parent of 0e87859 (raportet)
             // emri
             // 
             this.emri.AutoSize = true;
-            this.emri.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.emri.ForeColor = System.Drawing.SystemColors.Control;
-            this.emri.Location = new System.Drawing.Point(26, 26);
-            this.emri.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.emri.Location = new System.Drawing.Point(47, 374);
             this.emri.Name = "emri";
-            this.emri.Size = new System.Drawing.Size(50, 25);
+            this.emri.Size = new System.Drawing.Size(34, 16);
             this.emri.TabIndex = 46;
             this.emri.Text = "Emri";
             // 
-            // bunifuElipse1
+            // label2
             // 
+<<<<<<< HEAD
             this.bunifuElipse1.ElipseRadius = 5;
             this.bunifuElipse1.TargetControl = this.dgSallat;
             // 
@@ -388,114 +400,28 @@ namespace MenaxhimiKafiteris.AdminForms.Sallat
             this.label1.Size = new System.Drawing.Size(123, 25);
             this.label1.TabIndex = 56;
             this.label1.Text = "Nr.tavolinave";
+=======
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.SystemColors.Control;
+            this.label2.Location = new System.Drawing.Point(47, 410);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(113, 16);
+            this.label2.TabIndex = 47;
+            this.label2.Text = "Numri Tavolinave";
+>>>>>>> parent of 0e87859 (raportet)
             // 
             // txtEmri
             // 
-            this.txtEmri.AcceptsReturn = false;
-            this.txtEmri.AcceptsTab = false;
-            this.txtEmri.AnimationSpeed = 200;
-            this.txtEmri.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.txtEmri.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.txtEmri.BackColor = System.Drawing.Color.Transparent;
-            this.txtEmri.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("txtEmri.BackgroundImage")));
-            this.txtEmri.BorderColorActive = System.Drawing.Color.DodgerBlue;
-            this.txtEmri.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.txtEmri.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.txtEmri.BorderColorIdle = System.Drawing.Color.Silver;
-            this.txtEmri.BorderRadius = 1;
-            this.txtEmri.BorderThickness = 1;
-            this.txtEmri.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.txtEmri.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtEmri.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
-            this.txtEmri.DefaultText = "";
-            this.txtEmri.FillColor = System.Drawing.Color.White;
-            this.txtEmri.HideSelection = true;
-            this.txtEmri.IconLeft = null;
-            this.txtEmri.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtEmri.IconPadding = 10;
-            this.txtEmri.IconRight = null;
-            this.txtEmri.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtEmri.Lines = new string[0];
-            this.txtEmri.Location = new System.Drawing.Point(211, 14);
-            this.txtEmri.MaxLength = 32767;
-            this.txtEmri.MinimumSize = new System.Drawing.Size(1, 1);
-            this.txtEmri.Modified = false;
-            this.txtEmri.Multiline = false;
+            this.txtEmri.Location = new System.Drawing.Point(197, 374);
             this.txtEmri.Name = "txtEmri";
-            stateProperties1.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties1.FillColor = System.Drawing.Color.Empty;
-            stateProperties1.ForeColor = System.Drawing.Color.Empty;
-            stateProperties1.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txtEmri.OnActiveState = stateProperties1;
-            stateProperties2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties2.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.txtEmri.OnDisabledState = stateProperties2;
-            stateProperties3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties3.FillColor = System.Drawing.Color.Empty;
-            stateProperties3.ForeColor = System.Drawing.Color.Empty;
-            stateProperties3.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txtEmri.OnHoverState = stateProperties3;
-            stateProperties4.BorderColor = System.Drawing.Color.Silver;
-            stateProperties4.FillColor = System.Drawing.Color.White;
-            stateProperties4.ForeColor = System.Drawing.Color.Empty;
-            stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txtEmri.OnIdleState = stateProperties4;
-            this.txtEmri.Padding = new System.Windows.Forms.Padding(3);
-            this.txtEmri.PasswordChar = '\0';
-            this.txtEmri.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.txtEmri.PlaceholderText = "Enter text";
-            this.txtEmri.ReadOnly = false;
-            this.txtEmri.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.txtEmri.SelectedText = "";
-            this.txtEmri.SelectionLength = 0;
-            this.txtEmri.SelectionStart = 0;
-            this.txtEmri.ShortcutsEnabled = true;
-            this.txtEmri.Size = new System.Drawing.Size(260, 37);
-            this.txtEmri.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
-            this.txtEmri.TabIndex = 54;
-            this.txtEmri.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.txtEmri.TextMarginBottom = 0;
-            this.txtEmri.TextMarginLeft = 3;
-            this.txtEmri.TextMarginTop = 0;
-            this.txtEmri.TextPlaceholder = "Enter text";
-            this.txtEmri.UseSystemPasswordChar = false;
-            this.txtEmri.WordWrap = true;
+            this.txtEmri.Size = new System.Drawing.Size(140, 27);
+            this.txtEmri.TabIndex = 48;
             // 
             // txtnrTavolinat
             // 
-            this.txtnrTavolinat.AcceptsReturn = false;
-            this.txtnrTavolinat.AcceptsTab = false;
-            this.txtnrTavolinat.AnimationSpeed = 200;
-            this.txtnrTavolinat.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.txtnrTavolinat.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.txtnrTavolinat.BackColor = System.Drawing.Color.Transparent;
-            this.txtnrTavolinat.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("txtnrTavolinat.BackgroundImage")));
-            this.txtnrTavolinat.BorderColorActive = System.Drawing.Color.DodgerBlue;
-            this.txtnrTavolinat.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.txtnrTavolinat.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.txtnrTavolinat.BorderColorIdle = System.Drawing.Color.Silver;
-            this.txtnrTavolinat.BorderRadius = 1;
-            this.txtnrTavolinat.BorderThickness = 1;
-            this.txtnrTavolinat.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.txtnrTavolinat.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtnrTavolinat.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
-            this.txtnrTavolinat.DefaultText = "";
-            this.txtnrTavolinat.FillColor = System.Drawing.Color.White;
-            this.txtnrTavolinat.HideSelection = true;
-            this.txtnrTavolinat.IconLeft = null;
-            this.txtnrTavolinat.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtnrTavolinat.IconPadding = 10;
-            this.txtnrTavolinat.IconRight = null;
-            this.txtnrTavolinat.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtnrTavolinat.Lines = new string[0];
-            this.txtnrTavolinat.Location = new System.Drawing.Point(211, 65);
-            this.txtnrTavolinat.MaxLength = 32767;
-            this.txtnrTavolinat.MinimumSize = new System.Drawing.Size(1, 1);
-            this.txtnrTavolinat.Modified = false;
-            this.txtnrTavolinat.Multiline = false;
+            this.txtnrTavolinat.Location = new System.Drawing.Point(197, 410);
             this.txtnrTavolinat.Name = "txtnrTavolinat";
+<<<<<<< HEAD
             stateProperties5.BorderColor = System.Drawing.Color.DodgerBlue;
             stateProperties5.FillColor = System.Drawing.Color.Empty;
             stateProperties5.ForeColor = System.Drawing.Color.Empty;
@@ -542,17 +468,33 @@ namespace MenaxhimiKafiteris.AdminForms.Sallat
             this.btnShto.Values.Text = "Ruaj";
             this.btnShto.Click += new System.EventHandler(this.btnShto_Click);
 >>>>>>> 0b8cdc4746cc0e9adedc8fe5da48a5d6df9f1a4a
+=======
+            this.txtnrTavolinat.Size = new System.Drawing.Size(140, 27);
+            this.txtnrTavolinat.TabIndex = 49;
+            // 
+            // btnShto
+            // 
+            this.btnShto.Location = new System.Drawing.Point(50, 488);
+            this.btnShto.Name = "btnShto";
+            this.btnShto.Size = new System.Drawing.Size(123, 25);
+            this.btnShto.TabIndex = 50;
+            this.btnShto.Values.Text = "Shto";
+            this.btnShto.Click += new System.EventHandler(this.btnShto_Click);
+>>>>>>> parent of 0e87859 (raportet)
             // 
             // Salla
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
 <<<<<<< HEAD
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(55)))), ((int)(((byte)(106)))));
             this.ClientSize = new System.Drawing.Size(669, 735);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
 =======
+=======
+>>>>>>> parent of 0e87859 (raportet)
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(34)))), ((int)(((byte)(74)))));
             this.ClientSize = new System.Drawing.Size(833, 604);
             this.Controls.Add(this.btnShto);
@@ -562,28 +504,28 @@ namespace MenaxhimiKafiteris.AdminForms.Sallat
             this.Controls.Add(this.emri);
             this.Controls.Add(this.btnFshij);
             this.Controls.Add(this.dgSallat);
+<<<<<<< HEAD
             this.Margin = new System.Windows.Forms.Padding(4);
 >>>>>>> 0b8cdc4746cc0e9adedc8fe5da48a5d6df9f1a4a
+=======
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> parent of 0e87859 (raportet)
             this.Name = "Salla";
             this.Text = "Salla";
             ((System.ComponentModel.ISupportInitialize)(this.dgSallat)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
+
+        private Krypton.Toolkit.KryptonDataGridView dgSallat;
+        private Krypton.Toolkit.KryptonButton btnFshij;
         private System.Windows.Forms.Label emri;
-        private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
-        private Bunifu.UI.WinForms.BunifuDataGridView dgSallat;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
-        private Bunifu.UI.WinForms.BunifuTextBox txtEmri;
-        private Bunifu.UI.WinForms.BunifuTextBox txtnrTavolinat;
-        private System.Windows.Forms.Label label1;
-        private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnFshij;
-        private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnShto;
+        private System.Windows.Forms.Label label2;
+        private Krypton.Toolkit.KryptonTextBox txtEmri;
+        private Krypton.Toolkit.KryptonTextBox txtnrTavolinat;
+        private Krypton.Toolkit.KryptonButton btnShto;
     }
 }

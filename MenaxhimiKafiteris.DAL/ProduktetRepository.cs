@@ -38,6 +38,7 @@ namespace MenaxhimiKafiteris.DAL
                 return null;
             }
         }
+<<<<<<< HEAD
 
         public string GetTopProduktName()
         {
@@ -93,6 +94,8 @@ namespace MenaxhimiKafiteris.DAL
 
 =======
 >>>>>>> 0b8cdc4746cc0e9adedc8fe5da48a5d6df9f1a4a
+=======
+>>>>>>> parent of 0e87859 (raportet)
         public DataSet GetAll()
         {
 
@@ -139,6 +142,10 @@ namespace MenaxhimiKafiteris.DAL
                 return 0;
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of 0e87859 (raportet)
     
 =======
 

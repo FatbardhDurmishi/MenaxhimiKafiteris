@@ -28,11 +28,7 @@ namespace MenaxhimiKafiteris.AdminForms.Sallat
             dgSallat.DataSource = sallatservices.GetAll().Tables[0];
         }
 
-
-
-
-
-        private void btnShto_Click_1(object sender, EventArgs e)
+        private void btnShto_Click(object sender, EventArgs e)
         {
             Sallacl newSalla = new Sallacl();
             newSalla.Emri = txtEmri.Text;
@@ -40,6 +36,7 @@ namespace MenaxhimiKafiteris.AdminForms.Sallat
 <<<<<<< HEAD
             bool isSaved = sallatservices.ShtoSall(newSalla);
             ShfaqSallat();
+<<<<<<< HEAD
 =======
             if (id > 0)
             {
@@ -65,9 +62,12 @@ namespace MenaxhimiKafiteris.AdminForms.Sallat
             
 
 >>>>>>> 0b8cdc4746cc0e9adedc8fe5da48a5d6df9f1a4a
+=======
+
+>>>>>>> parent of 0e87859 (raportet)
         }
 
-        private void btnFshij_Click_1(object sender, EventArgs e)
+        private void btnFshij_Click(object sender, EventArgs e)
         {
             foreach (DataGridViewRow row in dgSallat.SelectedRows)
             {
@@ -75,12 +75,11 @@ namespace MenaxhimiKafiteris.AdminForms.Sallat
                 //gets index from cells
                 int rowIndex = (int)row.Cells[0].Value;
                 dgSallat.Rows.RemoveAt(row.Index);
-                //Some salla nuk fshihen because Foreing Key constraint.
-                //Nuk mujna me fshi pa i fshi edhe perdorimet e saje. Dmth kur ka tavolina ne salle, duhet me shku mi fshi tavolinat fillimisht.
                 sallatservices.FshiSall(rowIndex);
                 ShfaqSallat();
             }
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         //public void PopulateOnEdit()
@@ -99,5 +98,10 @@ namespace MenaxhimiKafiteris.AdminForms.Sallat
 
         }
 >>>>>>> 0b8cdc4746cc0e9adedc8fe5da48a5d6df9f1a4a
+=======
+
+
+
+>>>>>>> parent of 0e87859 (raportet)
     }
 }

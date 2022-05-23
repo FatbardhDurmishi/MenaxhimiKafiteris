@@ -30,6 +30,7 @@ namespace MenaxhimiKafiteris.AdminForms.Tavolinat
         private void InitializeComponent()
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -53,6 +54,9 @@ namespace MenaxhimiKafiteris.AdminForms.Tavolinat
             this.cbSalla = new Bunifu.UI.WinForms.BunifuDropdown();
 =======
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+=======
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+>>>>>>> parent of 0e87859 (raportet)
             this.btnShto = new System.Windows.Forms.Button();
             this.dgTavolinat = new Krypton.Toolkit.KryptonDataGridView();
             this.btnFshij = new Krypton.Toolkit.KryptonButton();
@@ -60,12 +64,15 @@ namespace MenaxhimiKafiteris.AdminForms.Tavolinat
             this.label2 = new System.Windows.Forms.Label();
             this.txtNrUlseve = new Krypton.Toolkit.KryptonTextBox();
             this.cbSalla = new Krypton.Toolkit.KryptonComboBox();
+<<<<<<< HEAD
 >>>>>>> 0b8cdc4746cc0e9adedc8fe5da48a5d6df9f1a4a
+=======
+>>>>>>> parent of 0e87859 (raportet)
             ((System.ComponentModel.ISupportInitialize)(this.dgTavolinat)).BeginInit();
-            this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.cbSalla)).BeginInit();
             this.SuspendLayout();
             // 
+<<<<<<< HEAD
             // dgTavolinat
             // 
 <<<<<<< HEAD
@@ -264,194 +271,71 @@ namespace MenaxhimiKafiteris.AdminForms.Tavolinat
             this.btnFshij.UseDefaultRadiusAndThickness = true;
             this.btnFshij.Click += new System.EventHandler(this.btnFshij_Click_1);
             // 
+=======
+>>>>>>> parent of 0e87859 (raportet)
             // btnShto
             // 
-            this.btnShto.AllowAnimations = true;
-            this.btnShto.AllowMouseEffects = true;
-            this.btnShto.AllowToggling = false;
-            this.btnShto.AnimationSpeed = 200;
-            this.btnShto.AutoGenerateColors = true;
-            this.btnShto.AutoRoundBorders = true;
-            this.btnShto.AutoSizeLeftIcon = true;
-            this.btnShto.AutoSizeRightIcon = true;
-            this.btnShto.BackColor = System.Drawing.Color.Transparent;
-            this.btnShto.BackColor1 = System.Drawing.Color.MediumAquamarine;
-            this.btnShto.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnShto.BackgroundImage")));
-            this.btnShto.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnShto.ButtonText = "Shto";
-            this.btnShto.ButtonTextMarginLeft = 0;
-            this.btnShto.ColorContrastOnClick = 45;
-            this.btnShto.ColorContrastOnHover = 45;
-            this.btnShto.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges2.BottomLeft = true;
-            borderEdges2.BottomRight = true;
-            borderEdges2.TopLeft = true;
-            borderEdges2.TopRight = true;
-            this.btnShto.CustomizableEdges = borderEdges2;
-            this.btnShto.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btnShto.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.btnShto.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.btnShto.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
-            this.btnShto.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.btnShto.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnShto.ForeColor = System.Drawing.Color.White;
-            this.btnShto.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnShto.IconLeftCursor = System.Windows.Forms.Cursors.Default;
-            this.btnShto.IconLeftPadding = new System.Windows.Forms.Padding(11, 3, 3, 3);
-            this.btnShto.IconMarginLeft = 11;
-            this.btnShto.IconPadding = 10;
-            this.btnShto.IconRightAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnShto.IconRightCursor = System.Windows.Forms.Cursors.Default;
-            this.btnShto.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
-            this.btnShto.IconSize = 25;
-            this.btnShto.IdleBorderColor = System.Drawing.Color.Green;
-            this.btnShto.IdleBorderRadius = 45;
-            this.btnShto.IdleBorderThickness = 1;
-            this.btnShto.IdleFillColor = System.Drawing.Color.MediumAquamarine;
-            this.btnShto.IdleIconLeftImage = null;
-            this.btnShto.IdleIconRightImage = null;
-            this.btnShto.IndicateFocus = false;
-            this.btnShto.Location = new System.Drawing.Point(37, 170);
+            this.btnShto.Location = new System.Drawing.Point(53, 440);
+            this.btnShto.Margin = new System.Windows.Forms.Padding(4);
             this.btnShto.Name = "btnShto";
-            this.btnShto.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.btnShto.OnDisabledState.BorderRadius = 1;
-            this.btnShto.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnShto.OnDisabledState.BorderThickness = 1;
-            this.btnShto.OnDisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.btnShto.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
-            this.btnShto.OnDisabledState.IconLeftImage = null;
-            this.btnShto.OnDisabledState.IconRightImage = null;
-            this.btnShto.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(185)))), ((int)(((byte)(114)))));
-            this.btnShto.onHoverState.BorderRadius = 1;
-            this.btnShto.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnShto.onHoverState.BorderThickness = 1;
-            this.btnShto.onHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(227)))), ((int)(((byte)(208)))));
-            this.btnShto.onHoverState.ForeColor = System.Drawing.Color.White;
-            this.btnShto.onHoverState.IconLeftImage = null;
-            this.btnShto.onHoverState.IconRightImage = null;
-            this.btnShto.OnIdleState.BorderColor = System.Drawing.Color.Green;
-            this.btnShto.OnIdleState.BorderRadius = 1;
-            this.btnShto.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnShto.OnIdleState.BorderThickness = 1;
-            this.btnShto.OnIdleState.FillColor = System.Drawing.Color.MediumAquamarine;
-            this.btnShto.OnIdleState.ForeColor = System.Drawing.Color.White;
-            this.btnShto.OnIdleState.IconLeftImage = null;
-            this.btnShto.OnIdleState.IconRightImage = null;
-            this.btnShto.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(70)))), ((int)(((byte)(0)))));
-            this.btnShto.OnPressedState.BorderRadius = 1;
-            this.btnShto.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnShto.OnPressedState.BorderThickness = 1;
-            this.btnShto.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(112)))), ((int)(((byte)(93)))));
-            this.btnShto.OnPressedState.ForeColor = System.Drawing.Color.White;
-            this.btnShto.OnPressedState.IconLeftImage = null;
-            this.btnShto.OnPressedState.IconRightImage = null;
-            this.btnShto.Size = new System.Drawing.Size(141, 47);
-            this.btnShto.TabIndex = 57;
-            this.btnShto.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnShto.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btnShto.TextMarginLeft = 0;
-            this.btnShto.TextPadding = new System.Windows.Forms.Padding(0);
-            this.btnShto.UseDefaultRadiusAndThickness = true;
-            this.btnShto.Click += new System.EventHandler(this.btnShto_Click_1);
+            this.btnShto.Size = new System.Drawing.Size(151, 28);
+            this.btnShto.TabIndex = 33;
+            this.btnShto.Text = "Shto";
+            this.btnShto.UseVisualStyleBackColor = true;
+            this.btnShto.Click += new System.EventHandler(this.btnShto_Click);
             // 
-            // label3
+            // dgTavolinat
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(47, 34);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(123, 24);
-            this.label3.TabIndex = 43;
-            this.label3.Text = "Numri Ulseve";
+            this.dgTavolinat.ColumnHeadersHeight = 36;
+            this.dgTavolinat.Location = new System.Drawing.Point(31, 28);
+            this.dgTavolinat.Name = "dgTavolinat";
+            this.dgTavolinat.RowHeadersWidth = 51;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopLeft;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgTavolinat.RowsDefaultCellStyle = dataGridViewCellStyle2;
+            this.dgTavolinat.RowTemplate.Height = 24;
+            this.dgTavolinat.Size = new System.Drawing.Size(510, 254);
+            this.dgTavolinat.TabIndex = 34;
+            // 
+            // btnFshij
+            // 
+            this.btnFshij.Location = new System.Drawing.Point(264, 440);
+            this.btnFshij.Name = "btnFshij";
+            this.btnFshij.Size = new System.Drawing.Size(169, 25);
+            this.btnFshij.TabIndex = 35;
+            this.btnFshij.Values.Text = "Fshij";
+            this.btnFshij.Click += new System.EventHandler(this.btnFshij_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.SystemColors.Control;
+            this.label1.Location = new System.Drawing.Point(47, 332);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(88, 16);
+            this.label1.TabIndex = 36;
+            this.label1.Text = "Numri Ulseve";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.SystemColors.Control;
+            this.label2.Location = new System.Drawing.Point(50, 377);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(38, 16);
+            this.label2.TabIndex = 37;
+            this.label2.Text = "Salla";
             // 
             // txtNrUlseve
             // 
-            this.txtNrUlseve.AcceptsReturn = false;
-            this.txtNrUlseve.AcceptsTab = false;
-            this.txtNrUlseve.AnimationSpeed = 200;
-            this.txtNrUlseve.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.txtNrUlseve.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.txtNrUlseve.BackColor = System.Drawing.Color.Transparent;
-            this.txtNrUlseve.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("txtNrUlseve.BackgroundImage")));
-            this.txtNrUlseve.BorderColorActive = System.Drawing.Color.DodgerBlue;
-            this.txtNrUlseve.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.txtNrUlseve.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.txtNrUlseve.BorderColorIdle = System.Drawing.Color.Silver;
-            this.txtNrUlseve.BorderRadius = 1;
-            this.txtNrUlseve.BorderThickness = 1;
-            this.txtNrUlseve.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.txtNrUlseve.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtNrUlseve.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
-            this.txtNrUlseve.DefaultText = "";
-            this.txtNrUlseve.FillColor = System.Drawing.Color.White;
-            this.txtNrUlseve.HideSelection = true;
-            this.txtNrUlseve.IconLeft = null;
-            this.txtNrUlseve.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtNrUlseve.IconPadding = 10;
-            this.txtNrUlseve.IconRight = null;
-            this.txtNrUlseve.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtNrUlseve.Lines = new string[0];
-            this.txtNrUlseve.Location = new System.Drawing.Point(194, 21);
-            this.txtNrUlseve.MaxLength = 32767;
-            this.txtNrUlseve.MinimumSize = new System.Drawing.Size(1, 1);
-            this.txtNrUlseve.Modified = false;
-            this.txtNrUlseve.Multiline = false;
+            this.txtNrUlseve.Location = new System.Drawing.Point(203, 325);
             this.txtNrUlseve.Name = "txtNrUlseve";
-            stateProperties1.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties1.FillColor = System.Drawing.Color.Empty;
-            stateProperties1.ForeColor = System.Drawing.Color.Empty;
-            stateProperties1.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txtNrUlseve.OnActiveState = stateProperties1;
-            stateProperties2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties2.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.txtNrUlseve.OnDisabledState = stateProperties2;
-            stateProperties3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties3.FillColor = System.Drawing.Color.Empty;
-            stateProperties3.ForeColor = System.Drawing.Color.Empty;
-            stateProperties3.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txtNrUlseve.OnHoverState = stateProperties3;
-            stateProperties4.BorderColor = System.Drawing.Color.Silver;
-            stateProperties4.FillColor = System.Drawing.Color.White;
-            stateProperties4.ForeColor = System.Drawing.Color.Empty;
-            stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txtNrUlseve.OnIdleState = stateProperties4;
-            this.txtNrUlseve.Padding = new System.Windows.Forms.Padding(3);
-            this.txtNrUlseve.PasswordChar = '\0';
-            this.txtNrUlseve.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.txtNrUlseve.PlaceholderText = "Emri";
-            this.txtNrUlseve.ReadOnly = false;
-            this.txtNrUlseve.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.txtNrUlseve.SelectedText = "";
-            this.txtNrUlseve.SelectionLength = 0;
-            this.txtNrUlseve.SelectionStart = 0;
-            this.txtNrUlseve.ShortcutsEnabled = true;
-            this.txtNrUlseve.Size = new System.Drawing.Size(260, 37);
-            this.txtNrUlseve.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
-            this.txtNrUlseve.TabIndex = 44;
-            this.txtNrUlseve.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.txtNrUlseve.TextMarginBottom = 0;
-            this.txtNrUlseve.TextMarginLeft = 3;
-            this.txtNrUlseve.TextMarginTop = 0;
-            this.txtNrUlseve.TextPlaceholder = "Emri";
-            this.txtNrUlseve.UseSystemPasswordChar = false;
-            this.txtNrUlseve.WordWrap = true;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label6.Location = new System.Drawing.Point(47, 99);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(50, 24);
-            this.label6.TabIndex = 45;
-            this.label6.Text = "Salla";
+            this.txtNrUlseve.Size = new System.Drawing.Size(139, 27);
+            this.txtNrUlseve.TabIndex = 38;
             // 
             // cbSalla
             // 
+<<<<<<< HEAD
 <<<<<<< HEAD
             this.cbSalla.BackColor = System.Drawing.Color.Transparent;
             this.cbSalla.BackgroundColor = System.Drawing.Color.White;
@@ -492,40 +376,47 @@ namespace MenaxhimiKafiteris.AdminForms.Tavolinat
             this.cbSalla.IntegralHeight = false;
             this.cbSalla.Location = new System.Drawing.Point(203, 377);
 >>>>>>> 0b8cdc4746cc0e9adedc8fe5da48a5d6df9f1a4a
+=======
+            this.cbSalla.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cbSalla.DropDownWidth = 139;
+            this.cbSalla.IntegralHeight = false;
+            this.cbSalla.Location = new System.Drawing.Point(203, 377);
+>>>>>>> parent of 0e87859 (raportet)
             this.cbSalla.Name = "cbSalla";
-            this.cbSalla.Size = new System.Drawing.Size(260, 32);
-            this.cbSalla.TabIndex = 47;
-            this.cbSalla.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
-            this.cbSalla.TextLeftMargin = 5;
+            this.cbSalla.Size = new System.Drawing.Size(139, 25);
+            this.cbSalla.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
+            this.cbSalla.TabIndex = 39;
             // 
             // tavolina
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(55)))), ((int)(((byte)(106)))));
-            this.ClientSize = new System.Drawing.Size(768, 775);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(34)))), ((int)(((byte)(74)))));
+            this.ClientSize = new System.Drawing.Size(740, 596);
+            this.Controls.Add(this.cbSalla);
+            this.Controls.Add(this.txtNrUlseve);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnFshij);
+            this.Controls.Add(this.dgTavolinat);
+            this.Controls.Add(this.btnShto);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "tavolina";
             this.Text = "tavolina";
             ((System.ComponentModel.ISupportInitialize)(this.dgTavolinat)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.cbSalla)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-        private Bunifu.UI.WinForms.BunifuDataGridView dgTavolinat;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
-        private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
-        private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnFshij;
-        private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnShto;
-        private Bunifu.UI.WinForms.BunifuDropdown cbSalla;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label6;
-        private Bunifu.UI.WinForms.BunifuTextBox txtNrUlseve;
+        private System.Windows.Forms.Button btnShto;
+        private Krypton.Toolkit.KryptonDataGridView dgTavolinat;
+        private Krypton.Toolkit.KryptonButton btnFshij;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private Krypton.Toolkit.KryptonTextBox txtNrUlseve;
+        private Krypton.Toolkit.KryptonComboBox cbSalla;
     }
 }

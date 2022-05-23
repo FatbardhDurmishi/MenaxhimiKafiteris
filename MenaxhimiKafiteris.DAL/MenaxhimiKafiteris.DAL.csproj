@@ -49,7 +49,6 @@
     <Compile Include="DatabaseConfig.cs" />
     <Compile Include="LlojetEProdukteveRepository.cs" />
     <Compile Include="PerbersitRepository.cs" />
-    <Compile Include="PorosiaRepository.cs" />
     <Compile Include="ProduktetRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RoletRepository.cs" />
