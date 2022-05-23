@@ -50,7 +50,6 @@ C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiter
 C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.AdminForms.Staffi.ShtoStaff.resources
 C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.AdminForms.Staffi.Stafi.resources
 C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.AdminForms.Tavolinat.tavolina.resources
-C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.LogInForm.resources
 C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.Properties.Resources.resources
 C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.UC_mainPannel.resources
 C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.UserForms.mainKamarier.resources
@@ -64,3 +63,7 @@ C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\Menax
 C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.AdminForms.Staffi.Stafi.resources
 C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.LogInForm.LogIn.resources
 C:\Users\rilind32\Desktop\Riinvest\Viti II\Semestri II\Project IT 1\GitHub\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.csproj.CopyComplete
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.AdminForms.Produktet.shtoPerberesPerProdukt.resources
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.LogInForm.LogIn.resources
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.UserForms.krijoPorosi.resources
+C:\Riinvest\Viti II\Semestri 4\TI-1\Projekti\MenaxhimiKafiteris\MenaxhimiKafiteris\obj\Debug\MenaxhimiKafiteris.UserForms.PaguajPorosin.resources

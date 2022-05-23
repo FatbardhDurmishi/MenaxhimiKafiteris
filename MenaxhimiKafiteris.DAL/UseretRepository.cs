@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using MenaxhimiKafiteris.BO;
@@ -91,7 +92,8 @@ namespace MenaxhimiKafiteris.DAL
                     DatabaseConfig.command.Parameters.AddWithValue("@passwordi", useri.Passwordi);
                     DatabaseConfig.command.Parameters.AddWithValue("@gjinia", useri.Gjinia);
                     DatabaseConfig.command.Parameters.AddWithValue("@roliID", useri.RoliID);
-                    DatabaseConfig.command.Parameters.AddWithValue("@userID", 1);
+                    DatabaseConfig.command.Parameters.AddWithValue("@userID", id);
+                    DatabaseConfig.command.Parameters.AddWithValue("@lub", 1);
                     DatabaseConfig.command.ExecuteNonQuery();
                     return true;
                 }
@@ -119,6 +121,7 @@ namespace MenaxhimiKafiteris.DAL
                     if(dt.Rows.Count > 0)
                     {
                         useri.RoliID=int.Parse(dt.Rows[0]["Roli_Id"].ToString());
+                        useri.Id=int.Parse(dt.Rows[0]["UserId"].ToString());
                     }
                     cmd.ExecuteNonQuery();
                     return useri;

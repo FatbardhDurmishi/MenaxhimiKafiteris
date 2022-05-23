@@ -51,9 +51,6 @@ namespace MenaxhimiKafiteris.AdminForms.Staffi
             // 
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 8f4ccb216e5bf7eeae42c9084ca885a660248332
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -62,7 +59,6 @@ namespace MenaxhimiKafiteris.AdminForms.Staffi
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(738, 276);
             this.panel1.TabIndex = 53;
-<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of 0e87859 (raportet)
@@ -77,8 +73,6 @@ namespace MenaxhimiKafiteris.AdminForms.Staffi
 =======
             this.shtoStaffBtn.Click += new System.EventHandler(this.shtoStaffBtn_Click);
 >>>>>>> parent of 0e87859 (raportet)
-=======
->>>>>>> 8f4ccb216e5bf7eeae42c9084ca885a660248332
             // 
             // deleteStafBtn
             // 

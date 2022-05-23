@@ -76,5 +76,32 @@ namespace MenaxhimiKafiteris.DAL
             }
 
         }
+        public bool UpdateTavolin(Tavolina tavolina, int id)
+        {
+            try
+            {
+                //Using closes it vet. Forces it to close itself
+                using (DatabaseConfig.connection = new SqlConnection(DatabaseConfig.ConnectionString))
+                {
+                    DatabaseConfig.connection.Open();
+                    DatabaseConfig.command = new SqlCommand("usp_UpdateTavolin", DatabaseConfig.connection);
+                    DatabaseConfig.command.CommandType = System.Data.CommandType.StoredProcedure;
+
+                    //Stored procedure spGetLLojetProdukteve
+                    DatabaseConfig.command.Parameters.AddWithValue("@tavolinaId", id);
+                    DatabaseConfig.command.Parameters.AddWithValue("@nrKarrigev", tavolina.NrKarrigave);
+                    DatabaseConfig.command.Parameters.AddWithValue("@userID", 1);
+                    DatabaseConfig.command.Parameters.AddWithValue("@sallaID", tavolina.SallaID);
+                    DatabaseConfig.command.ExecuteNonQuery();
+                    return true;
+                }
+            }
+            catch
+            {
+                return false;
+            }
+
+            // loadData();
+        }
     }
 }

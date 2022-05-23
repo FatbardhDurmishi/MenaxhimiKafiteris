@@ -24,15 +24,19 @@ namespace MenaxhimiKafiteris.AdminForms.Staffi
         {
             InitializeComponent();
             useretServices = new UseretServices();
+            dgStafi.ClearSelection();
+            ShfaqUseret();
+            this.Refresh();
         }
-        private void ShfaqUseret()
+        public void ShfaqUseret()
         {
             dgStafi.DataSource = useretServices.GetAll().Tables[0];
         }
         private void btnShtoStaff_Click(object sender, EventArgs e)
         {
             var formPopup = new Staffi.ShtoStaff();
-            formPopup.Show(this);
+            formPopup.Visible = false;
+            formPopup.ShowDialog();
         }
 
         private void btnFshijStaff_Click(object sender, EventArgs e)
@@ -55,9 +59,6 @@ namespace MenaxhimiKafiteris.AdminForms.Staffi
                 id = (int)row.Cells[0].Value;
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 8f4ccb216e5bf7eeae42c9084ca885a660248332
                 username = row.Cells[1].ToString();
                 password = row.Cells[2].ToString();
                 gjinia = row.Cells[3].ToString();
@@ -73,7 +74,6 @@ namespace MenaxhimiKafiteris.AdminForms.Staffi
             ShtoStaff frm=new Staffi.ShtoStaff();
             
             frm.Show(this);
-<<<<<<< HEAD
 <<<<<<< HEAD
 =======
                 username = row.Cells[1].Value.ToString();
@@ -107,9 +107,9 @@ namespace MenaxhimiKafiteris.AdminForms.Staffi
         private void shtoStaffBtn_Click(object sender, EventArgs e)
         {
 >>>>>>> parent of 0e87859 (raportet)
-=======
->>>>>>> 8f4ccb216e5bf7eeae42c9084ca885a660248332
 
         }
+
+
     }
 }

@@ -14,12 +14,14 @@ namespace MenaxhimiKafiteris.AdminForms.Sallat
 {
     public partial class Salla : Form
     {
+        public int id;
         SallatServices sallatservices;
         public Salla()
         {
             sallatservices = new SallatServices();
             InitializeComponent();
             ShfaqSallat();
+            //PopulateOnEdit();
         }
         public void ShfaqSallat()
         {
@@ -31,9 +33,9 @@ namespace MenaxhimiKafiteris.AdminForms.Sallat
             Sallacl newSalla = new Sallacl();
             newSalla.Emri = txtEmri.Text;
             newSalla.NrTavolinav = int.Parse(txtnrTavolinat.Text);
+<<<<<<< HEAD
             bool isSaved = sallatservices.ShtoSall(newSalla);
             ShfaqSallat();
-<<<<<<< HEAD
 <<<<<<< HEAD
 =======
             if (id > 0)
@@ -63,8 +65,6 @@ namespace MenaxhimiKafiteris.AdminForms.Sallat
 =======
 
 >>>>>>> parent of 0e87859 (raportet)
-=======
->>>>>>> 8f4ccb216e5bf7eeae42c9084ca885a660248332
         }
 
         private void btnFshij_Click(object sender, EventArgs e)
@@ -79,7 +79,6 @@ namespace MenaxhimiKafiteris.AdminForms.Sallat
                 ShfaqSallat();
             }
         }
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -104,7 +103,5 @@ namespace MenaxhimiKafiteris.AdminForms.Sallat
 
 
 >>>>>>> parent of 0e87859 (raportet)
-=======
->>>>>>> 8f4ccb216e5bf7eeae42c9084ca885a660248332
     }
 }

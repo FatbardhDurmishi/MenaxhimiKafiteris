@@ -31,9 +31,6 @@ namespace MenaxhimiKafiteris.AdminForms
         {
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 8f4ccb216e5bf7eeae42c9084ca885a660248332
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -80,7 +77,6 @@ namespace MenaxhimiKafiteris.AdminForms
 <<<<<<< HEAD
             this.bunifuElipse1.ElipseRadius = 7;
             this.bunifuElipse1.TargetControl = this.dgLlojet;
-<<<<<<< HEAD
 =======
             this.dgPorosite = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dgPorosite)).BeginInit();
@@ -125,18 +121,13 @@ namespace MenaxhimiKafiteris.AdminForms
             this.kamerieriColumn.HeaderText = "Kamarieri";
             this.kamerieriColumn.Name = "kamerieriColumn";
 >>>>>>> parent of 0e87859 (raportet)
-=======
->>>>>>> 8f4ccb216e5bf7eeae42c9084ca885a660248332
             // 
             // Porosite
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 8f4ccb216e5bf7eeae42c9084ca885a660248332
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(55)))), ((int)(((byte)(106)))));
             this.ClientSize = new System.Drawing.Size(1040, 820);
             this.Controls.Add(this.panel1);
@@ -145,7 +136,6 @@ namespace MenaxhimiKafiteris.AdminForms
             this.Load += new System.EventHandler(this.Porosite_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgLlojet)).EndInit();
-<<<<<<< HEAD
 =======
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(34)))), ((int)(((byte)(74)))));
             this.ClientSize = new System.Drawing.Size(1279, 618);
@@ -163,15 +153,12 @@ namespace MenaxhimiKafiteris.AdminForms
             this.Text = "Porosite";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
 >>>>>>> parent of 0e87859 (raportet)
-=======
->>>>>>> 8f4ccb216e5bf7eeae42c9084ca885a660248332
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         private System.Windows.Forms.Panel panel1;
@@ -189,10 +176,5 @@ namespace MenaxhimiKafiteris.AdminForms
         private System.Windows.Forms.DataGridViewTextBoxColumn tavolinaIDColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn kamerieriColumn;
 >>>>>>> parent of 0e87859 (raportet)
-=======
-        private System.Windows.Forms.Panel panel1;
-        private Bunifu.UI.WinForms.BunifuDataGridView dgLlojet;
-        private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
->>>>>>> 8f4ccb216e5bf7eeae42c9084ca885a660248332
     }
 }

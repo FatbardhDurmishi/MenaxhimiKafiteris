@@ -31,9 +31,6 @@ namespace MenaxhimiKafiteris.AdminForms.Tavolinat
         {
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 8f4ccb216e5bf7eeae42c9084ca885a660248332
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -55,7 +52,6 @@ namespace MenaxhimiKafiteris.AdminForms.Tavolinat
             this.txtNrUlseve = new Bunifu.UI.WinForms.BunifuTextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.cbSalla = new Bunifu.UI.WinForms.BunifuDropdown();
-<<<<<<< HEAD
 =======
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
 =======
@@ -72,8 +68,6 @@ namespace MenaxhimiKafiteris.AdminForms.Tavolinat
 >>>>>>> 0b8cdc4746cc0e9adedc8fe5da48a5d6df9f1a4a
 =======
 >>>>>>> parent of 0e87859 (raportet)
-=======
->>>>>>> 8f4ccb216e5bf7eeae42c9084ca885a660248332
             ((System.ComponentModel.ISupportInitialize)(this.dgTavolinat)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbSalla)).BeginInit();
             this.SuspendLayout();
@@ -81,6 +75,7 @@ namespace MenaxhimiKafiteris.AdminForms.Tavolinat
 <<<<<<< HEAD
             // dgTavolinat
             // 
+<<<<<<< HEAD
             this.dgTavolinat.AccessibleName = "";
             this.dgTavolinat.AllowCustomTheming = false;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
@@ -172,6 +167,19 @@ namespace MenaxhimiKafiteris.AdminForms.Tavolinat
             // 
             this.bunifuElipse1.ElipseRadius = 7;
             this.bunifuElipse1.TargetControl = this.dgTavolinat;
+=======
+            this.dgTavolinat.ColumnHeadersHeight = 36;
+            this.dgTavolinat.Location = new System.Drawing.Point(31, 28);
+            this.dgTavolinat.Name = "dgTavolinat";
+            this.dgTavolinat.RowHeadersWidth = 51;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopLeft;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgTavolinat.RowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgTavolinat.RowTemplate.Height = 24;
+            this.dgTavolinat.Size = new System.Drawing.Size(510, 254);
+            this.dgTavolinat.TabIndex = 34;
+            this.dgTavolinat.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgTavolinat_RowHeaderMouseClick);
+>>>>>>> 0b8cdc4746cc0e9adedc8fe5da48a5d6df9f1a4a
             // 
             // btnFshij
             // 
@@ -329,9 +337,6 @@ namespace MenaxhimiKafiteris.AdminForms.Tavolinat
             // 
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 8f4ccb216e5bf7eeae42c9084ca885a660248332
             this.cbSalla.BackColor = System.Drawing.Color.Transparent;
             this.cbSalla.BackgroundColor = System.Drawing.Color.White;
             this.cbSalla.BorderColor = System.Drawing.Color.Silver;
@@ -365,7 +370,6 @@ namespace MenaxhimiKafiteris.AdminForms.Tavolinat
             this.cbSalla.ItemHighLightForeColor = System.Drawing.Color.White;
             this.cbSalla.ItemTopMargin = 3;
             this.cbSalla.Location = new System.Drawing.Point(194, 91);
-<<<<<<< HEAD
 =======
             this.cbSalla.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
             this.cbSalla.DropDownWidth = 139;
@@ -378,8 +382,6 @@ namespace MenaxhimiKafiteris.AdminForms.Tavolinat
             this.cbSalla.IntegralHeight = false;
             this.cbSalla.Location = new System.Drawing.Point(203, 377);
 >>>>>>> parent of 0e87859 (raportet)
-=======
->>>>>>> 8f4ccb216e5bf7eeae42c9084ca885a660248332
             this.cbSalla.Name = "cbSalla";
             this.cbSalla.Size = new System.Drawing.Size(139, 25);
             this.cbSalla.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
