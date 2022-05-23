@@ -73,7 +73,7 @@ namespace MenaxhimiKafiteris.AdminForms
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(209, 681);
+            this.panelMenu.Size = new System.Drawing.Size(209, 648);
             this.panelMenu.TabIndex = 21;
             // 
             // shtoStaffButton
@@ -273,7 +273,7 @@ namespace MenaxhimiKafiteris.AdminForms
             this.panelTitle.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTitle.Location = new System.Drawing.Point(209, 0);
             this.panelTitle.Name = "panelTitle";
-            this.panelTitle.Size = new System.Drawing.Size(775, 69);
+            this.panelTitle.Size = new System.Drawing.Size(673, 69);
             this.panelTitle.TabIndex = 22;
             this.panelTitle.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitleBar_MouseDown);
             // 
@@ -306,12 +306,12 @@ namespace MenaxhimiKafiteris.AdminForms
             // 
             // timeLabel
             // 
-            this.timeLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.timeLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.timeLabel.AutoSize = true;
-            this.timeLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(55)))), ((int)(((byte)(106)))));
+            this.timeLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(34)))), ((int)(((byte)(74)))));
             this.timeLabel.Font = new System.Drawing.Font("Nirmala UI", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.timeLabel.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.timeLabel.Location = new System.Drawing.Point(215, 535);
+            this.timeLabel.Location = new System.Drawing.Point(283, 440);
             this.timeLabel.Name = "timeLabel";
             this.timeLabel.Size = new System.Drawing.Size(155, 65);
             this.timeLabel.TabIndex = 23;
@@ -323,24 +323,25 @@ namespace MenaxhimiKafiteris.AdminForms
             // 
             // panelDesktop
             // 
-            this.panelDesktop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(55)))), ((int)(((byte)(106)))));
+            this.panelDesktop.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelDesktop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(34)))), ((int)(((byte)(74)))));
             this.panelDesktop.Controls.Add(this.timeLabel);
             this.panelDesktop.Controls.Add(this.pictureBox1);
-            this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelDesktop.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.panelDesktop.Location = new System.Drawing.Point(209, 69);
-            this.panelDesktop.MinimumSize = new System.Drawing.Size(775, 620);
             this.panelDesktop.Name = "panelDesktop";
-            this.panelDesktop.Size = new System.Drawing.Size(775, 620);
+            this.panelDesktop.Size = new System.Drawing.Size(673, 579);
             this.panelDesktop.TabIndex = 24;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox1.Image = global::MenaxhimiKafiteris.Properties.Resources.CoffeLogo2;
-            this.pictureBox1.Location = new System.Drawing.Point(226, 109);
+            this.pictureBox1.Location = new System.Drawing.Point(209, 85);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(327, 284);
+            this.pictureBox1.Size = new System.Drawing.Size(263, 261);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -349,11 +350,10 @@ namespace MenaxhimiKafiteris.AdminForms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(984, 681);
+            this.ClientSize = new System.Drawing.Size(882, 648);
             this.Controls.Add(this.panelDesktop);
             this.Controls.Add(this.panelTitle);
             this.Controls.Add(this.panelMenu);
-            this.MinimumSize = new System.Drawing.Size(1000, 720);
             this.Name = "mainAdmin";
             this.Text = "mainAdmin";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -383,6 +383,7 @@ namespace MenaxhimiKafiteris.AdminForms
         private FontAwesome.Sharp.IconButton produktetButton;
         private System.Windows.Forms.Panel panelLogo;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panelTitle;
         private System.Windows.Forms.Label labelCurrentChild;
         private FontAwesome.Sharp.IconPictureBox iconCurrentChild;
@@ -390,6 +391,5 @@ namespace MenaxhimiKafiteris.AdminForms
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Panel panelDesktop;
         private FontAwesome.Sharp.IconButton shtoStaffButton;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

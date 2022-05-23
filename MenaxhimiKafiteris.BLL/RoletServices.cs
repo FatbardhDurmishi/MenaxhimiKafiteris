@@ -16,7 +16,6 @@ namespace MenaxhimiKafiteris.BLL
         {
             roletRepository = new RoletRepository();
         }
-
        public DataSet GetRolet()
         {
             return roletRepository.GetAll();

@@ -22,7 +22,19 @@ namespace MenaxhimiKafiteris.AdminForms.Perberesit
             ShfaqPerbersit();
         }
 
+        private void btnFshij_Click(object sender, EventArgs e)
+        {
+            foreach (DataGridViewRow row in dgPerbersi.SelectedRows)
+            {
 
+                //gets index from cells
+                int rowIndex = (int)row.Cells[0].Value;
+                dgPerbersi.Rows.RemoveAt(row.Index);
+                perbersiservices.FshiPerbers(rowIndex);
+               
+            }
+           
+        }
         public void ShfaqPerbersit()
         {
             dgPerbersi.DataSource = perbersiservices.GetAll().Tables[0];
@@ -39,19 +51,6 @@ namespace MenaxhimiKafiteris.AdminForms.Perberesit
             txtSasia.Clear();
         }
 
-
-        private void btnFshij_Click_1(object sender, EventArgs e)
-        {
-            foreach (DataGridViewRow row in dgPerbersi.SelectedRows)
-            {
-
-                //gets index from cells
-                int rowIndex = (int)row.Cells[0].Value;
-                dgPerbersi.Rows.RemoveAt(row.Index);
-                perbersiservices.FshiPerbers(rowIndex);
-
-            }
-        }
-
+       
     }
 }

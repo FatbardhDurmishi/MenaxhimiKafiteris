@@ -48,7 +48,6 @@
   <ItemGroup>
     <Compile Include="LlojetEProdukteveService.cs" />
     <Compile Include="PerbersitServices.cs" />
-    <Compile Include="PorosiaService.cs" />
     <Compile Include="ProduktetServices.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RoletServices.cs" />

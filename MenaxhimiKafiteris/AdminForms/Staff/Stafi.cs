@@ -28,33 +28,14 @@ namespace MenaxhimiKafiteris.AdminForms.Staffi
         private void ShfaqUseret()
         {
             dgStafi.DataSource = useretServices.GetAll().Tables[0];
-            //dataGridView1.DataSource = useretServices.GetAll().Tables[0];
         }
-
-
-
-        private void shtoStaffBtn_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void deleteStafBtn_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Stafi_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnShtoStaff_Click_1(object sender, EventArgs e)
+        private void btnShtoStaff_Click(object sender, EventArgs e)
         {
             var formPopup = new Staffi.ShtoStaff();
             formPopup.Show(this);
         }
 
-        private void btnFshijStaff_Click_1(object sender, EventArgs e)
+        private void btnFshijStaff_Click(object sender, EventArgs e)
         {
             foreach (DataGridViewRow row in dgStafi.SelectedRows)
             {
@@ -67,21 +48,26 @@ namespace MenaxhimiKafiteris.AdminForms.Staffi
             }
         }
 
-        private void btnUpdateUser_Click_1(object sender, EventArgs e)
+        private void btnUpdateUser_Click(object sender, EventArgs e)
         {
-            foreach (DataGridViewRow row in dgStafi.SelectedRows)
+            foreach(DataGridViewRow row in dgStafi.SelectedRows)
             {
                 id = (int)row.Cells[0].Value;
-                username = row.Cells[1].ToString();
-                password = row.Cells[2].ToString();
-                gjinia = row.Cells[3].ToString();
+                username=row.Cells[1].ToString();
+                password=row.Cells[2].ToString();
+                gjinia= row.Cells[3].ToString();
                 roliId = (int)row.Cells[4].Value;
             }
 
-
-            ShtoStaff frm = new Staffi.ShtoStaff();
-
+            
+            ShtoStaff frm=new Staffi.ShtoStaff();
+            
             frm.Show(this);
+            
+        }
+
+        private void shtoStaffBtn_Click(object sender, EventArgs e)
+        {
 
         }
     }
