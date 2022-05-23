@@ -16,30 +16,23 @@ namespace MenaxhimiKafiteris.AdminForms.Staffi
     {
         UseretServices useretServices;
         RoletServices roletServices;
-        Stafi stafi;
         public ShtoStaff()
         {
             
             InitializeComponent();
-            stafi = new Stafi();
             useretServices = new UseretServices();
             roletServices = new RoletServices();
             PopulloComboList();
-            PopulateOnEdit();
-            stafi.Refresh();
-            
-            
         }
 
         private void btnRuaj_Click(object sender, EventArgs e)
         {
             Useri newUser = new Useri
             {
-               // Id = Stafi.id,
                 Username = txtUsername.Text,
                 Passwordi = txtPasswordi.Text,
                 Gjinia = txtGjinia.Text,
-                RoliID = int.Parse(cbRoli.SelectedValue.ToString())
+                RoliID = cbRoli.SelectedIndex
 
             };
             if (Stafi.id > 0)
@@ -47,7 +40,6 @@ namespace MenaxhimiKafiteris.AdminForms.Staffi
                 if(useretServices.EditoUser(newUser, Stafi.id))
                 {
                     MessageBox.Show("Useri eshte edituar me suskes");
-                    
                 } 
             }
             else
@@ -72,13 +64,11 @@ namespace MenaxhimiKafiteris.AdminForms.Staffi
         }
         public void PopulateOnEdit()
         {
-            int id = Stafi.id;
             txtUsername.Text = Stafi.username;
             txtPasswordi.Text = Stafi.password;
             txtGjinia.Text = Stafi.gjinia;
-            cbRoli.SelectedValue =Stafi.roliId;
+            cbRoli.SelectedIndex =Stafi.roliId;
             this.Show();
-            
         }
     }
 }

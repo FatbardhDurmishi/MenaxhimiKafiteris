@@ -38,7 +38,6 @@ namespace MenaxhimiKafiteris.BLL
         {
             return produktetRepository.GetLastProdukt();
         }
-<<<<<<< HEAD
 
 <<<<<<< HEAD
         public string GetTopProduktName()
@@ -52,6 +51,7 @@ namespace MenaxhimiKafiteris.BLL
         }
 
 
+<<<<<<< HEAD
 =======
         public bool UpdateSasinEProduktit(int produktiID)
         {
@@ -60,6 +60,8 @@ namespace MenaxhimiKafiteris.BLL
 >>>>>>> 0b8cdc4746cc0e9adedc8fe5da48a5d6df9f1a4a
 =======
 >>>>>>> parent of 0e87859 (raportet)
+=======
+>>>>>>> 8f4ccb216e5bf7eeae42c9084ca885a660248332
 
        
     }

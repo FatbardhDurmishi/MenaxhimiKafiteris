@@ -1,33 +1,28 @@
 ﻿using MenaxhimiKafiteris.DAL;
 using System.Data;
 using MenaxhimiKafiteris.BO;
-using System.Collections.Generic;
 
 namespace MenaxhimiKafiteris.BLL
 {
     public class LlojetEProdukteveService
     {
-        private LlojetEProdukteveRepository llojetEprodukteveRepository;
+        private LlojetEProdukteveRepository LlojetEProdukteveRepository;
         public LlojetEProdukteveService()
         {
-            llojetEprodukteveRepository=new LlojetEProdukteveRepository();
+            LlojetEProdukteveRepository=new LlojetEProdukteveRepository();
         }
 
         public DataSet GetAll()
         {
-            return llojetEprodukteveRepository.GetAll();
+            return LlojetEProdukteveRepository.GetAll();
         }
         public bool ShtoLloj(LlojetEProdukteve lloji)
         {
-            return llojetEprodukteveRepository.ShtoLloj(lloji);
+            return LlojetEProdukteveRepository.ShtoLloj(lloji);
         }
         public bool FshiLloj(int id)
         {
-            return llojetEprodukteveRepository.FshiLloj(id);
-        }
-        public List<LlojetEProdukteve> ListLlojetProdukteve()
-        {
-            return llojetEprodukteveRepository.ListaLlojetProduktev();
+            return LlojetEProdukteveRepository.FshiLloj(id);
         }
 
         //public bool ShtoLloj(LlojetEProdukteve lloji)

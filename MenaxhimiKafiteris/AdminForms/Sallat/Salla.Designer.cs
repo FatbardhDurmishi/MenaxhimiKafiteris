@@ -31,6 +31,9 @@ namespace MenaxhimiKafiteris.AdminForms.Sallat
         {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8f4ccb216e5bf7eeae42c9084ca885a660248332
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -46,6 +49,7 @@ namespace MenaxhimiKafiteris.AdminForms.Sallat
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties6 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties7 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties8 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+<<<<<<< HEAD
 =======
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dgSallat = new Krypton.Toolkit.KryptonDataGridView();
@@ -56,6 +60,8 @@ namespace MenaxhimiKafiteris.AdminForms.Sallat
             this.dgSallat = new Krypton.Toolkit.KryptonDataGridView();
             this.btnFshij = new Krypton.Toolkit.KryptonButton();
 >>>>>>> parent of 0e87859 (raportet)
+=======
+>>>>>>> 8f4ccb216e5bf7eeae42c9084ca885a660248332
             this.emri = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtEmri = new Krypton.Toolkit.KryptonTextBox();
@@ -64,6 +70,7 @@ namespace MenaxhimiKafiteris.AdminForms.Sallat
             ((System.ComponentModel.ISupportInitialize)(this.dgSallat)).BeginInit();
             this.SuspendLayout();
             // 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -103,6 +110,8 @@ namespace MenaxhimiKafiteris.AdminForms.Sallat
 >>>>>>> 0b8cdc4746cc0e9adedc8fe5da48a5d6df9f1a4a
 =======
 >>>>>>> parent of 0e87859 (raportet)
+=======
+>>>>>>> 8f4ccb216e5bf7eeae42c9084ca885a660248332
             // emri
             // 
             this.emri.AutoSize = true;
@@ -257,7 +266,6 @@ namespace MenaxhimiKafiteris.AdminForms.Sallat
             this.btnShto.IndicateFocus = false;
             this.btnShto.Location = new System.Drawing.Point(29, 170);
             this.btnShto.Name = "btnShto";
-<<<<<<< HEAD
             this.btnShto.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnShto.OnDisabledState.BorderRadius = 1;
             this.btnShto.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
@@ -462,6 +470,7 @@ namespace MenaxhimiKafiteris.AdminForms.Sallat
             this.txtnrTavolinat.TextPlaceholder = "Enter text";
             this.txtnrTavolinat.UseSystemPasswordChar = false;
             this.txtnrTavolinat.WordWrap = true;
+<<<<<<< HEAD
 =======
             this.btnShto.Size = new System.Drawing.Size(123, 25);
             this.btnShto.TabIndex = 50;
@@ -481,6 +490,8 @@ namespace MenaxhimiKafiteris.AdminForms.Sallat
             this.btnShto.Values.Text = "Shto";
             this.btnShto.Click += new System.EventHandler(this.btnShto_Click);
 >>>>>>> parent of 0e87859 (raportet)
+=======
+>>>>>>> 8f4ccb216e5bf7eeae42c9084ca885a660248332
             // 
             // Salla
             // 
@@ -488,10 +499,14 @@ namespace MenaxhimiKafiteris.AdminForms.Sallat
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8f4ccb216e5bf7eeae42c9084ca885a660248332
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(55)))), ((int)(((byte)(106)))));
             this.ClientSize = new System.Drawing.Size(669, 735);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of 0e87859 (raportet)
@@ -510,6 +525,8 @@ namespace MenaxhimiKafiteris.AdminForms.Sallat
 =======
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 >>>>>>> parent of 0e87859 (raportet)
+=======
+>>>>>>> 8f4ccb216e5bf7eeae42c9084ca885a660248332
             this.Name = "Salla";
             this.Text = "Salla";
             ((System.ComponentModel.ISupportInitialize)(this.dgSallat)).EndInit();

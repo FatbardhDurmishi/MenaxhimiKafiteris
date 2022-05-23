@@ -14,7 +14,6 @@ namespace MenaxhimiKafiteris.AdminForms.Tavolinat
 {
     public partial class tavolina : Form
     {
-        public int id;
         SallatServices sallatServices;
         TavolinatServices tavolinatServices;
         public tavolina()
@@ -23,9 +22,9 @@ namespace MenaxhimiKafiteris.AdminForms.Tavolinat
             tavolinatServices = new TavolinatServices();
             InitializeComponent();
             PopulloComboList();
-            ShfaqTavolinaat();
+            ShfaqSallat();
         }
-        public void ShfaqTavolinaat()
+        public void ShfaqSallat()
         {
             dgTavolinat.DataSource = tavolinatServices.GetAll().Tables[0];
         }
@@ -36,44 +35,15 @@ namespace MenaxhimiKafiteris.AdminForms.Tavolinat
             newtav.NrKarrigave = int.Parse(txtNrUlseve.Text);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8f4ccb216e5bf7eeae42c9084ca885a660248332
             newtav.SallaID = int.Parse(cbSalla.SelectedValue.ToString());
 =======
             newtav.SallaID=int.Parse(cbSalla.SelectedValue.ToString());
 >>>>>>> parent of 0e87859 (raportet)
             bool isSaved = tavolinatServices.ShtoTavolin(newtav);
             ShfaqSallat();
-=======
-            newtav.SallaID=int.Parse(cbSalla.SelectedValue.ToString());
-            if (id > 0)
-            {
-                bool isUpdatet = tavolinatServices.UpdateTavolin(newtav, id);
-                ShfaqTavolinaat();
-                if (isUpdatet)
-                {
-                    MessageBox.Show("Tavolina eshte ruajtur me sukses");
-                }
-                else
-                {
-                    MessageBox.Show("Ka ndodhur nje problem");
-                }
-            }
-            else
-            {
-                bool isSaved = tavolinatServices.ShtoTavolin(newtav);
-                if (isSaved)
-                {
-                    MessageBox.Show("Salla eshte shtuar me sukses");
-                    ShfaqTavolinaat();
-                }
-                else
-                {
-                    MessageBox.Show("Ka ndodhur nje problme,provoni perseri");
-                }
-               
-
-            }
-           
->>>>>>> 0b8cdc4746cc0e9adedc8fe5da48a5d6df9f1a4a
         }
 
         private void btnFshij_Click(object sender, EventArgs e)
@@ -85,9 +55,10 @@ namespace MenaxhimiKafiteris.AdminForms.Tavolinat
                 int rowIndex = (int)row.Cells[0].Value;
                 dgTavolinat.Rows.RemoveAt(row.Index);
                 tavolinatServices.FshiTavolin(rowIndex);
-                ShfaqTavolinaat();
+                ShfaqSallat();
             }
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -114,5 +85,7 @@ namespace MenaxhimiKafiteris.AdminForms.Tavolinat
 
         }
 >>>>>>> parent of 0e87859 (raportet)
+=======
+>>>>>>> 8f4ccb216e5bf7eeae42c9084ca885a660248332
     }
 }
